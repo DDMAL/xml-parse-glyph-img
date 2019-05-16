@@ -68,6 +68,7 @@ for y_dim in stave_coords:
                 final_stave_coords[index-1][1] = y_dim_next[1] + y_dim_next[2]
         index += 1
 
+neume_coords = []
 
 for neume_index, neume in enumerate(neumes.findall('glyph')):
 
@@ -76,6 +77,14 @@ for neume_index, neume in enumerate(neumes.findall('glyph')):
     nrows = int(neume.get('nrows'))
     ncols = int(neume.get('ncols'))
     print(neume_index, uly, ulx, nrows, ncols)
+
+    neume_coords.append([ulx, uly, nrows, ncols])
+
+for index, neume_coord in enumerate(neume_coords):
+    for neume_coord_next in neume_coords[index+1:]:
+        if abs(neume_coord[index][0] + neume_coord[index][2] \
+            - neume_coord_next[index+1][0]) <= 20:
+            
 
     # Write the bounding boxes
 
