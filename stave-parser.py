@@ -1,16 +1,23 @@
 import numpy as np
 import cv2
 import xml.etree.ElementTree as ET
+import os
 
-img = cv2.imread('CF-012.png', 1)
+print('Which Calvo file number (10-18 currently) should be parsed: ')
+file = int(input())
 
-staff_tree = ET.parse('./xml/stave-coordinates.xml')
-staff_root = staff_tree.getroot()
-# staffs = staff_root.find('staves')
+img = cv2.imread(f'./originals/CF-0{ file }.png', 1)
+img_line = cv2.imread(f'./layer/CF-0{ file }/CF-0{ file }_2.png')
+img_glyphs = cv2.imread(f'./layer/CF-0{ file }/CF-0{ file }_1.png')
+
+if img is not None:
+    os.system('rm -f ./stave_boxes/*')
+    os.system('rm -f ./stave_boxes_glyphs/*')
+    os.system('rm -f ./stave_boxes_lines/*')
 
 stave_coords = []
 
-stave_tree = ET.parse('./xml/stave-coordinates.xml')
+stave_tree = ET.parse(f'./xml/CF-0{ file }-stave.xml')
 stave_root = stave_tree.getroot()
 
 for stave in stave_root.findall('staves'):
@@ -82,6 +89,16 @@ print(final_stave_coords)
 for index, stave_coord in enumerate(final_stave_coords):
     cv2.imwrite(f'./stave_boxes/stave_{ index }_bb.png',
         img[
+            stave_coord[0]-20:stave_coord[1]+20,
+            x_start-30:x_end+30
+        ])
+    cv2.imwrite(f'./stave_boxes_lines/stave_lines_{ index }_bb.png',
+        img_line[
+            stave_coord[0]-20:stave_coord[1]+20,
+            x_start-30:x_end+30
+        ])
+    cv2.imwrite(f'./stave_boxes_glyphs/stave_glyphs_{ index }_bb.png',
+        img_glyphs[
             stave_coord[0]-20:stave_coord[1]+20,
             x_start-30:x_end+30
         ])
