@@ -43,9 +43,9 @@ gray_line = cv.cvtColor(img_line, cv.COLOR_BGR2GRAY)
 gray_glyph = cv.cvtColor(img_glyphs, cv.COLOR_BGR2GRAY)
 
 
-ret, thresh = cv.threshold(grayscale,200,255,cv.THRESH_BINARY_INV)
+ret, thresh = cv.threshold(grayscale,180,255,cv.THRESH_BINARY_INV)
 
-ret2, thresh_glyph = cv.threshold(gray_glyph,127,255,cv.THRESH_BINARY_INV)
+ret2, thresh_glyph = cv.threshold(gray_glyph,200,255,cv.THRESH_BINARY_INV)
 
 # cv.imshow('glyphs', thresh_glyph)
 
@@ -82,32 +82,32 @@ else:
     skew = 0
 
 
-# for line in lines:
-#     x1,y1,x2,y2 = line[0]
-#
-#     if -0.2 <= (y2-y1) / (x2 - x1) <= 0.2:
-#
-#         if abs(x1-lb[0]) < 100 and y1 > lb[1]:
-#             lb[1] = y1
-#
-#         if x1 <= min_x:
-#             lu[0] = x1
-#             lb[0] = x1
-#             min_x = x1
-#
-#         if y1 <= lu[1]:
-#             lu[1] = y1
-#
-#         # if x2 >= rb[0]:
-#         #     rb[0] = x2
-#         #     ru[0] = x2
-#             # if y2 <= ru[1]:
-#             #     ru[1] = y2
-#             # if y2 >= rb[1]:
-#             #     rb[1] = y2
-#
-#     # print(x1,y1,x2,y2)
-#         cv.line(img_copy, (x1,y1), (x2,y2), (0,255,0),2)
+for line in lines:
+    x1,y1,x2,y2 = line[0]
+
+    if -0.2 <= (y2-y1) / (x2 - x1) <= 0.2:
+
+        if abs(x1-lb[0]) < 100 and y1 > lb[1]:
+            lb[1] = y1
+
+        if x1 <= min_x:
+            lu[0] = x1
+            lb[0] = x1
+            min_x = x1
+
+        if y1 <= lu[1]:
+            lu[1] = y1
+
+        # if x2 >= rb[0]:
+        #     rb[0] = x2
+        #     ru[0] = x2
+            # if y2 <= ru[1]:
+            #     ru[1] = y2
+            # if y2 >= rb[1]:
+            #     rb[1] = y2
+
+    # print(x1,y1,x2,y2)
+        cv.line(img_copy, (x1,y1), (x2,y2), (0,255,0),2)
 
 # cv.line(img_copy, (lu[0], lu[1]), (lb[0], lb[1]), (255,0,0),2)
 
@@ -184,7 +184,7 @@ figsize = [6, 8]     # figure size, inches
 # ax[2].imshow(img_copy)
 
 plt.subplot(3,1,1)
-plt.imshow(thresh_glyph)
+plt.imshow(thresh)
 plt.subplot(3,1,2)
 plt.imshow(erosion)
 plt.subplot(3,1,3)
@@ -193,7 +193,10 @@ plt.imshow(img_copy)
 
 plt.show()
 
+mng = plt.get_current_fig_manager()
+mng.full_screen_toggle()
+
 # print(bound_coords)
 
 
-cv.waitKey()
+# cv.waitKey()
