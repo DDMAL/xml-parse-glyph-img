@@ -15,6 +15,8 @@
 import cv2 as cv
 import numpy as np
 import random
+import matplotlib.pyplot as plt
+
 
 print("Enter stave number: ")
 num = input().strip()
@@ -43,9 +45,9 @@ gray_glyph = cv.cvtColor(img_glyphs, cv.COLOR_BGR2GRAY)
 
 ret, thresh = cv.threshold(grayscale,200,255,cv.THRESH_BINARY_INV)
 
-ret2, thresh_glyph = cv.threshold(gray_glyph,200,255,cv.THRESH_BINARY_INV)
+ret2, thresh_glyph = cv.threshold(gray_glyph,127,255,cv.THRESH_BINARY_INV)
 
-cv.imshow('glyphs', thresh_glyph)
+# cv.imshow('glyphs', thresh_glyph)
 
 
 edges = cv.Canny(gray_line, 50, 150, apertureSize = 3)
@@ -119,7 +121,7 @@ kernel = np.ones((int(erode_list[0]), int(erode_list[1])),np.uint8)
 erosion = cv.erode(thresh, kernel, iterations = iter)
 
 kern_final = np.ones((2,2), np.uint8)
-erosion = cv.erode(erosion, kern_final, iterations = 1)
+# erosion = cv.erode(erosion, kern_final, iterations = 1)
 
 # cv.imshow('thresh', erosion)
 # cv.waitKey()
@@ -153,7 +155,7 @@ for index, c in enumerate(contours):
 
             cont_filt.append(c)
 
-cv.imshow('Bounding rect',img_copy)
+# cv.imshow('Bounding rect',img_copy)
 
 bound_coords = np.zeros([len(cont_filt), 5])
 
@@ -170,6 +172,26 @@ for i, c in enumerate(cont_filt):
                 bound_coords[j+i][0] = i + 1
                 # print(x,w,x_n,w_n)
 
+# settings
+h, w = 10, 10        # for raster image
+nrows, ncols = 3, 1  # array of sub-plots
+figsize = [6, 8]     # figure size, inches
+
+# fig, ax = plt.subplots(3,1)
+#
+# ax[0].imshow(thresh_glyph)
+# ax[1].imshow(erosion)
+# ax[2].imshow(img_copy)
+
+plt.subplot(3,1,1)
+plt.imshow(thresh_glyph)
+plt.subplot(3,1,2)
+plt.imshow(erosion)
+plt.subplot(3,1,3)
+plt.imshow(img_copy)
+
+
+plt.show()
 
 # print(bound_coords)
 
