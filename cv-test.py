@@ -30,6 +30,7 @@ gap = int(input().strip())
 
 image = cv.imread(f'./stave_boxes/stave_{ num }_bb.png')
 img_copy = image.copy()
+img_clean = image.copy()
 img_line = cv.imread(f'./stave_boxes_lines/stave_lines_{ num }_bb.png')
 img_glyphs = cv.imread(f'./stave_boxes_glyphs/stave_glyphs_{ num }_bb.png')
 
@@ -157,31 +158,24 @@ for index, c in enumerate(contours):
 
 # cv.imshow('Bounding rect',img_copy)
 
-bound_coords = np.zeros([len(cont_filt), 5])
+# bound_coords = [[0,0,0,0,0]]
 
 for i, c in enumerate(cont_filt):
     x,y,w,h=cv.boundingRect(c)
+    resize = img_clean[0:, x-5:x+w+5]
+    resize = cv.resize(resize, (50, 200), interpolation = cv.INTER_AREA)
+    cv.imwrite(f'./test_images/test_{ i }.png', resize)
 
-    if bound_coords[i][0] == 0:
-        bound_coords[i][0] = i + 1
-        for j, c_n in enumerate(cont_filt[i+1:]):
-            # print('j', j+i)
-            x_n, y_n, w_n, h_n = cv.boundingRect(c_n)
-            if not (x > x_n + w_n or x_n > x + w):
-                # print('overlap')
-                bound_coords[j+i][0] = i + 1
-                # print(x,w,x_n,w_n)
+    # if bound_coords[i][0] == 0:
+    #     bound_coords[i][0] = i + 1
+    #     for j, c_n in enumerate(cont_filt[i+1:]):
+    #         # print('j', j+i)
+    #         x_n, y_n, w_n, h_n = cv.boundingRect(c_n)
+    #         if not (x > x_n + w_n or x_n > x + w):
+    #             # print('overlap')
+    #             bound_coords[j+i][0] = i + 1
+    #             # print(x,w,x_n,w_n)
 
-# settings
-h, w = 10, 10        # for raster image
-nrows, ncols = 3, 1  # array of sub-plots
-figsize = [6, 8]     # figure size, inches
-
-# fig, ax = plt.subplots(3,1)
-#
-# ax[0].imshow(thresh_glyph)
-# ax[1].imshow(erosion)
-# ax[2].imshow(img_copy)
 
 plt.subplot(3,1,1)
 plt.imshow(thresh)
