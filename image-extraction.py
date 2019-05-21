@@ -16,10 +16,10 @@ import cv2 as cv
 import numpy as np
 import random
 import matplotlib.pyplot as plt
-
+import os
 
 print("Enter stave number: ")
-num = input().strip()
+stave_num = input().strip()
 print("Erosion dimensions: ")
 erode = input()
 erode_list = erode.split()
@@ -28,11 +28,13 @@ iter = int(input().strip())
 print("Max line gap: ")
 gap = int(input().strip())
 
-image = cv.imread(f'./stave_boxes/stave_{ num }_bb.png')
+page_num = os.listdir('./stave_boxes')[0].split('_')[1]
+
+image = cv.imread(f'./stave_boxes/CF_{ page_num }_stave_{ stave_num }_bb.png')
 img_copy = image.copy()
 img_clean = image.copy()
-img_line = cv.imread(f'./stave_boxes_lines/stave_lines_{ num }_bb.png')
-img_glyphs = cv.imread(f'./stave_boxes_glyphs/stave_glyphs_{ num }_bb.png')
+img_line = cv.imread(f'./stave_boxes_lines/CF_{ page_num }_stave_lines_{ stave_num }_bb.png')
+img_glyphs = cv.imread(f'./stave_boxes_glyphs/CF_{ page_num }_stave_glyphs_{ stave_num }_bb.png')
 
 n, m, r = image.shape
 
@@ -156,16 +158,29 @@ for index, c in enumerate(contours):
 
             cont_filt.append(c)
 
-# cv.imshow('Bounding rect',img_copy)
-
-# bound_coords = [[0,0,0,0,0]]
+overlap = np.zeros(len(cont_filt))
 
 for i, c in enumerate(cont_filt):
-    x,y,w,h=cv.boundingRect(c)
-    resize = img_clean[0:, x-5:x+w+5]
-    resize = cv.resize(resize, (50, 200), interpolation = cv.INTER_AREA)
-    cv.imwrite(f'./test_images/test_{ i }.png', resize)
 
+    x,y,w,h=cv.boundingRect(c)
+
+
+    for j, c_n in enumerate(cont_filt[i+1:]):
+        x_n, y_n, w_n, h_n = cv.boundingRect(c_n)
+        if not (x >= x_n + w_n or x_n >= x + w):
+            overlap[i+j] = 1
+
+neume_index = 0
+
+for i, c in enumerate(cont_filt):
+    if overlap[i] == 0:
+
+        x,y,w,h=cv.boundingRect(c)
+        resize = img_clean[0:, x-5:x+w+5]
+        resize = cv.resize(resize, (50, 200), interpolation = cv.INTER_AREA)
+        cv.imwrite(f'./dataset/CF_{ page_num }_{ stave_num }_{ neume_index }.png', resize)
+
+        neume_index += 1
     # if bound_coords[i][0] == 0:
     #     bound_coords[i][0] = i + 1
     #     for j, c_n in enumerate(cont_filt[i+1:]):
@@ -176,6 +191,7 @@ for i, c in enumerate(cont_filt):
     #             bound_coords[j+i][0] = i + 1
     #             # print(x,w,x_n,w_n)
 
+print(overlap)
 
 plt.subplot(3,1,1)
 plt.imshow(thresh)
