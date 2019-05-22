@@ -124,7 +124,7 @@ kernel = np.ones((int(erode_list[0]), int(erode_list[1])),np.uint8)
 erosion = cv.erode(thresh, kernel, iterations = iter)
 
 kern_final = np.ones((2,2), np.uint8)
-# erosion = cv.erode(erosion, kern_final, iterations = 1)
+erosion = cv.erode(erosion, kern_final, iterations = 1)
 
 # cv.imshow('thresh', erosion)
 # cv.waitKey()
