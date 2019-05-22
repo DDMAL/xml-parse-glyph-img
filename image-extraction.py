@@ -139,7 +139,7 @@ for index, c in enumerate(contours):
 
     x,y,w,h=cv.boundingRect(c)
 
-    if h > 15 and w >= 3:
+    if h > 15:
         epsilon = 0.01*cv.arcLength(c,True)
         approx = cv.approxPolyDP(c,epsilon,True)
         white_count = 0
