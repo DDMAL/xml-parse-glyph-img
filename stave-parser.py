@@ -56,7 +56,6 @@ for y_dim in stave_coords:
         for y_dim_next in stave_coords[index+1:]:
             if y_dim[1] <= y_dim_next[1] <= y_dim[1] + y_dim[2]:
                 y_dim_next[0] = index + 1
-                increment = 1
         index += 1
 
 print(stave_coords)
