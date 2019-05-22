@@ -86,17 +86,17 @@ print(final_stave_coords)
 for index, stave_coord in enumerate(final_stave_coords):
     cv2.imwrite(f'./stave_boxes/CF_{ file }_stave_{ index }_bb.png',
         img[
-            stave_coord[0]-20:stave_coord[1]+20,
+            stave_coord[0]-60:stave_coord[1]+60,
             x_start-30:x_end+30
         ])
     cv2.imwrite(f'./stave_boxes_lines/CF_{ file }_stave_lines_{ index }_bb.png',
         img_line[
-            stave_coord[0]-20:stave_coord[1]+20,
+            stave_coord[0]-60:stave_coord[1]+60,
             x_start-30:x_end+30
         ])
     cv2.imwrite(f'./stave_boxes_glyphs/CF_{ file }_stave_glyphs_{ index }_bb.png',
         img_glyphs[
-            stave_coord[0]-20:stave_coord[1]+20,
+            stave_coord[0]-60:stave_coord[1]+60,
             x_start-30:x_end+30
         ])
 
