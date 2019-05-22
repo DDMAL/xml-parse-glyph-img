@@ -166,7 +166,7 @@ for i, c in enumerate(cont_filt):
 
     for j, c_n in enumerate(cont_filt[i+1:]):
         x_n, y_n, w_n, h_n = cv.boundingRect(c_n)
-        if not (x + 2 >= x_n + w_n or x_n + 2 >= x + w):
+        if not (x + 4 >= x_n + w_n or x_n + 4 >= x + w):
             overlap[i+j] = 1
 
 neume_index = 0
