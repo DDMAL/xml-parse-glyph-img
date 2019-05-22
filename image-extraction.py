@@ -139,7 +139,7 @@ for index, c in enumerate(contours):
 
     x,y,w,h=cv.boundingRect(c)
 
-    if h > 15:
+    if h > 15 and w >= 3:
         epsilon = 0.01*cv.arcLength(c,True)
         approx = cv.approxPolyDP(c,epsilon,True)
         white_count = 0
@@ -176,7 +176,10 @@ for i, c in enumerate(cont_filt):
     if overlap[i] == 0:
 
         x,y,w,h=cv.boundingRect(c)
-        resize = img_clean[0:, x-5:x+w+5]
+        if x < 5:
+            resize = img_clean[0:, x:x+w+5]
+        else:
+            resize = img_clean[0:, x-5:x+w+5]
         resize = cv.resize(resize, (50, 200), interpolation = cv.INTER_AREA)
         cv.imwrite(f'./dataset/CF_{ page_num }_{ stave_num }_{ neume_index }.png', resize)
 
