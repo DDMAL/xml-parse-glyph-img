@@ -30,6 +30,8 @@ gap = int(input().strip())
 
 page_num = os.listdir('./stave_boxes')[0].split('_')[1]
 
+os.system(f'rm -rf ./dataset/CF_{ page_num }_{ stave_num }*')
+
 image = cv.imread(f'./stave_boxes/CF_{ page_num }_stave_{ stave_num }_bb.png')
 img_copy = image.copy()
 img_clean = image.copy()
@@ -159,15 +161,18 @@ for index, c in enumerate(contours):
             cont_filt.append(c)
 
 overlap = np.zeros(len(cont_filt))
-
+print(len(cont_filt))
 for i, c in enumerate(cont_filt):
 
     x,y,w,h=cv.boundingRect(c)
 
-    for j, c_n in enumerate(cont_filt[i+1:]):
+    for c_n in cont_filt[i+1:]:
         x_n, y_n, w_n, h_n = cv.boundingRect(c_n)
-        if not (x + 4 >= x_n + w_n or x_n + 4 >= x + w):
-            overlap[i+j] = 1
+        # if not (x + 4 >= x_n + w_n or x_n + 4 >= x + w):
+        #     overlap[i+j] = 1
+        if x < x_n + 4 < x + w or x_n < x + 4 < x_n + w_n:
+            overlap[i] = 1
+            print('overlap: ', x, x+w, ' | ', x_n, x_n+w_n)
 
 neume_index = 0
 
