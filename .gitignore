@@ -10,3 +10,5 @@ layer
 test_images
 dataset
 .DS_Store
+position_dataset
+dataset copy
