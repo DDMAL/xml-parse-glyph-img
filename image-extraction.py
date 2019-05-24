@@ -182,7 +182,7 @@ neume_index = 0
 
 # print(cont_filt)
 
-print(cont_filt)
+# print(cont_filt)
 
 for i, c in enumerate(cont_filt):
 
