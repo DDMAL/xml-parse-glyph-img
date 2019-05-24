@@ -25,8 +25,8 @@ erode = input()
 erode_list = erode.split()
 print("Erosion iterations: ")
 iter = int(input().strip())
-print("Max line gap: ")
-gap = int(input().strip())
+# print("Max line gap: ")
+# gap = int(input().strip())
 
 page_num = os.listdir('./stave_boxes')[0].split('_')[1]
 
@@ -59,7 +59,7 @@ ret2, thresh_glyph = cv.threshold(gray_glyph,200,255,cv.THRESH_BINARY_INV)
 
 
 edges = cv.Canny(gray_line, 50, 150, apertureSize = 3)
-lines = cv.HoughLinesP(edges, 1, np.pi/180, 100, minLineLength = 100, maxLineGap = gap)
+lines = cv.HoughLinesP(edges, 1, np.pi/180, 100, minLineLength = 100, maxLineGap = 25)
 
 lines = np.array(lines)
 
@@ -167,7 +167,7 @@ cont_filt = np.array(cont_filt)
 cont_filt = cont_filt[np.argsort(cont_filt[:,0])]
 
 overlap = np.zeros(len(cont_filt))
-print(len(cont_filt))
+
 
 for i, c in enumerate(cont_filt):
 
@@ -182,11 +182,13 @@ neume_index = 0
 
 # print(cont_filt)
 
+print(cont_filt)
+
 for i, c in enumerate(cont_filt):
 
     if overlap[i] == 0:
 
-        if x < 5:
+        if c[0] < 5:
             resize = img_clean[0:, c[0]:c[0]+c[2]+5]
         else:
             resize = img_clean[0:, c[0]-5:c[0]+c[2]+5]
