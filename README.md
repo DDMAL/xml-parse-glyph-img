@@ -13,5 +13,3 @@ Next, **stave-parser.py** asks for a numerical input from the Salzinnes images (
 * stave_boxes_lines (same size as stave boxes, only respective stave in image)
 
 **image-extraction.py** is then used to extract the images of each individual neume and neume component in the staff. Taking a few user input parameters, you specify which staff to parse, and a few parameters pertaining to erosion and line finding processes using the opencv library. Erosion is used on a greyscale of the original stave image, reducing the now whitespace of each neume to a point where neume components are consistently (little errors) isolated from one another successfully, allowing for their coordinates to be used for writing images of their position in the original image. Each image is also resized to the same dimensions with the intention of passing them into the model down the road. 
-
-Test on Mac Mini

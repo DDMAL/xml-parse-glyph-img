@@ -158,60 +158,53 @@ for index, c in enumerate(contours):
                     random.randint(120,255)
                 ), 2)
 
-            cont_filt.append(c)
+            cont_filt.append((x,y,w,h))
+
+cont_filt = np.array(cont_filt)
+cont_filt = cont_filt[np.argsort(cont_filt[:,0])]
 
 overlap = np.zeros(len(cont_filt))
 print(len(cont_filt))
+
 for i, c in enumerate(cont_filt):
 
-    x,y,w,h=cv.boundingRect(c)
-
     for c_n in cont_filt[i+1:]:
-        x_n, y_n, w_n, h_n = cv.boundingRect(c_n)
-        # if not (x + 4 >= x_n + w_n or x_n + 4 >= x + w):
-        #     overlap[i+j] = 1
-        if x < x_n + 4 < x + w or x_n < x + 4 < x_n + w_n:
+
+        if c[0] < c_n[0] + 4 < c[0] + c[2] or c_n[0] < c[0] + 4 < c_n[0] + c_n[2]:
             overlap[i] = 1
-            print('overlap: ', x, x+w, ' | ', x_n, x_n+w_n)
+            print('overlap: ', c[0], c[0]+c[2], ' | ', c_n[0], c_n[0]+c_n[2])
 
 neume_index = 0
 
+
+# print(cont_filt)
+
 for i, c in enumerate(cont_filt):
+
     if overlap[i] == 0:
 
-        x,y,w,h=cv.boundingRect(c)
         if x < 5:
-            resize = img_clean[0:, x:x+w+5]
+            resize = img_clean[0:, c[0]:c[0]+c[2]+5]
         else:
-            resize = img_clean[0:, x-5:x+w+5]
+            resize = img_clean[0:, c[0]-5:c[0]+c[2]+5]
+
         resize = cv.resize(resize, (50, 200), interpolation = cv.INTER_AREA)
         cv.imwrite(f'./dataset/CF_{ page_num }_{ stave_num }_{ neume_index }.png', resize)
 
         neume_index += 1
-    # if bound_coords[i][0] == 0:
-    #     bound_coords[i][0] = i + 1
-    #     for j, c_n in enumerate(cont_filt[i+1:]):
-    #         # print('j', j+i)
-    #         x_n, y_n, w_n, h_n = cv.boundingRect(c_n)
-    #         if not (x > x_n + w_n or x_n > x + w):
-    #             # print('overlap')
-    #             bound_coords[j+i][0] = i + 1
-    #             # print(x,w,x_n,w_n)
 
 print(overlap)
-
-plt.subplot(3,1,1)
-plt.imshow(thresh)
-plt.subplot(3,1,2)
-plt.imshow(erosion)
-plt.subplot(3,1,3)
-plt.imshow(img_copy)
+fig1 = plt.figure(figsize=(20,7.5))
+fig1 = plt.subplot(3,1,1)
+fig1 = plt.imshow(thresh)
+fig1 = plt.subplot(3,1,2)
+fig1 = plt.imshow(erosion)
+fig1 = plt.subplot(3,1,3)
+fig1 = plt.imshow(img_copy)
 
 
 plt.show()
 
-mng = plt.get_current_fig_manager()
-mng.full_screen_toggle()
 
 # print(bound_coords)
 
