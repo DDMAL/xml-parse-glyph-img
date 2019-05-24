@@ -15,6 +15,15 @@ if img is not None:
     os.system('rm -f ./stave_boxes_glyphs/*')
     os.system('rm -f ./stave_boxes_lines/*')
 
+
+
+if not os.path.isdir('./stave_boxes'):
+    os.system('mkdir stave_boxes')
+if not os.path.isdir('./stave_boxes_lines'):
+    os.system('mkdir stave_boxes_lines')
+if not os.path.isdir('./stave_boxes_glyphs'):
+    os.system('mkdir stave_boxes_glyphs')
+
 stave_coords = []
 
 stave_tree = ET.parse(f'./xml/CF-0{ file }-stave.xml')

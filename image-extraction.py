@@ -40,6 +40,9 @@ img_glyphs = cv.imread(f'./stave_boxes_glyphs/CF_{ page_num }_stave_glyphs_{ sta
 
 n, m, r = image.shape
 
+if not os.path.isdir('./dataset'):
+    os.system('mkdir dataset')
+
 # cv.imshow('Copy', img_copy)
 # cv.waitKey(0)
 
@@ -194,7 +197,7 @@ for i, c in enumerate(cont_filt):
         neume_index += 1
 
 print(overlap)
-fig1 = plt.figure(figsize=(20,7.5))
+fig1 = plt.figure(figsize=(20,11))
 fig1 = plt.subplot(3,1,1)
 fig1 = plt.imshow(thresh)
 fig1 = plt.subplot(3,1,2)
