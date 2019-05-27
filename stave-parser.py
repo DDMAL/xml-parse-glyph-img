@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 import os
 
 print('Which Calvo file number (10-18 currently) should be parsed: ')
-file = int(input())
+file = input()
 
 img = cv2.imread(f'./originals/CF-0{ file }.png', 1)
 img_line = cv2.imread(f'./layer/CF-0{ file }/CF-0{ file }_2.png')
