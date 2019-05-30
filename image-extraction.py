@@ -28,15 +28,16 @@ iter = int(input().strip())
 # print("Max line gap: ")
 # gap = int(input().strip())
 
+manu = os.listdir('./stave_boxes')[0].split('_')[0]
 page_num = os.listdir('./stave_boxes')[0].split('_')[1]
 
-os.system(f'rm -rf ./dataset/CF_{ page_num }_{ stave_num }*')
+os.system(f'rm -rf ./dataset/{ manu }_{ page_num }_{ stave_num }*')
 
-image = cv.imread(f'./stave_boxes/CF_{ page_num }_stave_{ stave_num }_bb.png')
+image = cv.imread(f'./stave_boxes/{ manu }_{ page_num }_stave_{ stave_num }_bb.png')
 img_copy = image.copy()
 img_clean = image.copy()
-img_line = cv.imread(f'./stave_boxes_lines/CF_{ page_num }_stave_lines_{ stave_num }_bb.png')
-img_glyphs = cv.imread(f'./stave_boxes_glyphs/CF_{ page_num }_stave_glyphs_{ stave_num }_bb.png')
+img_line = cv.imread(f'./stave_boxes_lines/{ manu }_{ page_num }_stave_lines_{ stave_num }_bb.png')
+img_glyphs = cv.imread(f'./stave_boxes_glyphs/{ manu }_{ page_num }_stave_glyphs_{ stave_num }_bb.png')
 
 n, m, r = image.shape
 
@@ -194,7 +195,7 @@ for i, c in enumerate(cont_filt):
             resize = img_clean[0:, c[0]-5:c[0]+c[2]+5]
 
         resize = cv.resize(resize, (50, 200), interpolation = cv.INTER_AREA)
-        cv.imwrite(f'./dataset/CF_{ page_num }_{ stave_num }_{ neume_index }.png', resize)
+        cv.imwrite(f'./dataset/{ manu }_{ page_num }_{ stave_num }_{ neume_index }.png', resize)
 
         neume_index += 1
 
