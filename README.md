@@ -8,7 +8,7 @@ Initially, I am taking an image of a score with the staves isolated (no lyrics o
 
 Next, **stave-parser.py** asks for a numerical input from the Salzinnes images (10-18) to use for stave isolation. Using the XML coordinates from above, the respective page is split into images of each of the individual staves. Additionally, the same cooridnates are used to extract bounding boxes of the staves from the isolated layers of the Salzinnes pages, particularly the glyphs and staves layers. Respectively, these splits are saved in three folders not included in the repo due to size concerns:
 
-* stave_boxes (full color image from original sized to individual stave)
+* stave_boxes (full color image from original size to individual stave)
 * stave_boxes_glyphs (same size as stave boxes, only glyphs in image)
 * stave_boxes_lines (same size as stave boxes, only respective stave in image)
 
