@@ -14,11 +14,11 @@ else:
     print('Please try again.')
     exit()
 
-file = input()
+file = input().strip()
 
-img = cv2.imread(f'./originals/{ manu }/CF-0{ file }.png', 1)
-img_line = cv2.imread(f'./layer/{ manu }/CF-0{ file }/CF-0{ file }_2.png')
-img_glyphs = cv2.imread(f'./layer/{ manu }/CF-0{ file }/CF-0{ file }_1.png')
+img = cv2.imread(f'./originals/{ manu }/{ manu }-0{ file }.png', 1)
+img_line = cv2.imread(f'./layer/{ manu }/{ manu }-0{ file }/{ manu }-0{ file }_2.png')
+img_glyphs = cv2.imread(f'./layer/{ manu }/{ manu }-0{ file }/{ manu }-0{ file }_1.png')
 
 if img is not None:
     os.system('rm -f ./stave_boxes/*')
@@ -36,7 +36,7 @@ if not os.path.isdir('./stave_boxes_glyphs'):
 
 stave_coords = []
 
-stave_tree = ET.parse(f'./xml/{ manu }/CF-0{ file }-stave.xml')
+stave_tree = ET.parse(f'./xml/{ manu }/{ manu }-0{ file }-stave.xml')
 stave_root = stave_tree.getroot()
 
 for stave in stave_root.findall('staves'):
@@ -113,7 +113,7 @@ for index, stave_coord in enumerate(final_stave_coords):
             stave_coord[0]-60:stave_coord[1]+60,
             x_start-30:x_end+30
         ])
-    cv2.imwrite(f'./stave_boxes_glyphs/{ manu }_s{ file }_stave_glyphs_{ index }_bb.png',
+    cv2.imwrite(f'./stave_boxes_glyphs/{ manu }_{ file }_stave_glyphs_{ index }_bb.png',
         img_glyphs[
             stave_coord[0]-60:stave_coord[1]+60,
             x_start-30:x_end+30
