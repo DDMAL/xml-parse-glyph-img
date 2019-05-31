@@ -28,16 +28,25 @@ iter = int(input().strip())
 # print("Max line gap: ")
 # gap = int(input().strip())
 
+def open_images(manuscript, page_number, stave_number):
+    # Remove previous staff images
+    os.system(f'rm -rf ./dataset/{ manuscript }_{ page_number }_{ stave_number }*')
+
+    # Load various images sed in extraction process
+    image = cv.imread(f'./stave_boxes/{ manuscript }_{ page_number }_stave_{ stave_number }_bb.png')
+    img_copy = image.copy()
+    img_clean = image.copy()
+    img_line = cv.imread(f'./stave_boxes_lines/{ manuscript }_{ page_number }_stave_lines_{ stave_number }_bb.png')
+    img_glyphs = cv.imread(f'./stave_boxes_glyphs/{ manuscript }_{ page_number }_stave_glyphs_{ stave_number }_bb.png')
+
+    return image, img_copy, img_clean, img_line, img_glyphs
+
+
 manu = os.listdir('./stave_boxes')[0].split('_')[0]
 page_num = os.listdir('./stave_boxes')[0].split('_')[1]
 
-os.system(f'rm -rf ./dataset/{ manu }_{ page_num }_{ stave_num }*')
+image, img_copy, img_clean, img_line, img_glyphs = open_images(manu, page_num, stave_num)
 
-image = cv.imread(f'./stave_boxes/{ manu }_{ page_num }_stave_{ stave_num }_bb.png')
-img_copy = image.copy()
-img_clean = image.copy()
-img_line = cv.imread(f'./stave_boxes_lines/{ manu }_{ page_num }_stave_lines_{ stave_num }_bb.png')
-img_glyphs = cv.imread(f'./stave_boxes_glyphs/{ manu }_{ page_num }_stave_glyphs_{ stave_num }_bb.png')
 
 n, m, r = image.shape
 
