@@ -19,9 +19,6 @@ import matplotlib.pyplot as plt
 import os
 
 
-if not os.path.isdir('./dataset'):
-    os.system('mkdir dataset')
-
 print("Enter stave number: ")
 stave_num = input().strip()
 print("Erosion dimensions: ")
@@ -33,18 +30,14 @@ iter = int(input().strip())
 # gap = int(input().strip())
 
 
-def open_images(manuscript, page_number, stave_number):
-    # Remove previous staff images
-    os.system(f'rm -rf ./dataset/{ manuscript }_{ page_number }_{ stave_number }*')
-
-    # Load various images sed in extraction process
-    image = cv.imread(f'./stave_boxes/{ manuscript }_{ page_number }_stave_{ stave_number }_bb.png')
-    img_copy = image.copy()
-    img_clean = image.copy()
-    img_line = cv.imread(f'./stave_boxes_lines/{ manuscript }_{ page_number }_stave_lines_{ stave_number }_bb.png')
-    img_glyphs = cv.imread(f'./stave_boxes_glyphs/{ manuscript }_{ page_number }_stave_glyphs_{ stave_number }_bb.png')
-
-    return image, img_copy, img_clean, img_line, img_glyphs
+def open_manuscript_bb_image(manuscript, page_number, stave_number, layer):
+    if layer == 'main':
+        image = cv.imread('./stave_boxes/' +
+        f'{ manuscript }_{ page_number }_stave_{ stave_number }_bb.png')
+    else:
+        image = cv.imread(f'./stave_boxes_{ layer }/' +
+            f'{ manuscript }_{ page_number }_stave_{ layer }_{ stave_number }_bb.png')
+    return image
 
 
 def grayscale_img(image):
@@ -58,6 +51,7 @@ def threshold_img(grayscale_image, low, high):
         cv.THRESH_BINARY_INV)
 
     return ret, threshold
+
 
 def line_detection(grayscale_image, write_image, line_gap):
     skew = 0
@@ -83,6 +77,7 @@ def line_detection(grayscale_image, write_image, line_gap):
             cv.line(write_image, (x1,y1), (x2,y2), (0,255,0),2)
     return 0
 
+
 def erode_image(image, erode_dimensions, erode_iterations):
     kernel = np.ones(
         (int(erode_dimensions[0]), int(erode_dimensions[1])),np.uint8)
@@ -95,8 +90,17 @@ def erode_image(image, erode_dimensions, erode_iterations):
 manu = os.listdir('./stave_boxes')[0].split('_')[0]
 page_num = os.listdir('./stave_boxes')[0].split('_')[1]
 
-image,img_copy,img_clean,img_line,img_glyphs = open_images(
-    manu, page_num, stave_num)
+if not os.path.isdir('./dataset'):
+    os.system('mkdir dataset')
+
+# Remove previous staff images
+os.system(f'rm -rf ./dataset/{ manu }_{ page_num }_{ stave_num }*')
+
+image = open_manuscript_bb_image(manu, page_num, stave_num, 'main')
+img_copy = image.copy()
+img_clean = img_copy
+img_line = open_manuscript_bb_image(manu, page_num, stave_num, 'lines')
+img_glyphs = open_manuscript_bb_image(manu, page_num, stave_num, 'glyphs')
 
 grayscale = grayscale_img(image)
 gray_line = grayscale_img(img_line)
@@ -189,7 +193,7 @@ erosion = erode_image(thresh, erode_list, iter)
 # cv.imshow('thresh', erosion)
 # cv.waitKey()
 
-def draw_filter_contours(eroded_image, comparison_image):
+# def draw_filter_contours(eroded_image, comparison_image):
 
 contours, hierarchy = cv.findContours(erosion.copy(), cv.RETR_CCOMP, cv.CHAIN_APPROX_SIMPLE)
 
