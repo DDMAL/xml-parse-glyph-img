@@ -18,6 +18,10 @@ import random
 import matplotlib.pyplot as plt
 import os
 
+
+if not os.path.isdir('./dataset'):
+    os.system('mkdir dataset')
+
 print("Enter stave number: ")
 stave_num = input().strip()
 print("Erosion dimensions: ")
@@ -50,8 +54,6 @@ image, img_copy, img_clean, img_line, img_glyphs = open_images(manu, page_num, s
 
 n, m, r = image.shape
 
-if not os.path.isdir('./dataset'):
-    os.system('mkdir dataset')
 
 # cv.imshow('Copy', img_copy)
 # cv.waitKey(0)
