@@ -1,16 +1,19 @@
-########################################
+##########################################################
 #
 #   CURRENT FUNCTIONING PARAMETER VALUES
-#   ------------------------------------
+#   (In and around these values tends to work pretty well)
+#   ------------------------------------------------------
 #
 #   Erosion dimensions: 3 3
 #   Erosion iterations: 5
 #   Max line gap: 25
 #
 #   PAST VALUES
-#   ------------------------------------
+#   ------------------------------------------------------
 #
 #   (4,4), 3, 25 |
+
+# ------------------------------------------------------------------------------
 
 import cv2 as cv
 import numpy as np
@@ -18,6 +21,7 @@ import random
 import matplotlib.pyplot as plt
 import os
 
+# ------------------------------------------------------------------------------
 
 print("Enter stave number: ")
 stave_num = input().strip()
@@ -29,6 +33,7 @@ iter = int(input().strip())
 # print("Max line gap: ")
 # gap = int(input().strip())
 
+# ------------------------------------------------------------------------------
 
 def open_manuscript_bb_image(manuscript, page_number, stave_number, layer):
     if layer == 'main':
@@ -119,6 +124,21 @@ def draw_filter_contours(eroded_image, comparison_image, draw_image):
     return contours_filtered
 
 
+def contour_overlap(contours):
+    overlap = np.zeros(len(contours))
+    for i, c in enumerate(contours):
+
+        for c_n in contours[i+1:]:
+
+            if (c[0] < c_n[0] + 4 < c[0] + c[2] or
+                c_n[0] < c[0] + 4 < c_n[0] + c_n[2]):
+                    overlap[i] = 1
+                    print('overlap: ',
+                        c[0], c[0]+c[2], ' | ', c_n[0], c_n[0]+c_n[2])
+    return overlap
+
+# ------------------------------------------------------------------------------
+
 manu = os.listdir('./stave_boxes')[0].split('_')[0]
 page_num = os.listdir('./stave_boxes')[0].split('_')[1]
 
@@ -147,16 +167,7 @@ erosion = erode_image(thresh, erode_list, iter)
 
 cont_filt = draw_filter_contours(erosion, thresh_glyph, img_copy)
 
-overlap = np.zeros(len(cont_filt))
-
-
-for i, c in enumerate(cont_filt):
-
-    for c_n in cont_filt[i+1:]:
-
-        if c[0] < c_n[0] + 4 < c[0] + c[2] or c_n[0] < c[0] + 4 < c_n[0] + c_n[2]:
-            overlap[i] = 1
-            print('overlap: ', c[0], c[0]+c[2], ' | ', c_n[0], c_n[0]+c_n[2])
+overlap = contour_overlap(cont_filt)
 
 neume_index = 0
 
