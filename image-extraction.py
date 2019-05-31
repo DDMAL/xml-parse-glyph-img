@@ -155,39 +155,44 @@ def contour_overlap(contours):
         if remove[i] != 1:
             contours_filtered.append(c)
             overlap_filter.append(overlap[i])
-
-    print(overlap_filter)
-
     contours_filtered = np.array(contours_filtered)
-    overlap_filter = np.array(overlap_filter)
-    return overlap_filter, remove, contours_filtered
+    return contours_filtered, overlap_filter
 
 # c[0] = (x,y,w,h)
 
-# def clef_finder(contours, overlap):
-#     contours_filtered = []
-#     clef_check_counter = 0
-#     for i, c in enumerate(contours[:-1]):
-#         if overlap[i] == 0 and overlap[i+1] == 1:
-#             clef_check_counter += 1
-#         if (c[1] < contours[i+1][1] + 4 < c[1] + c[3] or
-#             contours[i+1][1]
+def clef_finder(contours, overlap):
+    contours_filtered = []
+    clef_check_counter = 0
+    for i, c in enumerate(contours[:-1]):
+        if overlap[i] == 0 and overlap[i+1] == 1:
+            clef_check_counter += 1
+        if clef_check_counter == 1 and (c[1] < contours[i+1][1] + 4 < c[1] + c[3] or
+            contours[i+1][1] < c[1] + 4 < contours[i+1][1] + contours[i+1][3]):
+            clef_check_counter += 1
+        if clef_check_counter == 2 and (contours[i+1][0]-c[0] <= 60):
+            clef_check_counter += 1
+        if clef_check_counter == 3 and i != 0 and (c[0] - contours[i-1][0] > 400):
+            clef_check_counter += 1
+        if clef_check_counter == 4:
+            print('very possible!')
+        clef_check_counter = 0
+    return 0
 
-def write_neume_images(contours, write_image, overlap,
+def write_neume_images(contours, write_image,
     manuscript, page_number, stave_number):
     neume_index = 0
     for i, c in enumerate(contours):
-        if overlap[i] == 0:
-            if c[0] < 5:
-                resize = write_image[0:, c[0]:c[0]+c[2]+5]
-            else:
-                resize = write_image[0:, c[0]-5:c[0]+c[2]+5]
-            resize = cv.resize(resize, (50, 200), interpolation = cv.INTER_AREA)
-            cv.imwrite(f'./dataset/{ manu }' +
-                f'_{ page_number }_{ stave_number }' +
-                f'_{ neume_index }.png', resize)
+        # if overlap[i] == 0:
+        if c[0] < 5:
+            resize = write_image[0:, c[0]:c[0]+c[2]+5]
+        else:
+            resize = write_image[0:, c[0]-5:c[0]+c[2]+5]
+        resize = cv.resize(resize, (50, 200), interpolation = cv.INTER_AREA)
+        cv.imwrite(f'./dataset/{ manu }' +
+            f'_{ page_number }_{ stave_number }' +
+            f'_{ neume_index }.png', resize)
 
-            neume_index += 1
+        neume_index += 1
     return 0
 
 # ------------------------------------------------------------------------------
@@ -220,9 +225,12 @@ erosion = erode_image(thresh, erode_list, iter)
 
 cont_filt = draw_filter_contours(erosion, thresh_glyph, img_copy)
 
-overlap, remove, cont_filt = contour_overlap(cont_filt)
+cont_filt, overlap = contour_overlap(cont_filt)
 print(cont_filt)
-write_neume_images(cont_filt, img_clean, overlap, manu, page_num, stave_num)
+print(overlap)
+clef_finder(cont_filt, overlap)
+
+write_neume_images(cont_filt, img_clean, manu, page_num, stave_num)
 
 # print(overlap)
 # print(remove)
