@@ -87,6 +87,38 @@ def erode_image(image, erode_dimensions, erode_iterations):
     return erosion
 
 
+def draw_filter_contours(eroded_image, comparison_image, draw_image):
+    contour_count = 0
+    contours_filtered = []
+    contours, hierarchy = cv.findContours(
+        eroded_image.copy(), cv.RETR_CCOMP, cv.CHAIN_APPROX_SIMPLE)
+    for index, c in enumerate(contours):
+
+        x,y,w,h=cv.boundingRect(c)
+
+        if h > 15:
+            epsilon = 0.01*cv.arcLength(c,True)
+            approx = cv.approxPolyDP(c,epsilon,True)
+            white_count = 0
+
+            for point in approx:
+                if comparison_image[point[0][1],point[0][0]] != 0:
+                    white_count += 1
+            # print('white: ', white_count)
+            if white_count > 1:
+                cv.drawContours(draw_image, [approx], -1,
+                    (
+                        random.randint(120,255),
+                        random.randint(120,255),
+                        random.randint(120,255)
+                    ), 2)
+
+                contours_filtered.append((x,y,w,h))
+    contours_filtered = np.array(contours_filtered)
+    contours_filtered = contours_filtered[np.argsort(contours_filtered[:,0])]
+    return contours_filtered
+
+
 manu = os.listdir('./stave_boxes')[0].split('_')[0]
 page_num = os.listdir('./stave_boxes')[0].split('_')[1]
 
@@ -193,39 +225,7 @@ erosion = erode_image(thresh, erode_list, iter)
 # cv.imshow('thresh', erosion)
 # cv.waitKey()
 
-# def draw_filter_contours(eroded_image, comparison_image):
-
-contours, hierarchy = cv.findContours(erosion.copy(), cv.RETR_CCOMP, cv.CHAIN_APPROX_SIMPLE)
-
-contour_count = 0
-
-cont_filt = []
-
-for index, c in enumerate(contours):
-
-    x,y,w,h=cv.boundingRect(c)
-
-    if h > 15:
-        epsilon = 0.01*cv.arcLength(c,True)
-        approx = cv.approxPolyDP(c,epsilon,True)
-        white_count = 0
-
-        for point in approx:
-            if thresh_glyph[point[0][1],point[0][0]] != 0:
-                white_count += 1
-        # print('white: ', white_count)
-        if white_count > 1:
-            cv.drawContours(img_copy, [approx], -1,
-                (
-                    random.randint(120,255),
-                    random.randint(120,255),
-                    random.randint(120,255)
-                ), 2)
-
-            cont_filt.append((x,y,w,h))
-
-cont_filt = np.array(cont_filt)
-cont_filt = cont_filt[np.argsort(cont_filt[:,0])]
+cont_filt = draw_filter_contours(erosion, thresh_glyph, img_copy)
 
 overlap = np.zeros(len(cont_filt))
 
