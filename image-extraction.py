@@ -189,22 +189,6 @@ overlap = contour_overlap(cont_filt)
 
 write_neume_images(cont_filt, img_clean, overlap, manu, page_num, stave_num)
 
-neume_index = 0
-
-for i, c in enumerate(cont_filt):
-
-    if overlap[i] == 0:
-
-        if c[0] < 5:
-            resize = img_clean[0:, c[0]:c[0]+c[2]+5]
-        else:
-            resize = img_clean[0:, c[0]-5:c[0]+c[2]+5]
-
-        resize = cv.resize(resize, (50, 200), interpolation = cv.INTER_AREA)
-        cv.imwrite(f'./dataset/{ manu }_{ page_num }_{ stave_num }_{ neume_index }.png', resize)
-
-        neume_index += 1
-
 print(overlap)
 fig1 = plt.figure(figsize=(20,11))
 fig1 = plt.subplot(3,1,1)
