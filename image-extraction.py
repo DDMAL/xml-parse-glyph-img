@@ -46,21 +46,8 @@ def open_images(manuscript, page_number, stave_number):
     return image, img_copy, img_clean, img_line, img_glyphs
 
 
-manu = os.listdir('./stave_boxes')[0].split('_')[0]
-page_num = os.listdir('./stave_boxes')[0].split('_')[1]
-
-image, img_copy, img_clean, img_line, img_glyphs = open_images(manu, page_num, stave_num)
-
-
-n, m, r = image.shape
-
-
-# cv.imshow('Copy', img_copy)
-# cv.waitKey(0)
-
-grayscale = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
-gray_line = cv.cvtColor(img_line, cv.COLOR_BGR2GRAY)
-gray_glyph = cv.cvtColor(img_glyphs, cv.COLOR_BGR2GRAY)
+def grayscale_img(image):
+    return cv.cvtColor(image, cv.COLOR_BGR2GRAY)
 
 
 ret, thresh = cv.threshold(grayscale,180,255,cv.THRESH_BINARY_INV)
@@ -135,6 +122,9 @@ else:
 
 for line in lines:
     x1,y1,x2,y2 = line[0]
+grayscale = grayscale_img(image)
+gray_line = grayscale_img(img_line)
+gray_glyph = grayscale_img(img_glyphs)
 
     if -0.2 <= (y2-y1) / (x2 - x1) <= 0.2:
 
