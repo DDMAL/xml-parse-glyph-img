@@ -96,58 +96,85 @@ def erode_image(image, erode_dimensions, erode_iterations):
     erosion = cv.erode(erosion, kernel_final, iterations = 1)
     return erosion
 
-lu = [10**20, 10**20]
-lb = [10**20, 0]
-ru = [0, 10**20]
-rb = [0, 0]
-min_x = 10**20
 
-skew = 0
+manu = os.listdir('./stave_boxes')[0].split('_')[0]
+page_num = os.listdir('./stave_boxes')[0].split('_')[1]
 
-avg_slope = np.mean(
-    (lines[:,0,3] - lines[:,0,1]) / (lines[:,0,2]-lines[:,0,0])
-)
+image,img_copy,img_clean,img_line,img_glyphs = open_images(
+    manu, page_num, stave_num)
 
-if avg_slope > 0.001:
-    print('downward skew')
-    skew = -1
-elif avg_slope < -0.001:
-    print('upward skew')
-    skew = 1
-else:
-    print('close to level')
-    skew = 0
-
-
-for line in lines:
-    x1,y1,x2,y2 = line[0]
 grayscale = grayscale_img(image)
 gray_line = grayscale_img(img_line)
 gray_glyph = grayscale_img(img_glyphs)
 
-    if -0.2 <= (y2-y1) / (x2 - x1) <= 0.2:
+ret, thresh = threshold_img(grayscale, 180, 255)
+ret2, thresh_glyph = threshold_img(gray_glyph, 200, 255)
 
-        if abs(x1-lb[0]) < 100 and y1 > lb[1]:
-            lb[1] = y1
+line_detection(gray_line, img_copy, 25)
 
-        if x1 <= min_x:
-            lu[0] = x1
-            lb[0] = x1
-            min_x = x1
+erosion = erode_image(thresh, erode_list, iter)
 
-        if y1 <= lu[1]:
-            lu[1] = y1
+# edges = cv.Canny(gray_line, 50, 150, apertureSize = 3)
+# lines = cv.HoughLinesP(edges, 1, np.pi/180, 100, minLineLength = 100, maxLineGap = 25)
+#
+# lines = np.array(lines)
+#
+# # stave_coords = stave_coords[np.argsort(stave_coords[:,1])]
+#
+# lines = lines[np.argsort(lines[:,0,1])]
+#
+# lu = [10**20, 10**20]
+# lb = [10**20, 0]
+# ru = [0, 10**20]
+# rb = [0, 0]
+# min_x = 10**20
 
-        # if x2 >= rb[0]:
-        #     rb[0] = x2
-        #     ru[0] = x2
-            # if y2 <= ru[1]:
-            #     ru[1] = y2
-            # if y2 >= rb[1]:
-            #     rb[1] = y2
 
-    # print(x1,y1,x2,y2)
-        cv.line(img_copy, (x1,y1), (x2,y2), (0,255,0),2)
+
+
+# skew = 0
+#
+# avg_slope = np.mean(
+#     (lines[:,0,3] - lines[:,0,1]) / (lines[:,0,2]-lines[:,0,0])
+# )
+#
+# if avg_slope > 0.001:
+#     print('downward skew')
+#     skew = -1
+# elif avg_slope < -0.001:
+#     print('upward skew')
+#     skew = 1
+# else:
+#     print('close to level')
+#     skew = 0
+#
+#
+# for line in lines:
+#     x1,y1,x2,y2 = line[0]
+#
+#     if -0.2 <= (y2-y1) / (x2 - x1) <= 0.2:
+#
+#         if abs(x1-lb[0]) < 100 and y1 > lb[1]:
+#             lb[1] = y1
+#
+#         if x1 <= min_x:
+#             lu[0] = x1
+#             lb[0] = x1
+#             min_x = x1
+#
+#         if y1 <= lu[1]:
+#             lu[1] = y1
+#
+#         # if x2 >= rb[0]:
+#         #     rb[0] = x2
+#         #     ru[0] = x2
+#             # if y2 <= ru[1]:
+#             #     ru[1] = y2
+#             # if y2 >= rb[1]:
+#             #     rb[1] = y2
+#
+#     # print(x1,y1,x2,y2)
+#         cv.line(img_copy, (x1,y1), (x2,y2), (0,255,0),2)
 
 # cv.line(img_copy, (lu[0], lu[1]), (lb[0], lb[1]), (255,0,0),2)
 
