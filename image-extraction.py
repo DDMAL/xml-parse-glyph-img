@@ -35,13 +35,14 @@ iter = int(input().strip())
 
 # ------------------------------------------------------------------------------
 
-def open_manuscript_bb_image(manuscript, page_number, stave_number, layer):
+def open_manuscript_bb_image(manuscript:str, page_number, stave_number, layer):
     if layer == 'main':
         image = cv.imread('./stave_boxes/' +
         f'{ manuscript }_{ page_number }_stave_{ stave_number }_bb.png')
     else:
         image = cv.imread(f'./stave_boxes_{ layer }/' +
-            f'{ manuscript }_{ page_number }_stave_{ layer }_{ stave_number }_bb.png')
+            f'{ manuscript }_{ page_number }' +
+            f'_stave_{ layer }_{ stave_number }_bb.png')
     return image
 
 
@@ -120,23 +121,57 @@ def draw_filter_contours(eroded_image, comparison_image, draw_image):
 
                 contours_filtered.append((x,y,w,h))
     contours_filtered = np.array(contours_filtered)
-    contours_filtered = contours_filtered[np.argsort(contours_filtered[:,0])]
+    # contours_filtered = contours_filtered[np.argsort(contours_filtered[:,0])]
+    # contours_filtered = contours_filtered[np.argsort(contours_filtered[:,1])]
+
+    contours_filtered = contours_filtered[np.lexsort((contours_filtered[:,1],
+        contours_filtered[:,0]))]
+    print(contours_filtered)
     return contours_filtered
 
 
 def contour_overlap(contours):
     overlap = np.zeros(len(contours))
+    overlap_filter = []
+    remove = np.zeros(len(contours))
+    remove_index = 0
+    contours_filtered = []
     for i, c in enumerate(contours):
-
+        j = i
         for c_n in contours[i+1:]:
-
+            j += 1
             if (c[0] < c_n[0] + 4 < c[0] + c[2] or
                 c_n[0] < c[0] + 4 < c_n[0] + c_n[2]):
+                if c[1] < c_n[1]:
                     overlap[i] = 1
-                    print('overlap: ',
-                        c[0], c[0]+c[2], ' | ', c_n[0], c_n[0]+c_n[2])
-    return overlap
+                    remove_index = j
+                else:
+                    overlap[j] = 1
+                    remove_index = i
+                remove[remove_index] = 1
+                print('overlap: ',
+                    c[0], c[0]+c[2], ' | ', c_n[0], c_n[0]+c_n[2])
+    for i, c in enumerate(contours):
+        if remove[i] != 1:
+            contours_filtered.append(c)
+            overlap_filter.append(overlap[i])
 
+    print(overlap_filter)
+
+    contours_filtered = np.array(contours_filtered)
+    overlap_filter = np.array(overlap_filter)
+    return overlap_filter, remove, contours_filtered
+
+# c[0] = (x,y,w,h)
+
+# def clef_finder(contours, overlap):
+#     contours_filtered = []
+#     clef_check_counter = 0
+#     for i, c in enumerate(contours[:-1]):
+#         if overlap[i] == 0 and overlap[i+1] == 1:
+#             clef_check_counter += 1
+#         if (c[1] < contours[i+1][1] + 4 < c[1] + c[3] or
+#             contours[i+1][1]
 
 def write_neume_images(contours, write_image, overlap,
     manuscript, page_number, stave_number):
@@ -185,11 +220,13 @@ erosion = erode_image(thresh, erode_list, iter)
 
 cont_filt = draw_filter_contours(erosion, thresh_glyph, img_copy)
 
-overlap = contour_overlap(cont_filt)
-
+overlap, remove, cont_filt = contour_overlap(cont_filt)
+print(cont_filt)
 write_neume_images(cont_filt, img_clean, overlap, manu, page_num, stave_num)
 
-print(overlap)
+# print(overlap)
+# print(remove)
+
 fig1 = plt.figure(figsize=(20,11))
 fig1 = plt.subplot(3,1,1)
 fig1 = plt.imshow(thresh)
@@ -198,11 +235,4 @@ fig1 = plt.imshow(erosion)
 fig1 = plt.subplot(3,1,3)
 fig1 = plt.imshow(img_copy)
 
-
 plt.show()
-
-
-# print(bound_coords)
-
-
-# cv.waitKey()
