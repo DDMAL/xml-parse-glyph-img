@@ -32,6 +32,7 @@ iter = int(input().strip())
 # print("Max line gap: ")
 # gap = int(input().strip())
 
+
 def open_images(manuscript, page_number, stave_number):
     # Remove previous staff images
     os.system(f'rm -rf ./dataset/{ manuscript }_{ page_number }_{ stave_number }*')
@@ -56,14 +57,8 @@ def threshold_img(grayscale_image, low, high):
         low, high,
         cv.THRESH_BINARY_INV)
 
-edges = cv.Canny(gray_line, 50, 150, apertureSize = 3)
-lines = cv.HoughLinesP(edges, 1, np.pi/180, 100, minLineLength = 100, maxLineGap = 25)
+    return ret, threshold
 
-lines = np.array(lines)
-
-# stave_coords = stave_coords[np.argsort(stave_coords[:,1])]
-
-lines = lines[np.argsort(lines[:,0,1])]
 def line_detection(grayscale_image, write_image, line_gap):
     skew = 0
     edges = cv.Canny(grayscale_image, 50, 150, apertureSize = 3)
