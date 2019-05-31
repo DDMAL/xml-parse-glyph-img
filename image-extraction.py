@@ -50,12 +50,11 @@ def grayscale_img(image):
     return cv.cvtColor(image, cv.COLOR_BGR2GRAY)
 
 
-ret, thresh = cv.threshold(grayscale,180,255,cv.THRESH_BINARY_INV)
-
-ret2, thresh_glyph = cv.threshold(gray_glyph,200,255,cv.THRESH_BINARY_INV)
-
-# cv.imshow('glyphs', thresh_glyph)
-
+def threshold_img(grayscale_image, low, high):
+    ret, threshold = cv.threshold(
+        grayscale_image,
+        low, high,
+        cv.THRESH_BINARY_INV)
 
 edges = cv.Canny(gray_line, 50, 150, apertureSize = 3)
 lines = cv.HoughLinesP(edges, 1, np.pi/180, 100, minLineLength = 100, maxLineGap = 25)
