@@ -137,6 +137,24 @@ def contour_overlap(contours):
                         c[0], c[0]+c[2], ' | ', c_n[0], c_n[0]+c_n[2])
     return overlap
 
+
+def write_neume_images(contours, write_image, overlap,
+    manuscript, page_number, stave_number):
+    neume_index = 0
+    for i, c in enumerate(contours):
+        if overlap[i] == 0:
+            if c[0] < 5:
+                resize = write_image[0:, c[0]:c[0]+c[2]+5]
+            else:
+                resize = write_image[0:, c[0]-5:c[0]+c[2]+5]
+            resize = cv.resize(resize, (50, 200), interpolation = cv.INTER_AREA)
+            cv.imwrite(f'./dataset/{ manu }' +
+                f'_{ page_number }_{ stave_number }' +
+                f'_{ neume_index }.png', resize)
+
+            neume_index += 1
+    return 0
+
 # ------------------------------------------------------------------------------
 
 manu = os.listdir('./stave_boxes')[0].split('_')[0]
@@ -150,7 +168,7 @@ os.system(f'rm -rf ./dataset/{ manu }_{ page_num }_{ stave_num }*')
 
 image = open_manuscript_bb_image(manu, page_num, stave_num, 'main')
 img_copy = image.copy()
-img_clean = img_copy
+img_clean = image.copy()
 img_line = open_manuscript_bb_image(manu, page_num, stave_num, 'lines')
 img_glyphs = open_manuscript_bb_image(manu, page_num, stave_num, 'glyphs')
 
@@ -169,12 +187,9 @@ cont_filt = draw_filter_contours(erosion, thresh_glyph, img_copy)
 
 overlap = contour_overlap(cont_filt)
 
+write_neume_images(cont_filt, img_clean, overlap, manu, page_num, stave_num)
+
 neume_index = 0
-
-
-# print(cont_filt)
-
-# print(cont_filt)
 
 for i, c in enumerate(cont_filt):
 
