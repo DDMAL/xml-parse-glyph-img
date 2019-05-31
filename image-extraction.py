@@ -76,6 +76,37 @@ lines = np.array(lines)
 # stave_coords = stave_coords[np.argsort(stave_coords[:,1])]
 
 lines = lines[np.argsort(lines[:,0,1])]
+def line_detection(grayscale_image, write_image, line_gap):
+    skew = 0
+    edges = cv.Canny(grayscale_image, 50, 150, apertureSize = 3)
+    lines = cv.HoughLinesP(edges, 1, np.pi/180, 100,
+        minLineLength = 100, maxLineGap = line_gap)
+    lines = np.array(lines)
+    lines = lines[np.argsort(lines[:,0,1])]
+    avg_slope = np.mean(
+        (lines[:,0,3] - lines[:,0,1]) / (lines[:,0,2]-lines[:,0,0]))
+    if avg_slope > 0.001:
+        print('downward skew')
+        skew = -1
+    elif avg_slope < -0.001:
+        print('upward skew')
+        skew = 1
+    else:
+        print('close to level')
+        skew = 0
+    for line in lines:
+        x1,y1,x2,y2 = line[0]
+        if -0.2 <= (y2-y1) / (x2 - x1) <= 0.2:
+            cv.line(write_image, (x1,y1), (x2,y2), (0,255,0),2)
+    return 0
+
+def erode_image(image, erode_dimensions, erode_iterations):
+    kernel = np.ones(
+        (int(erode_dimensions[0]), int(erode_dimensions[1])),np.uint8)
+    erosion = cv.erode(image, kernel, iterations = erode_iterations)
+    kernel_final = np.ones((2,2), np.uint8)
+    erosion = cv.erode(erosion, kernel_final, iterations = 1)
+    return erosion
 
 lu = [10**20, 10**20]
 lb = [10**20, 0]
