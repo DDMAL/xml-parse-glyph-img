@@ -56,32 +56,44 @@ def parse_xml(manuscript, file):
     stave_coords = stave_coords[np.argsort(stave_coords[:,1])]
     return stave_coords
 
-# ------------------------------------------------------------------------------
 
-stave_coords = parse_xml(manu, file)
-
-x_start = 10**20
-x_end = 0
-
-index = 0
-increment = 0
-
-# Loop for numbering stave fractions into the same vertical orientation
-
-for y_dim in stave_coords:
-    print(y_dim[0])
-    if y_dim[3] < x_start:
-        x_start = y_dim[3]
-    if y_dim[3] + y_dim[4] > x_end:
-        x_end = y_dim[3] + y_dim[4]
-    if y_dim[0] == 0:
-        y_dim[0] = index + 1
-        for y_dim_next in stave_coords[index+1:]:
-            if y_dim[1] <= y_dim_next[1] <= y_dim[1] + y_dim[2]:
-                y_dim_next[0] = index + 1
-        index += 1
-
-print(stave_coords)
+def get_final_coordinates(stave_coordinates):
+    x_start = 10**20
+    x_end = 0
+    index = 0
+    final_coordinates = []
+    # Loop for numbering stave fractions into the same vertical orientation
+    for y_dim in stave_coordinates:
+        print(y_dim[0])
+        if y_dim[3] < x_start:
+            x_start = y_dim[3]
+        if y_dim[3] + y_dim[4] > x_end:
+            x_end = y_dim[3] + y_dim[4]
+        if y_dim[0] == 0:
+            y_dim[0] = index + 1
+            for y_dim_next in stave_coordinates[index+1:]:
+                if y_dim[1] <= y_dim_next[1] <= y_dim[1] + y_dim[2]:
+                    y_dim_next[0] = index + 1
+            index += 1
+    print(stave_coords)
+    index = 1
+    for dim in stave_coordinates:
+        if dim[0] == index:
+            final_coordinates.append([
+                dim[1],
+                dim[1]+dim[2],
+                dim[3],
+                dim[3]+dim[4]
+            ])
+            for dim_next in stave_coordinates[index:]:
+                if dim_next[0] == index:
+                    final_coordinates[index-1][1] = dim_next[1] + dim_next[2]
+                    if dim_next[3] < dim[3]:
+                        final_coordinates[index-1][2] = dim_next[3]
+                    if dim_next[3] + dim_next[4] > dim[3] + dim[4]:
+                        final_coordinates[index-1][3] = dim_next[3] + dim_next[4]
+            index += 1
+    return final_coordinates, x_start, x_end
 
 final_stave_coords = []
 
