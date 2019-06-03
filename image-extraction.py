@@ -126,7 +126,7 @@ def draw_filter_contours(eroded_image, comparison_image, draw_image):
 
     contours_filtered = contours_filtered[np.lexsort((contours_filtered[:,1],
         contours_filtered[:,0]))]
-    print(contours_filtered)
+    # print(contours_filtered)
     return contours_filtered
 
 
@@ -164,25 +164,21 @@ def clef_finder(contours, overlap):
     contours_filtered = []
     clef_check_counter = 0
     matches = []
-    for i, c in enumerate(contours[:-1]):
+    i = 0
+    for c in contours[:-1]:
+        if i >= len(contours) - 1:
+            break
         if overlap[i] == 0 and overlap[i+1] == 1:
             clef_check_counter += 1
-        if clef_check_counter == 1 and (c[1] < contours[i+1][1] + 4 < c[1] + c[3] or
-            contours[i+1][1] < c[1] + 4 < contours[i+1][1] + contours[i+1][3]):
+        if clef_check_counter == 1 and (contours[i][1] < contours[i+1][1] + 4 < contours[i][1] + contours[i][3] or
+            contours[i+1][1] < contours[i][1] + 4 < contours[i+1][1] + contours[i+1][3]):
             clef_check_counter += 1
-        if clef_check_counter == 2 and (contours[i+1][0]-c[0] <= 60):
+        if clef_check_counter == 2 and (contours[i+1][0]-contours[i][0] <= 60):
             clef_check_counter += 1
         if clef_check_counter == 3:
-            if (i != 0 and (c[0] - contours[i-1][0] > 400)) or i == 0:
+            if (i != 0 and contours[i][0] - contours[i-1][0] > 400) or i == 0:
                 clef_check_counter += 1
         if clef_check_counter == 4:
-            matches.append(1)
-        else:
-            matches.append(0)
-        clef_check_counter = 0
-    i = 0
-    for match in matches:
-        if match == 1:
             contours_filtered.append(
             (
                 contours[i][0],
@@ -194,6 +190,9 @@ def clef_finder(contours, overlap):
         else:
             contours_filtered.append(contours[i])
             i += 1
+        clef_check_counter = 0
+
+    contours_filtered.append(contours[-1])
     contours_filtered = np.array(contours_filtered)
     return contours_filtered, matches
 
@@ -245,16 +244,16 @@ erosion = erode_image(thresh, erode_list, iter)
 cont_filt = draw_filter_contours(erosion, thresh_glyph, img_copy)
 
 cont_filt, overlap = contour_overlap(cont_filt)
-# print(cont_filt)
-# print(overlap)
+print(cont_filt)
+print(overlap)
 cont_filt, match = clef_finder(cont_filt, overlap)
 print(cont_filt, match)
 write_neume_images(cont_filt, img_clean, manu, page_num, stave_num)
-
+print('The stave was number', stave_num)
 # print(overlap)
 # print(remove)
 
-fig1 = plt.figure(figsize=(20,11))
+fig1 = plt.figure(figsize=(20,10))
 fig1 = plt.subplot(3,1,1)
 fig1 = plt.imshow(thresh)
 fig1 = plt.subplot(3,1,2)
