@@ -1,7 +1,10 @@
+
 import numpy as np
 import cv2
 import xml.etree.ElementTree as ET
 import os
+
+# ------------------------------------------------------------------------------
 
 print('Which manuscript (CF or Ein) should be considered:')
 manu = input().strip()
@@ -16,6 +19,8 @@ else:
 
 file = input().strip()
 
+# ------------------------------------------------------------------------------
+
 img = cv2.imread(f'./originals/{ manu }/{ manu }-0{ file }.png', 1)
 img_line = cv2.imread(f'./layer/{ manu }/{ manu }-0{ file }/{ manu }-0{ file }_2.png')
 img_glyphs = cv2.imread(f'./layer/{ manu }/{ manu }-0{ file }/{ manu }-0{ file }_1.png')
@@ -25,8 +30,6 @@ if img is not None:
     os.system('rm -f ./stave_boxes_glyphs/*')
     os.system('rm -f ./stave_boxes_lines/*')
 
-
-
 if not os.path.isdir('./stave_boxes'):
     os.system('mkdir stave_boxes')
 if not os.path.isdir('./stave_boxes_lines'):
@@ -34,27 +37,28 @@ if not os.path.isdir('./stave_boxes_lines'):
 if not os.path.isdir('./stave_boxes_glyphs'):
     os.system('mkdir stave_boxes_glyphs')
 
-stave_coords = []
+# ------------------------------------------------------------------------------
 
-stave_tree = ET.parse(f'./xml/{ manu }/{ manu }-0{ file }-stave.xml')
-stave_root = stave_tree.getroot()
+def parse_xml(manuscript, file):
+    stave_coords = []
+    stave_tree = ET.parse(f'./xml/{ manu }/{ manu }-0{ file }-stave.xml')
+    stave_root = stave_tree.getroot()
+    for stave in stave_root.findall('staves'):
+        bounding_box = stave.find('bounding_box')
+        stave_coords.append([
+            0,
+            int(bounding_box.find('uly').text),
+            int(bounding_box.find('nrows').text),
+            int(bounding_box.find('ulx').text),
+            int(bounding_box.find('ncols').text)
+        ])
+    stave_coords = np.array(stave_coords)
+    stave_coords = stave_coords[np.argsort(stave_coords[:,1])]
+    return stave_coords
 
-for stave in stave_root.findall('staves'):
-    bounding_box = stave.find('bounding_box')
-    stave_coords.append([
-        0,
-        int(bounding_box.find('uly').text),
-        int(bounding_box.find('nrows').text),
-        int(bounding_box.find('ulx').text),
-        int(bounding_box.find('ncols').text)
-    ])
+# ------------------------------------------------------------------------------
 
-col = 1
-
-stave_coords = np.array(stave_coords)
-
-stave_coords = stave_coords[np.argsort(stave_coords[:,1])]
-
+stave_coords = parse_xml(manu, file)
 
 x_start = 10**20
 x_end = 0
