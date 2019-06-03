@@ -95,42 +95,30 @@ def get_final_coordinates(stave_coordinates):
             index += 1
     return final_coordinates, x_start, x_end
 
-final_stave_coords = []
+def write_stave_images(stave_coordinates, x_start, x_end, original, lines, glyphs):
+    for index, stave_coord in enumerate(stave_coordinates):
+        cv2.imwrite(f'./stave_boxes/{ manu }_{ file }_stave_{ index }_bb.png',
+            original[
+                stave_coord[0]-60:stave_coord[1]+60,
+                x_start-30:x_end+30
+            ])
+        cv2.imwrite(f'./stave_boxes_lines/{ manu }_{ file }_stave_lines_{ index }_bb.png',
+            lines[
+                stave_coord[0]-60:stave_coord[1]+60,
+                x_start-30:x_end+30
+            ])
+        cv2.imwrite(f'./stave_boxes_glyphs/{ manu }_{ file }_stave_glyphs_{ index }_bb.png',
+            glyphs[
+                stave_coord[0]-60:stave_coord[1]+60,
+                x_start-30:x_end+30
+            ])
 
-index = 1
+# ------------------------------------------------------------------------------
 
-for dim in stave_coords:
-    if dim[0] == index:
-        final_stave_coords.append([
-            dim[1],
-            dim[1]+dim[2],
-            dim[3],
-            dim[3]+dim[4]
-        ])
-        for dim_next in stave_coords[index:]:
-            if dim_next[0] == index:
-                final_stave_coords[index-1][1] = dim_next[1] + dim_next[2]
-                if dim_next[3] < dim[3]:
-                    final_stave_coords[index-1][2] = dim_next[3]
-                if dim_next[3] + dim_next[4] > dim[3] + dim[4]:
-                    final_stave_coords[index-1][3] = dim_next[3] + dim_next[4]
-        index += 1
+stave_coords = parse_xml(manu, file)
+
+final_stave_coords, x_start, x_end = get_final_coordinates(stave_coords)
 
 print(final_stave_coords)
 
-for index, stave_coord in enumerate(final_stave_coords):
-    cv2.imwrite(f'./stave_boxes/{ manu }_{ file }_stave_{ index }_bb.png',
-        img[
-            stave_coord[0]-60:stave_coord[1]+60,
-            x_start-30:x_end+30
-        ])
-    cv2.imwrite(f'./stave_boxes_lines/{ manu }_{ file }_stave_lines_{ index }_bb.png',
-        img_line[
-            stave_coord[0]-60:stave_coord[1]+60,
-            x_start-30:x_end+30
-        ])
-    cv2.imwrite(f'./stave_boxes_glyphs/{ manu }_{ file }_stave_glyphs_{ index }_bb.png',
-        img_glyphs[
-            stave_coord[0]-60:stave_coord[1]+60,
-            x_start-30:x_end+30
-        ])
+write_stave_images(final_stave_coords, x_start, x_end, img, img_line, img_glyphs)
