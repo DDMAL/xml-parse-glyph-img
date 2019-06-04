@@ -114,7 +114,7 @@ def draw_filter_contours(eroded_image, comparison_image, draw_image):
         eroded_image.copy(), cv.RETR_CCOMP, cv.CHAIN_APPROX_SIMPLE)
     for index, c in enumerate(contours):
         x,y,w,h=cv.boundingRect(c)
-        if h > 15:
+        if h > 10:
             epsilon = 0.01*cv.arcLength(c,True)
             approx = cv.approxPolyDP(c,epsilon,True)
             white_count = 0
