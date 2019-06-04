@@ -30,6 +30,8 @@ erode = input()
 erode_list = erode.split()
 print("Erosion iterations: ")
 iter = int(input().strip())
+print("Gray val (0-255): ")
+gray = int(input().strip())
 # print("Max line gap: ")
 # gap = int(input().strip())
 
@@ -59,13 +61,13 @@ def threshold_img(grayscale_image, low, high):
     return ret, threshold
 
 
-def line_detection(grayscale_image, write_image, line_gap):
+def line_detection(grayscale_image, display_image, write_image, line_gap):
     skew = 0
     edges = cv.Canny(grayscale_image, 50, 150, apertureSize = 3)
     lines = cv.HoughLinesP(edges, 1, np.pi/180, 100,
         minLineLength = 100, maxLineGap = line_gap)
     lines = np.array(lines)
-    lines = lines[np.argsort(lines[:,0,1])]
+    lines = lines[np.argsort(lines[:,0,2])]
     avg_slope = np.mean(
         (lines[:,0,3] - lines[:,0,1]) / (lines[:,0,2]-lines[:,0,0]))
     if avg_slope > 0.001:
@@ -77,10 +79,22 @@ def line_detection(grayscale_image, write_image, line_gap):
     else:
         print('close to level')
         skew = 0
-    for line in lines:
+    ends = lines[-16:]
+    ends = ends[np.argsort(ends[:,0,3])]
+    new_line = 1
+    i = 0
+    temp = 0
+    while i < len(ends):
+        line = ends[i]
         x1,y1,x2,y2 = line[0]
-        if -0.2 <= (y2-y1) / (x2 - x1) <= 0.2:
-            cv.line(write_image, (x1,y1), (x2,y2), (0,255,0),2)
+        if temp == 0 or y2 - temp > 30:
+            m = (y2-y1) / (x2 - x1)
+            b = m * (-1 * x1) + y1
+            if -0.2 <= (y2-y1) / (x2 - x1) <= 0.2:
+                # cv.line(display_image, (x1,y1), (int(x2*1.2),int(m*x2*1.2+b)), (80,90,110),6)
+                cv.line(write_image, (x1,y1), (int(x2*1.2),int(m*x2*1.2+b)), (80,90,110),6)
+        temp = y2
+        i += 1
     return 0
 
 
@@ -99,18 +113,14 @@ def draw_filter_contours(eroded_image, comparison_image, draw_image):
     contours, hierarchy = cv.findContours(
         eroded_image.copy(), cv.RETR_CCOMP, cv.CHAIN_APPROX_SIMPLE)
     for index, c in enumerate(contours):
-
         x,y,w,h=cv.boundingRect(c)
-
         if h > 15:
             epsilon = 0.01*cv.arcLength(c,True)
             approx = cv.approxPolyDP(c,epsilon,True)
             white_count = 0
-
             for point in approx:
                 if comparison_image[point[0][1],point[0][0]] != 0:
                     white_count += 1
-            # print('white: ', white_count)
             if white_count > 1:
                 cv.drawContours(draw_image, [approx], -1,
                     (
@@ -118,15 +128,10 @@ def draw_filter_contours(eroded_image, comparison_image, draw_image):
                         random.randint(120,255),
                         random.randint(120,255)
                     ), 2)
-
                 contours_filtered.append((x,y,w,h))
     contours_filtered = np.array(contours_filtered)
-    # contours_filtered = contours_filtered[np.argsort(contours_filtered[:,0])]
-    # contours_filtered = contours_filtered[np.argsort(contours_filtered[:,1])]
-
     contours_filtered = contours_filtered[np.lexsort((contours_filtered[:,1],
         contours_filtered[:,0]))]
-    # print(contours_filtered)
     return contours_filtered
 
 
@@ -196,7 +201,7 @@ def clef_finder(contours, overlap):
     contours_filtered = np.array(contours_filtered)
     return contours_filtered, matches
 
-def write_neume_images(contours, write_image,
+def write_neume_images(contours, write_image, last_image,
     manuscript, page_number, stave_number):
     neume_index = 0
     for i, c in enumerate(contours):
@@ -205,6 +210,9 @@ def write_neume_images(contours, write_image,
             resize = write_image[0:, c[0]:c[0]+c[2]+5]
         else:
             resize = write_image[0:, c[0]-5:c[0]+c[2]+5]
+        if i == len(contours) - 1:
+            print('yeet')
+            resize = last_image[0:, c[0]-5:c[0]+c[2]+5]
         resize = cv.resize(resize, (50, 200), interpolation = cv.INTER_AREA)
         cv.imwrite(f'./dataset/{ manu }' +
             f'_{ page_number }_{ stave_number }' +
@@ -227,6 +235,7 @@ os.system(f'rm -rf ./dataset/{ manu }_{ page_num }_{ stave_num }*')
 image = open_manuscript_bb_image(manu, page_num, stave_num, 'main')
 img_copy = image.copy()
 img_clean = image.copy()
+img_disp = image.copy()
 img_line = open_manuscript_bb_image(manu, page_num, stave_num, 'lines')
 img_glyphs = open_manuscript_bb_image(manu, page_num, stave_num, 'glyphs')
 
@@ -234,22 +243,23 @@ grayscale = grayscale_img(image)
 gray_line = grayscale_img(img_line)
 gray_glyph = grayscale_img(img_glyphs)
 
-ret, thresh = threshold_img(grayscale, 180, 255)
-ret2, thresh_glyph = threshold_img(gray_glyph, 200, 255)
+ret, thresh = threshold_img(grayscale, gray, 255)
+ret2, thresh_glyph = threshold_img(gray_glyph, gray, 255)
 
-line_detection(gray_line, img_copy, 25)
+line_detection(gray_line, img_disp, img_copy, 25)
 
 erosion = erode_image(thresh, erode_list, iter)
 
-cont_filt = draw_filter_contours(erosion, thresh_glyph, img_copy)
+cont_filt = draw_filter_contours(erosion, thresh_glyph, img_disp)
 
 cont_filt, overlap = contour_overlap(cont_filt)
 print(cont_filt)
 print(overlap)
 cont_filt, match = clef_finder(cont_filt, overlap)
 print(cont_filt, match)
-write_neume_images(cont_filt, img_clean, manu, page_num, stave_num)
+write_neume_images(cont_filt, image, img_copy, manu, page_num, stave_num)
 print('The stave was number', stave_num)
+print('The gray number was', gray)
 # print(overlap)
 # print(remove)
 
@@ -259,6 +269,6 @@ fig1 = plt.imshow(thresh)
 fig1 = plt.subplot(3,1,2)
 fig1 = plt.imshow(erosion)
 fig1 = plt.subplot(3,1,3)
-fig1 = plt.imshow(img_copy)
+fig1 = plt.imshow(img_disp)
 
 plt.show()
