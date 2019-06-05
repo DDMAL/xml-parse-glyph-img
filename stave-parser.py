@@ -95,6 +95,7 @@ def get_final_coordinates(stave_coordinates):
             index += 1
     return final_coordinates, x_start, x_end
 
+
 def write_stave_images(stave_coordinates, x_start, x_end, original, lines, glyphs):
     for index, stave_coord in enumerate(stave_coordinates):
         cv2.imwrite(f'./stave_boxes/{ manu }_{ file }_stave_{ index }_bb.png',
