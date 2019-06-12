@@ -32,3 +32,23 @@ orig_img = cv.imread(f'./originals/{ manu }/{ manu }-0{ file }.png')
 #     + f'{ manu }-0{ file }/{ manu }-0{ file }_2.png')
 
 # ------------------------------------------------------------------------------
+# Functions
+
+glyph_coords = []
+stave_tree = ET.parse(f'./xml/{ manu }-0{ file }-position.xml')
+stave_root = stave_tree.getroot()
+glyph_count = 0
+sum = 0
+label_dict = {}
+
+for glyph in stave_root.find('glyphs'):
+    uly = int(glyph.get('uly'))
+    ulx = int(glyph.get('ulx'))
+    nrows = int(glyph.get('nrows'))
+    ncols = int(glyph.get('ncols'))
+    # print(uly, ulx, nrows, ncols)
+    label = glyph.find('ids').find('id').get('name')
+    # print(label)
+    glyph_count += 1
+    sum += nrows
+    glyph_coords.append([uly, ulx, nrows, ncols, label])
