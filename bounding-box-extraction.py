@@ -23,3 +23,12 @@ if not os.path.isdir('./position_dataset'):
 
 os.system(f'rm -rf ./position_dataset/{ manu }_{ file }_*')
 
+# ------------------------------------------------------------------------------
+
+orig_img = cv.imread(f'./originals/{ manu }/{ manu }-0{ file }.png')
+# neume_layer = cv.imread(f'./layer/{ manu }/'
+#     + f'{ manu }-0{ file }/{ manu }-0{ file }_1.png')
+# stave_layer = cv.imread(f'./layer/{ manu }/'
+#     + f'{ manu }-0{ file }/{ manu }-0{ file }_2.png')
+
+# ------------------------------------------------------------------------------
