@@ -106,12 +106,19 @@ def erode_image(image, erode_dimensions, erode_iterations):
     erosion = cv.erode(erosion, kernel_final, iterations = 1)
     return erosion
 
+def dilate_image(image, erode_dimensions, dilate_iterations):
+    # kernel = np.ones(
+    #     (int(erode_dimensions[0]), int(erode_dimensions[1])),np.uint8)
+    # dilation = cv.dilate(image, kernel, iterations = dilate_iterations)
+    kernel_final = np.ones((3,3), np.uint8)
+    dilation = cv.dilate(image, kernel_final, iterations = 5)
+    return dilation
 
-def draw_filter_contours(eroded_image, comparison_image, draw_image):
+def draw_filter_contours(image, comparison_image, draw_image):
     contour_count = 0
     contours_filtered = []
     contours, hierarchy = cv.findContours(
-        eroded_image.copy(), cv.RETR_CCOMP, cv.CHAIN_APPROX_SIMPLE)
+        image.copy(), cv.RETR_CCOMP, cv.CHAIN_APPROX_SIMPLE)
     for index, c in enumerate(contours):
         x,y,w,h=cv.boundingRect(c)
         if h > 10:
@@ -213,7 +220,7 @@ def write_neume_images(contours, write_image, last_image,
         if i == len(contours) - 1:
             print('yeet')
             resize = last_image[0:, c[0]-5:c[0]+c[2]+5]
-        resize = cv.resize(resize, (50, 200), interpolation = cv.INTER_AREA)
+        resize = cv.resize(resize, (30, 120), interpolation = cv.INTER_AREA)
         cv.imwrite(f'./dataset/{ manu }' +
             f'_{ page_number }_{ stave_number }' +
             f'_{ neume_index }.png', resize)
@@ -249,6 +256,7 @@ ret2, thresh_glyph = threshold_img(gray_glyph, gray, 255)
 line_detection(gray_line, img_disp, img_copy, 25)
 
 erosion = erode_image(thresh, erode_list, iter)
+# erosion = dilate_image(erosion, erode_list, iter)
 
 cont_filt = draw_filter_contours(erosion, thresh_glyph, img_disp)
 
