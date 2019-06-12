@@ -11,3 +11,11 @@ dataset
 .DS_Store
 dataset copy
 position_dataset_all.zip
+position_dataset_Ein.zip
+position_dataset_CF.zip
+nc_classification_dataset
+resized_position_dataset_all copy
+resized_position_dataset_all
+position_dataset
+position_dataset_Ein
+position_dataset_CF
