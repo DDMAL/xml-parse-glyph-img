@@ -52,3 +52,31 @@ for glyph in stave_root.find('glyphs'):
     glyph_count += 1
     sum += nrows
     glyph_coords.append([uly, ulx, nrows, ncols, label])
+
+avg_neume_height = int(sum/glyph_count)
+
+pic_count = 0
+label_file = open('position_labels.txt', 'a+')
+zeros = ''
+
+for c in glyph_coords:
+    print(c)
+    bounding_box = orig_img[
+        c[0]-2*avg_neume_height:c[0]+c[2]+2*avg_neume_height,
+        c[1]:c[1]+c[3]]
+    resize = cv.resize(bounding_box, (30,120), interpolation = cv.INTER_AREA)
+    if pic_count < 1000:
+        zeros = ''
+    if pic_count < 100:
+        zeros = '0'
+    if pic_count < 10:
+        zeros = '00'
+    file_name = f'{ manu }_{ file }_' + zeros + f'{ pic_count }.png'
+    cv.imwrite('./position_dataset/' + file_name, resize)
+    label_file.write(file_name + '\t' + c[4] + '\n')
+
+    pic_count += 1
+
+label_file.close()
+
+os.system('sort -k3 -n position_labels.txt -o position_labels.txt')
