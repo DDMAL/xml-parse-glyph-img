@@ -2,6 +2,7 @@ import numpy as np
 import cv2 as cv
 import xml.etree.ElementTree as ET
 import os
+import subprocess
 
 # ------------------------------------------------------------------------------
 
@@ -55,6 +56,8 @@ for glyph in stave_root.find('glyphs'):
 
 avg_neume_height = int(sum/glyph_count)
 
+os.system(f'sed -i \'\' \'/{ manu }_{ file }_/d\' position_labels.txt')
+
 pic_count = 0
 label_file = open('position_labels.txt', 'a+')
 zeros = ''
@@ -80,3 +83,10 @@ for c in glyph_coords:
 label_file.close()
 
 os.system('sort -k3 -n position_labels.txt -o position_labels.txt')
+# os.system('sort -u position_labels.txt -o position_labels.txt')
+
+# sort = subprocess.Popen(['sort', '-k3', '-n', 'position_labels.txt', '-o', 'position_labels.txt'], stdout=subprocess.PIPE)
+# sort = subprocess.Popen(['sort', '-k3', '-n', 'position_labels.txt'], stdout=subprocess.PIPE)
+# filter = subprocess.Popen(['uniq', '-u'], stdin=sort.stdout)
+#
+# filter.communicate()
