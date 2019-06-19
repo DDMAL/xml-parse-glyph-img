@@ -21,8 +21,22 @@ file = input().strip()
 
 if not os.path.isdir('./position_dataset'):
     os.system('mkdir position_dataset')
+print('Is this for the training (0) or testing (1) dataset?')
+choice = int(input().strip())
 
 os.system(f'rm -rf ./position_dataset/{ manu }_{ file }_*')
+set = ''
+if choice == 1:
+    set = 'test'
+elif choice == 0:
+    set = 'train'
+
+if not os.path.isdir(f'./position_{ set }'):
+    os.system(f'mkdir position_{ set }')
+
+
+
+os.system(f'rm -rf ./position_{ set }/{ manu }_{ file }_*')
 
 # ------------------------------------------------------------------------------
 
@@ -77,12 +91,15 @@ for c in glyph_coords:
     file_name = f'{ manu }_{ file }_' + zeros + f'{ pic_count }.png'
     cv.imwrite('./position_dataset/' + file_name, resize)
     label_file.write(file_name + '\t' + c[4] + '\n')
+    cv.imwrite(f'./position_{ set }/' + file_name, resize)
+    label_file.write(file_name + '\t' + labels[c[4]] + '\n')
 
     pic_count += 1
 
 label_file.close()
 
 os.system('sort -k3 -n position_labels.txt -o position_labels.txt')
+os.system(f'sort -k3 -n position_{ set }.txt -o position_{ set }.txt')
 # os.system('sort -u position_labels.txt -o position_labels.txt')
 
 # sort = subprocess.Popen(['sort', '-k3', '-n', 'position_labels.txt', '-o', 'position_labels.txt'], stdout=subprocess.PIPE)
