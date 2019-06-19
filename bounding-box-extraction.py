@@ -3,6 +3,7 @@ import cv2 as cv
 import xml.etree.ElementTree as ET
 import os
 import subprocess
+import statistics
 
 # ------------------------------------------------------------------------------
 
@@ -19,12 +20,9 @@ else:
 
 file = input().strip()
 
-if not os.path.isdir('./position_dataset'):
-    os.system('mkdir position_dataset')
 print('Is this for the training (0) or testing (1) dataset?')
 choice = int(input().strip())
 
-os.system(f'rm -rf ./position_dataset/{ manu }_{ file }_*')
 set = ''
 if choice == 1:
     set = 'test'
@@ -55,6 +53,7 @@ stave_root = stave_tree.getroot()
 glyph_count = 0
 sum = 0
 label_dict = {}
+labels = ['l1', 'l2', 'l3', 'l4', 's1', 's2', 's3', 's4', 's5']
 
 for glyph in stave_root.find('glyphs'):
     uly = int(glyph.get('uly'))
@@ -66,18 +65,35 @@ for glyph in stave_root.find('glyphs'):
     # print(label)
     glyph_count += 1
     sum += nrows
-    glyph_coords.append([uly, ulx, nrows, ncols, label])
+    glyph_coords.append([uly, ulx, nrows, ncols, labels.index(label), 0])
 
 avg_neume_height = int(sum/glyph_count)
 
-os.system(f'sed -i \'\' \'/{ manu }_{ file }_/d\' position_labels.txt')
+anh = avg_neume_height
+glyph_coords = np.array(glyph_coords)
+avg_neume_y = np.mean(glyph_coords, axis=0)
+glyph_coords = glyph_coords[np.lexsort((glyph_coords[:,1], glyph_coords[:,0]))]
+
+temp = [0,0,0,0,0,0]
+staves = 0
+for c in glyph_coords:
+    if c[0] - temp[0] > 100:
+        staves += 1
+    c[5] = staves
+    temp = c
+
+glyph_coords = glyph_coords[np.lexsort((glyph_coords[:,1], glyph_coords[:,5]))]
+
+# print(staves, avg_neume_y)
+
+os.system(f'sed -i \'\' \'/{ manu }_{ file }_/d\' position_{ set }.txt')
 
 pic_count = 0
-label_file = open('position_labels.txt', 'a+')
+label_file = open(f'position_{ set }.txt', 'a+')
 zeros = ''
 
 for c in glyph_coords:
-    print(c)
+    # print(c)
     bounding_box = orig_img[
         c[0]-2*avg_neume_height:c[0]+c[2]+2*avg_neume_height,
         c[1]:c[1]+c[3]]
@@ -89,8 +105,6 @@ for c in glyph_coords:
     if pic_count < 10:
         zeros = '00'
     file_name = f'{ manu }_{ file }_' + zeros + f'{ pic_count }.png'
-    cv.imwrite('./position_dataset/' + file_name, resize)
-    label_file.write(file_name + '\t' + c[4] + '\n')
     cv.imwrite(f'./position_{ set }/' + file_name, resize)
     label_file.write(file_name + '\t' + labels[c[4]] + '\n')
 
@@ -98,7 +112,6 @@ for c in glyph_coords:
 
 label_file.close()
 
-os.system('sort -k3 -n position_labels.txt -o position_labels.txt')
 os.system(f'sort -k3 -n position_{ set }.txt -o position_{ set }.txt')
 # os.system('sort -u position_labels.txt -o position_labels.txt')
 
