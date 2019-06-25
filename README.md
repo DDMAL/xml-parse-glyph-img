@@ -8,14 +8,15 @@ The *Interactive Classifier* job on Rodan is useful for quickly adding labels to
 
 After exporting the xml file containing all the neume coordinates and position labels, I use a python script **bounding-box-extraction.py** to parse the xml file and save individual images of each neume component from the original image of the manuscript page. Y-coordinates are extended above and below the original bounding box to encapsulate a portion of the staff lines found around the neume. Then, each image is interpolated and resized to 30 x 120 pixels for standardization purposes in the dataset. Below are a few examples of images found in the dataset.
 
+s5                            | s1                           | s3                           | l4
+:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:
+![](README_img/CF_10_018.png) |![](README_img/CF_10_195.png) |![](README_img/Ein_05v_106.png)|![](README_img/Ein_05v_131.png)
 
-<center>
+The tags above each image correspond to their position classification in the staff. There are nine possible positions (4 lines, 5 spaces) for neume components in square notation, designated by the classification set: 
 
-s5                            | s1                           | s3
-:----------------------------:|:----------------------------:|:----------------------------:
-![](README_img/CF_10_018.png) |![](README_img/CF_10_195.png) |![](README_img/Ein_05v_106.png) 
+[l1, l2, l3, l4, s1, s2, s3, s4, s5]
 
-</center>
+The third image, featuring a *podatus*, is classified by the position that the lower neume component is in, hence 's3.' The *oblique* in the fourth image is classified by its starting position on 'l4.'
 
 ## {Deprecated Workflow}
 
