@@ -6,7 +6,16 @@ This repository is being used to extract individual images of neumes and neume c
 
 The *Interactive Classifier* job on Rodan is useful for quickly adding labels to neumes and neume components. It is usually used to manually classify a few neume types and automatically assess the rest based on a deep learning process. For the dataset extraction envisioned in this repository, I am using the *Interactive Classifier* to instead classify on neume position. The model cannot classify neume position automatically, though the workflow will be extended in the future to encompass automatic pitch classification and encode it in an xml format. I delete any glyphs that are not neumes, but are caught by the classifier. 
 
-After exporting the xml file containing all the neume coordinates and position labels, I use a python script **bounding-box-extraction.py** to parse the xml file and save individual images of each neume component from the original image of the manuscript page. Y-coordinates are extended above and below the original bounding box to encapsulate a portion of the staff lines found around the neume. Then, each image is interpolated and resized to 30 x 120 pixels for standardization purposes in the dataset. Below are a few examples of images found in the dataset. 
+After exporting the xml file containing all the neume coordinates and position labels, I use a python script **bounding-box-extraction.py** to parse the xml file and save individual images of each neume component from the original image of the manuscript page. Y-coordinates are extended above and below the original bounding box to encapsulate a portion of the staff lines found around the neume. Then, each image is interpolated and resized to 30 x 120 pixels for standardization purposes in the dataset. Below are a few examples of images found in the dataset.
+
+
+<center>
+
+s5                            | s1                           | s3
+:----------------------------:|:----------------------------:|:----------------------------:
+![](README_img/CF_10_018.png) |![](README_img/CF_10_195.png) |![](README_img/Ein_05v_106.png) 
+
+</center>
 
 ## {Deprecated Workflow}
 
