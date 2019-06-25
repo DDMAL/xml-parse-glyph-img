@@ -16,7 +16,13 @@ The tags above each image correspond to their position classification in the sta
 
 [l1, l2, l3, l4, s1, s2, s3, s4, s5]
 
-The third image, featuring a *podatus*, is classified by the position that the lower neume component is in, hence 's3.' The *oblique* in the fourth image is classified by its starting position on 'l4.'
+The third image, featuring a *podatus*, is classified by the position that the lower neume component is in, hence 's3.' The *oblique* in the fourth image is classified by its starting position on 'l4.' 
+
+For each image, the neume component is centered, leaving parts of the staff lines out in extreme position cases such as 's1' and 's5.' This is intentional, as the model should be robust enough to handle more difficult corner cases of classification. Even though some staff lines are missing, one can still usually assess which position the neume is in, and the model is likely able to as well with enough examples provided. 
+
+The CLI from **bounding-box-extraction.py** asks for a training or testing dataset output, making it convenient for data organization. Another simple script, **zip-datasets.py**, does what the title suggests. Datasets are uploaded to Google Colabs for testing and training, and it is expected in a zip file format. 
+
+Finally, I wrote the **remove-data.py** script which allows the user to specify whether they want to clean the training, testing, or all data in one go. The three scripts mentioned are used in coordination with one another to iterate through different training and testing scenarios for the data. 
 
 ## {Deprecated Workflow}
 
