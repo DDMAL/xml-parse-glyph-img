@@ -48,12 +48,16 @@ orig_img = cv.imread(f'./originals/{ manu }/{ manu }-0{ file }.png')
 # Functions
 
 glyph_coords = []
-stave_tree = ET.parse(f'./xml/{ manu }-0{ file }-position.xml')
+# glyph_types = []
+stave_tree = ET.parse(f'./xml/{ manu }-0{ file }-position-updated.xml')
 stave_root = stave_tree.getroot()
 glyph_count = 0
 sum = 0
 label_dict = {}
 labels = ['l1', 'l2', 'l3', 'l4', 's1', 's2', 's3', 's4', 's5']
+types = ['punctum', 'inclinatum', 'custos', 'c_clef', 'f_clef',
+    'oblique2', 'oblique3', 'oblique4', 'oblique5',
+    'podatus2', 'podatus3', 'podatus4', 'podatus5']
 
 for glyph in stave_root.find('glyphs'):
     uly = int(glyph.get('uly'))
@@ -62,10 +66,13 @@ for glyph in stave_root.find('glyphs'):
     ncols = int(glyph.get('ncols'))
     # print(uly, ulx, nrows, ncols)
     label = glyph.find('ids').find('id').get('name')
+    type = glyph.find('type').get('name')
+    # print(type, types.index(type))
     # print(label)
     glyph_count += 1
     sum += nrows
-    glyph_coords.append([uly, ulx, nrows, ncols, labels.index(label), 0])
+    glyph_coords.append([uly, ulx, nrows, ncols, labels.index(label), types.index(type), 0])
+    # glyph_types.append(type)
 
 avg_neume_height = int(sum/glyph_count)
 
@@ -79,10 +86,10 @@ staves = 0
 for c in glyph_coords:
     if c[0] - temp[0] > 100:
         staves += 1
-    c[5] = staves
+    c[6] = staves
     temp = c
 
-glyph_coords = glyph_coords[np.lexsort((glyph_coords[:,1], glyph_coords[:,5]))]
+glyph_coords = glyph_coords[np.lexsort((glyph_coords[:,1], glyph_coords[:,6]))]
 
 # print(staves, avg_neume_y)
 
@@ -106,7 +113,8 @@ for c in glyph_coords:
         zeros = '00'
     file_name = f'{ manu }_{ file }_' + zeros + f'{ pic_count }.png'
     cv.imwrite(f'./position_{ set }/' + file_name, resize)
-    label_file.write(file_name + '\t' + labels[c[4]] + '\n')
+    print(types[c[5]])
+    label_file.write(file_name + '\t' + labels[c[4]] + '\t' + types[c[5]] + '\n')
 
     pic_count += 1
 
