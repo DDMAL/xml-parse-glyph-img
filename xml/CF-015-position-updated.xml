@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
 <gamera-database version="2.0">
   <glyphs>
-    <glyph number="0" uly="543" ulx="855" nrows="66" ncols="43">
+    <glyph ncols="43" nrows="66" number="0" ulx="855" uly="543">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         39 1 42 1 42 1 41 3 40 2 41 2 41 3 40 3 40 3 39 4 39 4 39 4 5 3 31 4
@@ -97,14 +96,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="1" uly="544" ulx="3193" nrows="47" ncols="39">
+    <glyph ncols="39" nrows="47" number="1" ulx="3193" uly="544">
       <ids state="MANUAL">
-        <id name="s5" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s5"/>
-				<pitch name=""/>
+				<position name="s5" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 1 38 4 17 1 4 12 1 38 1 38 1 38 1 38 1 38 1 36 1 1 1 4 1 30 5 3 1
@@ -194,14 +193,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="2" uly="582" ulx="3228" nrows="55" ncols="42">
+    <glyph ncols="42" nrows="55" number="2" ulx="3228" uly="582">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         37 1 40 2 38 4 36 6 23 9 3 7 11 15 1 5 2 8 9 15 2 7 1 8 8 34 7 35 6
@@ -293,14 +292,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="3" uly="549" ulx="790" nrows="55" ncols="47">
+    <glyph ncols="47" nrows="55" number="3" ulx="790" uly="549">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         42 1 45 2 45 2 6 8 31 2 6 15 24 2 6 20 2 11 5 4 5 42 5 41 6 18 4 20 5
@@ -391,14 +390,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="4" uly="550" ulx="1153" nrows="49" ncols="42">
+    <glyph ncols="42" nrows="49" number="4" ulx="1153" uly="550">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         37 2 7 7 1 3 11 4 6 3 6 36 6 36 6 36 6 36 6 36 6 36 6 36 6 36 6 36 6
@@ -487,14 +486,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="5" uly="571" ulx="3300" nrows="23" ncols="17">
+    <glyph ncols="17" nrows="23" number="5" ulx="3300" uly="571">
       <ids state="MANUAL">
-        <id name="s5" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s5"/>
-				<pitch name=""/>
+				<position name="s5" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 1 15 5 12 6 11 5 11 11 6 51 1 10 1 5 1 3 2 1 7 2 2 3 2 1 7 2 2 10 2
@@ -580,14 +579,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="6" uly="579" ulx="1080" nrows="45" ncols="40">
+    <glyph ncols="40" nrows="45" number="6" ulx="1080" uly="579">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         3 19 20 27 1 2 5 2 2 33 2 3 1 39 1 39 1 39 1 39 1 39 1 39 1 39 1 39 1
@@ -676,14 +675,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="7" uly="583" ulx="919" nrows="55" ncols="41">
+    <glyph ncols="41" nrows="55" number="7" ulx="919" uly="583">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 8 22 10 36 5 37 4 37 4 37 3 38 4 37 4 37 4 37 4 37 3 38 3 39 2 39
@@ -773,14 +772,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="8" uly="598" ulx="3165" nrows="70" ncols="41">
+    <glyph ncols="41" nrows="70" number="8" ulx="3165" uly="598">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         30 5 36 5 37 4 38 3 37 4 36 6 35 6 35 5 38 3 38 2 39 2 38 3 8 33 7 34
@@ -873,14 +872,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="9" uly="606" ulx="2515" nrows="76" ncols="37">
+    <glyph ncols="37" nrows="76" number="9" ulx="2515" uly="606">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         33 1 4 1 31 1 3 1 31 2 3 34 3 34 3 34 3 35 2 35 2 35 2 35 2 35 2 35 2
@@ -973,14 +972,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="10" uly="607" ulx="2930" nrows="59" ncols="39">
+    <glyph ncols="39" nrows="59" number="10" ulx="2930" uly="607">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         33 2 37 3 3 8 12 2 2 2 5 5 3 36 3 36 3 36 3 36 3 36 4 36 3 36 3 36 3
@@ -1069,14 +1068,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="11" uly="644" ulx="2895" nrows="49" ncols="43">
+    <glyph ncols="43" nrows="49" number="11" ulx="2895" uly="644">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         6 1 41 11 3 5 23 28 15 23 2 6 12 20 1 11 11 33 9 35 8 36 7 37 6 38 5
@@ -1165,14 +1164,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="12" uly="607" ulx="3039" nrows="59" ncols="37">
+    <glyph ncols="37" nrows="59" number="12" ulx="3039" uly="607">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         33 1 35 2 4 14 1 5 10 3 3 35 2 35 2 35 2 35 2 35 2 35 2 35 2 35 2 35
@@ -1262,14 +1261,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="13" uly="608" ulx="995" nrows="55" ncols="43">
+    <glyph ncols="43" nrows="55" number="13" ulx="995" uly="608">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         39 1 41 2 41 2 40 3 40 3 5 30 5 3 5 38 5 38 5 38 5 38 5 38 5 37 6 37
@@ -1359,14 +1358,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="14" uly="609" ulx="2366" nrows="57" ncols="42">
+    <glyph ncols="42" nrows="57" number="14" ulx="2366" uly="609">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         4 2 11 19 8 36 4 39 3 40 2 40 2 40 2 40 2 40 2 40 2 40 2 40 3 39 3 39
@@ -1457,14 +1456,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="15" uly="647" ulx="2331" nrows="46" ncols="44">
+    <glyph ncols="44" nrows="46" number="15" ulx="2331" uly="647">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         3 4 2 1 7 3 26 35 9 36 8 37 7 38 6 39 6 38 6 38 6 38 5 39 6 38 6 39 5
@@ -1553,14 +1552,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="16" uly="633" ulx="2770" nrows="49" ncols="43">
+    <glyph ncols="43" nrows="49" number="16" ulx="2770" uly="633">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 1 42 2 41 7 7 8 16 1 4 32 5 2 4 39 4 39 4 39 4 19 1 19 4 39 4 39 4
@@ -1652,14 +1651,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="17" uly="663" ulx="2808" nrows="61" ncols="43">
+    <glyph ncols="43" nrows="61" number="17" ulx="2808" uly="663">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 4 39 5 39 1 41 2 41 2 40 4 39 4 39 4 38 5 38 5 19 5 13 6 10 33 9
@@ -1749,14 +1748,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="18" uly="634" ulx="2161" nrows="46" ncols="42">
+    <glyph ncols="42" nrows="46" number="18" ulx="2161" uly="634">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 1 41 9 33 25 11 1 5 30 4 2 6 36 5 37 6 37 5 37 5 37 5 37 5 36 6 37
@@ -1846,14 +1845,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="19" uly="673" ulx="2195" nrows="51" ncols="38">
+    <glyph ncols="38" nrows="51" number="19" ulx="2195" uly="673">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         9 16 1 3 17 28 9 29 8 31 6 32 5 33 4 34 3 35 2 36 1 37 1 37 1 37 1 37
@@ -1941,14 +1940,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="20" uly="687" ulx="2059" nrows="48" ncols="39">
+    <glyph ncols="39" nrows="48" number="20" ulx="2059" uly="687">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 5 13 3 17 14 3 5 17 22 6 5 6 22 5 10 2 23 2 12 2 37 2 37 2 38 1 38
@@ -2037,14 +2036,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="21" uly="731" ulx="2025" nrows="51" ncols="43">
+    <glyph ncols="43" nrows="51" number="21" ulx="2025" uly="731">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 12 30 25 18 26 4 7 6 26 3 9 5 39 4 39 4 39 4 39 4 19 1 19 4 19 1 19
@@ -2136,14 +2135,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="22" uly="945" ulx="803" nrows="53" ncols="43">
+    <glyph ncols="43" nrows="53" number="22" ulx="803" uly="945">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         6 1 1 12 25 37 6 38 5 38 5 38 5 38 5 6 1 31 5 6 1 31 5 38 5 38 5 38 5
@@ -2235,14 +2234,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="23" uly="979" ulx="774" nrows="51" ncols="38">
+    <glyph ncols="38" nrows="51" number="23" ulx="774" uly="979">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 8 29 28 9 30 8 29 9 32 6 33 5 34 4 35 3 36 2 37 1 37 1 37 1 37 1 37
@@ -2330,14 +2329,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="24" uly="973" ulx="865" nrows="63" ncols="39">
+    <glyph ncols="39" nrows="63" number="24" ulx="865" uly="973">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 2 36 3 36 5 34 6 33 3 37 2 37 2 37 2 33 2 2 2 33 2 2 3 19 16 1 38 1
@@ -2426,14 +2425,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="25" uly="1002" ulx="902" nrows="53" ncols="49">
+    <glyph ncols="49" nrows="53" number="25" ulx="902" uly="1002">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         16 3 47 3 46 3 47 3 46 4 46 4 45 6 37 3 3 5 1 1 35 4 3 5 37 5 2 6 35
@@ -2530,14 +2529,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="26" uly="1008" ulx="1063" nrows="45" ncols="42">
+    <glyph ncols="42" nrows="45" number="26" ulx="1063" uly="1008">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         20 20 3 39 3 39 3 18 1 20 3 39 3 17 3 19 3 18 2 19 3 39 3 39 3 39 3
@@ -2625,14 +2624,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="27" uly="1030" ulx="2754" nrows="47" ncols="41">
+    <glyph ncols="41" nrows="47" number="27" ulx="2754" uly="1030">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         37 1 5 1 33 3 4 2 31 4 4 3 18 1 10 5 3 38 4 37 4 37 4 37 4 37 4 37 4
@@ -2721,14 +2720,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="28" uly="1039" ulx="1274" nrows="50" ncols="41">
+    <glyph ncols="41" nrows="50" number="28" ulx="1274" uly="1039">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         40 1 1 2 10 1 25 2 1 34 3 3 1 81 1 40 1 286 1 40 1 40 1 81 1 40 1 40
@@ -2818,14 +2817,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="29" uly="1039" ulx="1536" nrows="72" ncols="41">
+    <glyph ncols="41" nrows="72" number="29" ulx="1536" uly="1039">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 3 37 4 38 2 38 3 38 3 38 2 39 2 39 2 39 2 3 1 35 2 3 8 3 14 1 3 7
@@ -2919,14 +2918,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="30" uly="1052" ulx="1668" nrows="48" ncols="42">
+    <glyph ncols="42" nrows="48" number="30" ulx="1668" uly="1052">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 12 1 3 6 2 1 6 10 41 1 104 1 40 4 39 2 40 1 83 2 40 3 39 2 40 2 40
@@ -3018,14 +3017,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="31" uly="1057" ulx="2622" nrows="46" ncols="39">
+    <glyph ncols="39" nrows="46" number="31" ulx="2622" uly="1057">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 2 36 9 29 21 18 35 2 744 6 33 8 3 1 4 1 13 18 2 2 26 10 1 2 26 9 2
@@ -3111,14 +3110,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="32" uly="1058" ulx="2820" nrows="50" ncols="37">
+    <glyph ncols="37" nrows="50" number="32" ulx="2820" uly="1058">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 33 2 1 9 3 12 4 2 5 26 1 195 1 36 1 36 1 36 1 36 2 35 2 35 2 35 2
@@ -3207,14 +3206,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="33" uly="1060" ulx="2696" nrows="49" ncols="39">
+    <glyph ncols="39" nrows="49" number="33" ulx="2696" uly="1060">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 2 36 4 34 4 6 3 1 1 1 9 12 6 1 38 1 38 1 38 1 38 1 38 1 38 1 38 1
@@ -3303,14 +3302,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="34" uly="1065" ulx="962" nrows="53" ncols="48">
+    <glyph ncols="48" nrows="53" number="34" ulx="962" uly="1065">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         14 3 45 4 43 6 42 9 38 11 37 11 36 12 37 11 39 8 40 8 41 7 36 2 3 6
@@ -3407,14 +3406,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="35" uly="1091" ulx="2889" nrows="47" ncols="48">
+    <glyph ncols="48" nrows="47" number="35" ulx="2889" uly="1091">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         3 3 37 1 7 4 36 2 6 6 19 4 10 3 6 20 3 12 3 4 6 20 3 19 6 20 3 19 6
@@ -3506,14 +3505,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="36" uly="1112" ulx="1989" nrows="54" ncols="36">
+    <glyph ncols="36" nrows="54" number="36" ulx="1989" uly="1112">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         34 1 33 4 33 3 33 3 33 3 33 2 34 2 34 2 34 2 2 1 21 12 1 35 1 35 1 35
@@ -3602,14 +3601,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="37" uly="1121" ulx="2974" nrows="43" ncols="38">
+    <glyph ncols="38" nrows="43" number="37" ulx="2974" uly="1121">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         28 9 1 721 1 37 1 37 1 37 1 7 2 143 1 36 2 36 2 36 2 36 2 36 2 5 3 28
@@ -3694,14 +3693,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="38" uly="1155" ulx="3005" nrows="49" ncols="43">
+    <glyph ncols="43" nrows="49" number="38" ulx="3005" uly="1155">
       <ids state="MANUAL">
-        <id name="l1" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l1"/>
-				<pitch name=""/>
+				<position name="l1" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         23 1 28 22 19 35 7 36 6 37 5 38 4 39 3 40 3 40 4 38 5 38 5 38 5 38 5
@@ -3790,14 +3789,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="39" uly="1138" ulx="1874" nrows="45" ncols="40">
+    <glyph ncols="40" nrows="45" number="39" ulx="1874" uly="1138">
       <ids state="MANUAL">
-        <id name="l1" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l1"/>
-				<pitch name=""/>
+				<position name="l1" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 10 30 11 2 11 2 2 3 3 6 36 4 36 4 37 4 36 4 36 4 36 4 34 6 4 2 29 5
@@ -3884,14 +3883,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="40" uly="1176" ulx="1841" nrows="48" ncols="41">
+    <glyph ncols="41" nrows="48" number="40" ulx="1841" uly="1176">
       <ids state="MANUAL">
-        <id name="s1" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s1"/>
-				<pitch name=""/>
+				<position name="s1" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 12 29 20 3 4 13 35 6 22 1 13 5 36 5 38 3 38 3 39 2 39 2 39 2 39 3
@@ -3981,14 +3980,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="41" uly="1154" ulx="2126" nrows="47" ncols="43">
+    <glyph ncols="43" nrows="47" number="41" ulx="2126" uly="1154">
       <ids state="MANUAL">
-        <id name="l1" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l1"/>
-				<pitch name=""/>
+				<position name="l1" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 1 40 3 7 1 8 28 5 37 6 37 6 37 6 37 6 37 6 38 5 38 5 38 5 38 5 38
@@ -4076,14 +4075,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="42" uly="1180" ulx="2393" nrows="45" ncols="41">
+    <glyph ncols="41" nrows="45" number="42" ulx="2393" uly="1180">
       <ids state="MANUAL">
-        <id name="s1" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s1"/>
-				<pitch name=""/>
+				<position name="s1" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         40 1 39 2 37 4 12 7 3 19 7 12 3 19 4 15 2 20 1 40 1 19 2 39 2 572 1
@@ -4171,14 +4170,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="43" uly="1183" ulx="2271" nrows="45" ncols="41">
+    <glyph ncols="41" nrows="45" number="43" ulx="2271" uly="1183">
       <ids state="MANUAL">
-        <id name="s1" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s1"/>
-				<pitch name=""/>
+				<position name="s1" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         39 1 38 3 25 16 3 19 1 18 2 21 1 17 2 39 2 39 2 39 2 39 1 40 1 40 1
@@ -4267,14 +4266,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="44" uly="1311" ulx="1633" nrows="49" ncols="42">
+    <glyph ncols="42" nrows="49" number="44" ulx="1633" uly="1311">
       <ids state="MANUAL">
-        <id name="s5" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s5"/>
-				<pitch name=""/>
+				<position name="s5" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         22 2 40 4 39 3 39 3 40 2 36 6 37 7 1 2 31 12 30 13 29 13 29 14 28 13
@@ -4366,14 +4365,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="45" uly="1332" ulx="1601" nrows="54" ncols="43">
+    <glyph ncols="43" nrows="54" number="45" ulx="1601" uly="1332">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         4 2 40 6 37 26 17 19 5 3 16 20 4 4 15 28 15 27 16 21 2 8 12 20 3 9 11
@@ -4464,14 +4463,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="46" uly="1331" ulx="2366" nrows="47" ncols="43">
+    <glyph ncols="43" nrows="47" number="46" ulx="2366" uly="1331">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 2 35 3 1 5 27 16 25 18 14 8 3 18 11 11 2 19 10 12 3 18 8 13 4 17 9
@@ -4564,14 +4563,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="47" uly="1364" ulx="2405" nrows="45" ncols="36">
+    <glyph ncols="36" nrows="45" number="47" ulx="2405" uly="1364">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         16 1 2 2 4 10 14 22 14 22 14 22 9 2 5 20 8 4 3 21 7 2 1 26 6 30 5 31
@@ -4660,14 +4659,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="48" uly="1335" ulx="1719" nrows="51" ncols="39">
+    <glyph ncols="39" nrows="51" number="48" ulx="1719" uly="1335">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 29 3 2 5 34 5 34 5 34 5 34 5 34 5 34 5 34 5 34 5 34 5 34 5 34 5 34
@@ -4754,14 +4753,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="49" uly="1335" ulx="1876" nrows="47" ncols="42">
+    <glyph ncols="42" nrows="47" number="49" ulx="1876" uly="1335">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 1 41 1 41 3 11 6 1 10 6 1 4 38 4 38 4 38 4 38 4 38 4 38 4 38 4 38 4
@@ -4848,14 +4847,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="50" uly="1338" ulx="2271" nrows="55" ncols="44">
+    <glyph ncols="44" nrows="55" number="50" ulx="2271" uly="1338">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 1 43 1 31 2 10 6 23 6 5 1 3 21 2 19 2 21 3 18 2 21 2 19 2 21 3 18 2
@@ -4947,14 +4946,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="51" uly="1378" ulx="2238" nrows="50" ncols="42">
+    <glyph ncols="42" nrows="50" number="51" ulx="2238" uly="1378">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 25 1 4 2 3 7 36 6 37 5 38 4 39 3 39 3 39 3 39 3 39 3 39 4 38 4 38 4
@@ -5043,14 +5042,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="52" uly="1338" ulx="2962" nrows="50" ncols="38">
+    <glyph ncols="38" nrows="50" number="52" ulx="2962" uly="1338">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 4 7 3 20 1 3 23 3 9 3 35 3 35 3 35 3 35 3 35 3 35 3 35 3 35 3 35 3
@@ -5138,14 +5137,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="53" uly="1357" ulx="2449" nrows="55" ncols="35">
+    <glyph ncols="35" nrows="55" number="53" ulx="2449" uly="1357">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         31 3 32 3 32 2 32 4 31 5 31 2 32 4 30 4 32 3 11 24 3 32 2 33 2 33 2
@@ -5236,14 +5235,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="54" uly="1364" ulx="2802" nrows="49" ncols="43">
+    <glyph ncols="43" nrows="49" number="54" ulx="2802" uly="1364">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         40 2 41 2 34 9 13 8 3 19 3 40 3 40 2 20 1 20 2 20 2 19 1 20 3 19 1 21
@@ -5337,14 +5336,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="55" uly="1373" ulx="1979" nrows="45" ncols="37">
+    <glyph ncols="37" nrows="45" number="55" ulx="1979" uly="1373">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 16 1 5 4 4 6 32 1 357 1 35 1 16 1 36 1 36 1 36 1 36 1 36 1 36 1 74
@@ -5431,14 +5430,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="56" uly="1383" ulx="1185" nrows="57" ncols="40">
+    <glyph ncols="40" nrows="57" number="56" ulx="1185" uly="1383">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         33 1 39 1 6 2 25 1 2 4 6 34 6 34 6 34 6 35 5 35 5 35 5 35 5 35 5 37 3
@@ -5526,14 +5525,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="57" uly="1401" ulx="2667" nrows="49" ncols="43">
+    <glyph ncols="43" nrows="49" number="57" ulx="2667" uly="1401">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 4 39 8 28 2 5 10 1 11 14 2 5 27 8 3 5 38 5 38 5 38 5 38 5 38 5 38 5
@@ -5623,14 +5622,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="58" uly="1407" ulx="2070" nrows="48" ncols="41">
+    <glyph ncols="41" nrows="48" number="58" ulx="2070" uly="1407">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 1 40 2 39 3 9 3 3 1 22 26 15 33 2 3 3 38 3 38 3 38 3 38 3 38 3 38 3
@@ -5720,14 +5719,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="59" uly="1454" ulx="1041" nrows="50" ncols="45">
+    <glyph ncols="45" nrows="50" number="59" ulx="1041" uly="1454">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         41 1 43 2 43 2 5 7 31 2 5 8 1 15 3 4 3 6 5 40 5 40 5 40 5 40 5 40 5
@@ -5815,14 +5814,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="60" uly="1461" ulx="1479" nrows="45" ncols="40">
+    <glyph ncols="40" nrows="45" number="60" ulx="1479" uly="1461">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         6 5 3 13 15 35 5 36 4 36 4 36 4 36 4 36 4 36 4 36 4 36 4 36 4 36 4 36
@@ -5907,14 +5906,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="61" uly="1462" ulx="1576" nrows="58" ncols="39">
+    <glyph ncols="39" nrows="58" number="61" ulx="1576" uly="1462">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         3 1 37 13 26 28 3 1 7 33 6 33 6 33 6 33 6 33 7 16 3 13 7 16 3 13 7 32
@@ -6004,14 +6003,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="62" uly="1482" ulx="1347" nrows="47" ncols="39">
+    <glyph ncols="39" nrows="47" number="62" ulx="1347" uly="1482">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 1 38 2 1 1 34 2 2 37 2 37 2 37 2 37 2 37 2 37 2 37 2 38 1 38 1 38
@@ -6098,14 +6097,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="63" uly="1704" ulx="1235" nrows="53" ncols="40">
+    <glyph ncols="40" nrows="53" number="63" ulx="1235" uly="1704">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 1 38 2 37 3 4 2 4 30 4 36 4 36 4 36 4 36 4 36 4 35 5 35 5 36 4 36
@@ -6194,14 +6193,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="64" uly="1744" ulx="1206" nrows="54" ncols="38">
+    <glyph ncols="38" nrows="54" number="64" ulx="1206" uly="1744">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 2 26 1 9 9 16 5 8 31 7 32 6 33 5 34 4 35 3 36 2 37 1 37 1 36 2 36 2
@@ -6293,14 +6292,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="65" uly="1717" ulx="912" nrows="49" ncols="41">
+    <glyph ncols="41" nrows="49" number="65" ulx="912" uly="1717">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 39 2 39 2 39 3 38 3 38 3 38 3 38 3 38 3 38 3 38 3 38 3 38 3 38 4 37
@@ -6387,14 +6386,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="66" uly="1745" ulx="2222" nrows="58" ncols="39">
+    <glyph ncols="39" nrows="58" number="66" ulx="2222" uly="1745">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 2 38 1 38 1 37 3 36 3 35 4 36 2 37 2 1 1 35 2 1 2 6 1 7 3 6 4 5 4
@@ -6483,14 +6482,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="67" uly="1789" ulx="2191" nrows="51" ncols="40">
+    <glyph ncols="40" nrows="51" number="67" ulx="2191" uly="1789">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         4 3 36 29 10 32 8 33 8 33 6 35 5 36 4 36 4 38 2 28 1 7 5 3 1 22 1 7 6
@@ -6578,14 +6577,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="68" uly="1747" ulx="1000" nrows="53" ncols="37">
+    <glyph ncols="37" nrows="53" number="68" ulx="1000" uly="1747">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         17 3 1 12 3 1 7 774 6 29 1 1 5 33 1 31 1 3 5 28 1 36 1 36 1 36 1 36 1
@@ -6672,14 +6671,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="69" uly="1783" ulx="1032" nrows="51" ncols="40">
+    <glyph ncols="40" nrows="51" number="69" ulx="1032" uly="1783">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         18 16 1 3 14 26 10 30 8 32 7 33 6 34 5 35 4 36 3 37 3 37 3 37 4 36 4
@@ -6767,14 +6766,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="70" uly="1751" ulx="780" nrows="75" ncols="36">
+    <glyph ncols="36" nrows="75" number="70" ulx="780" uly="1751">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         30 1 34 2 34 2 5 1 16 14 5 2 10 19 5 2 3 26 5 31 5 31 5 31 5 31 5 31
@@ -6867,14 +6866,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="71" uly="1755" ulx="2754" nrows="59" ncols="40">
+    <glyph ncols="40" nrows="59" number="71" ulx="2754" uly="1755">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 1 35 5 3 1 3 9 12 13 3 37 2 38 2 38 2 38 2 38 2 38 2 37 3 37 3 38
@@ -6963,14 +6962,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="72" uly="1770" ulx="1354" nrows="63" ncols="43">
+    <glyph ncols="43" nrows="63" number="72" ulx="1354" uly="1770">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 1 42 1 38 1 2 2 38 1 3 1 37 2 3 1 37 2 3 1 37 2 2 2 37 2 2 3 36 2 3
@@ -7058,14 +7057,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="73" uly="1778" ulx="3302" nrows="56" ncols="39">
+    <glyph ncols="39" nrows="56" number="73" ulx="3302" uly="1778">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 38 2 37 2 37 2 37 2 37 7 32 34 5 35 4 35 4 35 4 35 4 35 4 33 6 33
@@ -7157,14 +7156,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="74" uly="1816" ulx="3268" nrows="52" ncols="41">
+    <glyph ncols="41" nrows="52" number="74" ulx="3268" uly="1816">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 40 1 40 2 39 2 39 18 1 3 6 6 7 35 6 36 5 37 4 38 3 39 2 40 1 39 2
@@ -7254,14 +7253,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="75" uly="1786" ulx="3182" nrows="60" ncols="47">
+    <glyph ncols="47" nrows="60" number="75" ulx="3182" uly="1786">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         43 1 46 1 46 1 46 1 45 2 45 2 22 2 5 5 2 1 3 7 11 13 6 17 6 1 2 3 3 9
@@ -7355,14 +7354,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="76" uly="1788" ulx="2327" nrows="56" ncols="44">
+    <glyph ncols="44" nrows="56" number="76" ulx="2327" uly="1788">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         40 1 43 2 42 1 28 4 3 9 7 8 1 28 6 38 6 38 6 38 6 38 6 38 6 38 6 38 6
@@ -7455,14 +7454,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="77" uly="1788" ulx="2909" nrows="48" ncols="44">
+    <glyph ncols="44" nrows="48" number="77" ulx="2909" uly="1788">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         42 1 2 1 39 2 2 7 11 2 2 20 2 20 2 19 3 20 3 18 3 20 2 19 3 20 2 20 2
@@ -7555,14 +7554,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="78" uly="1788" ulx="3014" nrows="51" ncols="39">
+    <glyph ncols="39" nrows="51" number="78" ulx="3014" uly="1788">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         34 1 5 2 31 1 5 2 31 1 5 3 20 5 4 2 5 34 5 34 5 35 4 35 4 35 4 35 4
@@ -7654,14 +7653,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="79" uly="1789" ulx="2140" nrows="51" ncols="41">
+    <glyph ncols="41" nrows="51" number="79" ulx="2140" uly="1789">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 1 40 3 32 1 5 10 24 2 5 36 5 37 4 37 4 36 5 36 5 37 4 37 4 37 4 37
@@ -7749,14 +7748,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="80" uly="1792" ulx="2530" nrows="54" ncols="40">
+    <glyph ncols="40" nrows="54" number="80" ulx="2530" uly="1792">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 39 1 39 1 39 2 34 2 2 2 34 2 2 2 6 24 2 4 2 3 2 33 1 39 1 38 2 38
@@ -7845,14 +7844,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="81" uly="1795" ulx="1407" nrows="62" ncols="43">
+    <glyph ncols="43" nrows="62" number="81" ulx="1407" uly="1795">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         6 3 39 4 39 4 39 7 36 8 34 12 31 12 31 12 32 12 30 14 29 14 28 15 28
@@ -7946,14 +7945,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="82" uly="1829" ulx="1454" nrows="56" ncols="44">
+    <glyph ncols="44" nrows="56" number="82" ulx="1454" uly="1829">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         10 3 40 4 40 5 40 5 37 9 35 10 34 11 32 12 33 11 32 14 30 14 30 14 29
@@ -8046,14 +8045,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="83" uly="1849" ulx="1546" nrows="49" ncols="43">
+    <glyph ncols="43" nrows="49" number="83" ulx="1546" uly="1849">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 1 15 5 21 3 5 38 5 38 5 38 5 38 5 38 5 38 5 38 5 38 5 38 5 38 5 38
@@ -8143,14 +8142,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="84" uly="1869" ulx="1875" nrows="62" ncols="38">
+    <glyph ncols="38" nrows="62" number="84" ulx="1875" uly="1869">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         35 3 35 2 36 3 34 4 35 2 36 1 37 1 3 1 33 1 3 1 33 1 3 2 31 3 2 7 8 3
@@ -8239,14 +8238,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="85" uly="2096" ulx="1710" nrows="48" ncols="44">
+    <glyph ncols="44" nrows="48" number="85" ulx="1710" uly="2096">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 4 40 9 35 38 6 39 5 38 6 38 6 38 7 37 7 37 7 38 6 38 6 38 6 38 6 38
@@ -8335,14 +8334,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="86" uly="2099" ulx="1769" nrows="48" ncols="42">
+    <glyph ncols="42" nrows="48" number="86" ulx="1769" uly="2099">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         3 8 1 17 8 1 7 36 6 36 5 37 5 37 5 36 6 36 6 36 6 36 6 36 6 36 6 36 7
@@ -8428,14 +8427,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="87" uly="2100" ulx="2003" nrows="54" ncols="39">
+    <glyph ncols="39" nrows="54" number="87" ulx="2003" uly="2100">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         17 2 22 17 22 17 3 9 5 1 3 18 3 15 3 36 3 36 3 36 3 36 3 36 3 36 3 36
@@ -8526,14 +8525,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="88" uly="2139" ulx="1977" nrows="51" ncols="37">
+    <glyph ncols="37" nrows="51" number="88" ulx="1977" uly="2139">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 16 11 1 9 29 8 30 7 31 6 32 5 33 4 33 4 33 4 3 1 3 1 25 4 33 4 33 4
@@ -8625,14 +8624,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="89" uly="2111" ulx="784" nrows="69" ncols="38">
+    <glyph ncols="38" nrows="69" number="89" ulx="784" uly="2111">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         35 2 35 4 33 5 34 3 36 1 37 1 3 1 33 1 3 2 31 3 2 2 31 3 2 2 31 3 1 4
@@ -8725,14 +8724,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="90" uly="2127" ulx="1833" nrows="46" ncols="38">
+    <glyph ncols="38" nrows="46" number="90" ulx="1833" uly="2127">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 1 1 3 33 1 1 30 5 40 1 37 1 37 1 37 1 37 1 37 1 37 1 37 1 37 1 37
@@ -8819,14 +8818,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="91" uly="2130" ulx="2081" nrows="57" ncols="37">
+    <glyph ncols="37" nrows="57" number="91" ulx="2081" uly="2130">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 1 1 1 34 4 33 8 1 3 5 2 17 150 1 36 1 36 1 36 1 36 1 36 1 36 1 36
@@ -8919,14 +8918,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="92" uly="2142" ulx="929" nrows="47" ncols="43">
+    <glyph ncols="43" nrows="47" number="92" ulx="929" uly="2142">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 39 1 1 3 38 1 1 4 35 3 1 14 7 12 4 5 2 41 2 20 1 20 2 20 1 20 2
@@ -9016,14 +9015,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="93" uly="2181" ulx="968" nrows="51" ncols="40">
+    <glyph ncols="40" nrows="51" number="93" ulx="968" uly="2181">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 1 23 17 9 31 8 32 7 33 6 34 5 35 4 36 3 37 2 38 1 39 1 39 1 39 1
@@ -9111,14 +9110,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="94" uly="2165" ulx="1896" nrows="51" ncols="41">
+    <glyph ncols="41" nrows="51" number="94" ulx="1896" uly="2165">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         11 22 5 1 5 36 4 37 4 37 4 37 4 37 4 37 4 37 4 37 4 37 4 37 4 37 4 37
@@ -9206,14 +9205,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="95" uly="2176" ulx="3120" nrows="55" ncols="43">
+    <glyph ncols="43" nrows="55" number="95" ulx="3120" uly="2176">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         37 1 7 2 18 1 7 9 6 37 5 20 1 18 4 39 4 39 4 39 4 40 3 40 4 39 4 39 4
@@ -9306,14 +9305,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="96" uly="2195" ulx="2884" nrows="56" ncols="38">
+    <glyph ncols="38" nrows="56" number="96" ulx="2884" uly="2195">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         33 1 37 1 37 1 36 2 36 2 4 1 31 2 4 2 30 2 4 2 30 2 4 23 8 3 4 35 3
@@ -9405,14 +9404,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="97" uly="2217" ulx="1149" nrows="54" ncols="42">
+    <glyph ncols="42" nrows="54" number="97" ulx="1149" uly="2217">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         3 5 31 1 3 35 1 3 3 39 3 39 3 39 3 39 3 39 3 39 4 38 4 38 4 38 4 38 4
@@ -9504,14 +9503,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="98" uly="2218" ulx="1319" nrows="47" ncols="44">
+    <glyph ncols="44" nrows="47" number="98" ulx="1319" uly="2218">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         40 2 18 5 2 10 4 5 6 17 2 19 4 19 2 19 3 20 2 19 3 20 2 19 3 20 2 19
@@ -9603,14 +9602,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="99" uly="2221" ulx="1467" nrows="45" ncols="44">
+    <glyph ncols="44" nrows="45" number="99" ulx="1467" uly="2221">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         7 5 15 2 11 2 5 33 1 5 5 39 5 39 5 39 5 39 5 39 5 39 5 17 2 20 5 39 5
@@ -9700,14 +9699,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="100" uly="2250" ulx="2746" nrows="58" ncols="41">
+    <glyph ncols="41" nrows="58" number="100" ulx="2746" uly="2250">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 2 38 3 38 3 38 4 37 4 37 3 39 2 39 1 40 2 39 2 39 2 39 2 39 3 33 2
@@ -9797,14 +9796,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="101" uly="2489" ulx="1492" nrows="51" ncols="43">
+    <glyph ncols="43" nrows="51" number="101" ulx="1492" uly="2489">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         26 6 1 3 3 2 19 24 4 39 4 40 3 40 3 19 1 20 3 19 1 19 4 39 4 40 3 40
@@ -9894,14 +9893,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="102" uly="2494" ulx="2643" nrows="49" ncols="37">
+    <glyph ncols="37" nrows="49" number="102" ulx="2643" uly="2494">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 11 3 2 19 1 1 24 10 2 1 24 3 9 1 36 1 36 1 36 1 18 1 17 1 36 1 36 1
@@ -9990,14 +9989,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="103" uly="2530" ulx="2614" nrows="54" ncols="37">
+    <glyph ncols="37" nrows="54" number="103" ulx="2614" uly="2530">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         15 1 23 27 9 19 2 4 3 1 7 31 6 32 5 33 4 34 3 35 2 33 4 4 2 11 1 15 4
@@ -10089,14 +10088,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="104" uly="2506" ulx="896" nrows="56" ncols="42">
+    <glyph ncols="42" nrows="56" number="104" ulx="896" uly="2506">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 1 40 4 38 4 37 6 38 2 40 2 40 1 41 2 40 2 39 3 39 4 34 2 2 5 6 12 2
@@ -10188,14 +10187,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="105" uly="2506" ulx="1081" nrows="78" ncols="42">
+    <glyph ncols="42" nrows="78" number="105" ulx="1081" uly="2506">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 2 35 3 1 3 34 4 1 5 32 10 33 2 2 3 36 1 2 3 36 1 2 3 36 1 2 3 36 1
@@ -10285,14 +10284,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="106" uly="2508" ulx="1316" nrows="67" ncols="41">
+    <glyph ncols="41" nrows="67" number="106" ulx="1316" uly="2508">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 4 36 5 36 5 38 2 39 1 40 2 39 2 39 2 33 8 6 5 5 25 3 38 2 38 3 38
@@ -10383,14 +10382,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="107" uly="2517" ulx="2845" nrows="59" ncols="43">
+    <glyph ncols="43" nrows="59" number="107" ulx="2845" uly="2517">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 4 40 2 41 3 39 5 38 6 32 3 1 7 31 5 1 4 35 2 2 4 35 1 4 3 35 1 4 3
@@ -10479,14 +10478,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="108" uly="2519" ulx="1701" nrows="58" ncols="39">
+    <glyph ncols="39" nrows="58" number="108" ulx="1701" uly="2519">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         13 1 9 1 12 2 3 36 2 37 2 37 2 37 2 37 2 37 2 37 2 37 2 37 2 37 2 37
@@ -10576,14 +10575,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="109" uly="2523" ulx="2447" nrows="51" ncols="35">
+    <glyph ncols="35" nrows="51" number="109" ulx="2447" uly="2523">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         22 19 9 545 1 34 1 34 1 34 1 34 1 31 12 9 3 7 8 1 1 1 2 28 2 34 1 4 2
@@ -10672,14 +10671,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="110" uly="2564" ulx="2478" nrows="46" ncols="39">
+    <glyph ncols="39" nrows="46" number="110" ulx="2478" uly="2564">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         35 1 15 9 3 1 9 2 8 31 7 32 6 33 6 33 6 33 5 35 5 33 6 33 5 34 5 34 5
@@ -10767,14 +10766,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="111" uly="2551" ulx="2258" nrows="61" ncols="43">
+    <glyph ncols="43" nrows="61" number="111" ulx="2258" uly="2551">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 42 1 42 1 42 1 42 1 42 1 42 3 40 3 40 2 42 2 41 2 41 3 2 1 37 7 3
@@ -10862,14 +10861,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="112" uly="2554" ulx="1847" nrows="53" ncols="43">
+    <glyph ncols="43" nrows="53" number="112" ulx="1847" uly="2554">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         40 1 24 2 7 1 3 6 4 2 1 36 4 39 3 40 3 40 3 20 1 19 3 40 4 39 4 39 4
@@ -10960,14 +10959,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="113" uly="2563" ulx="2978" nrows="47" ncols="43">
+    <glyph ncols="43" nrows="47" number="113" ulx="2978" uly="2563">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         39 2 5 6 30 2 5 30 6 2 5 38 5 38 5 38 5 37 6 38 5 38 5 38 5 37 6 37 6
@@ -11055,14 +11054,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="114" uly="2576" ulx="2044" nrows="67" ncols="41">
+    <glyph ncols="41" nrows="67" number="114" ulx="2044" uly="2576">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 2 40 1 40 3 39 2 38 3 33 2 3 3 31 4 3 3 30 5 3 3 21 14 3 38 3 38 3
@@ -11151,14 +11150,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="115" uly="2593" ulx="3114" nrows="66" ncols="37">
+    <glyph ncols="37" nrows="66" number="115" ulx="3114" uly="2593">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 1 36 1 36 1 36 1 10 6 20 18 4 12 3 36 1 36 1 36 1 36 1 35 2 36 1 36
@@ -11247,14 +11246,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="116" uly="2615" ulx="3235" nrows="52" ncols="38">
+    <glyph ncols="38" nrows="52" number="116" ulx="3235" uly="2615">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 36 2 36 2 36 2 36 3 35 3 35 9 1 4 24 19 15 2 2 20 2 6 4 4 2 36 2
@@ -11345,14 +11344,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="117" uly="2648" ulx="3204" nrows="63" ncols="38">
+    <glyph ncols="38" nrows="63" number="117" ulx="3204" uly="2648">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 4 33 6 33 3 35 3 35 3 35 4 34 3 35 3 35 3 35 3 35 5 32 23 3 3 9 30
@@ -11440,14 +11439,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="118" uly="2687" ulx="3319" nrows="50" ncols="26">
+    <glyph ncols="26" nrows="50" number="118" ulx="3319" uly="2687">
       <ids state="MANUAL">
-        <id name="l1" confidence="1.000000"/>
+        <id confidence="1.000000" name="custos" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l1"/>
-				<pitch name=""/>
+				<position name="l1" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         11 5 20 7 18 8 17 10 3 1 11 15 11 15 10 18 8 6 2 9 9 13 12 13 13 20 6
@@ -11539,14 +11538,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="119" uly="2904" ulx="1620" nrows="55" ncols="41">
+    <glyph ncols="41" nrows="55" number="119" ulx="1620" uly="2904">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         5 1 3 7 5 3 3 4 10 17 2 18 4 38 3 37 4 37 4 37 4 37 4 38 3 5 1 32 4 3
@@ -11638,14 +11637,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="120" uly="2929" ulx="1156" nrows="54" ncols="39">
+    <glyph ncols="39" nrows="54" number="120" ulx="1156" uly="2929">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 1 21 1 9 1 3 4 4 1 4 30 3 36 2 36 3 36 3 37 3 36 3 36 3 4 2 30 3 4
@@ -11736,14 +11735,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="121" uly="2930" ulx="1439" nrows="59" ncols="44">
+    <glyph ncols="44" nrows="59" number="121" ulx="1439" uly="2930">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 1 6 5 31 3 6 12 1 2 2 21 6 38 6 38 6 38 6 38 6 38 6 38 6 38 6 38 6
@@ -11834,14 +11833,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="122" uly="2932" ulx="2782" nrows="55" ncols="42">
+    <glyph ncols="42" nrows="55" number="122" ulx="2782" uly="2932">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 40 5 37 10 1 8 2 19 2 20 2 18 2 20 1 19 2 20 1 19 2 20 1 19 2 20
@@ -11933,14 +11932,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="123" uly="2939" ulx="1827" nrows="45" ncols="41">
+    <glyph ncols="41" nrows="45" number="123" ulx="1827" uly="2939">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         3 9 5 1 25 26 10 1 4 37 3 38 3 39 2 39 2 39 2 39 2 39 3 38 3 38 3 37
@@ -12029,14 +12028,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="124" uly="2963" ulx="1985" nrows="49" ncols="38">
+    <glyph ncols="38" nrows="49" number="124" ulx="1985" uly="2963">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         21 7 16 11 3 12 7 35 2 36 2 36 2 36 2 36 2 36 2 36 2 36 2 36 2 36 2
@@ -12125,14 +12124,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="125" uly="2965" ulx="2969" nrows="52" ncols="42">
+    <glyph ncols="42" nrows="52" number="125" ulx="2969" uly="2965">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 4 39 1 41 1 40 2 36 1 3 4 34 2 2 13 15 12 2 40 2 40 2 40 2 40 2 40
@@ -12223,14 +12222,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="126" uly="2986" ulx="2155" nrows="46" ncols="43">
+    <glyph ncols="43" nrows="46" number="126" ulx="2155" uly="2986">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 10 3 4 3 2 7 3 5 2 3 24 2 14 3 41 2 40 4 39 4 39 6 37 10 33 11 31
@@ -12321,14 +12320,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="127" uly="3028" ulx="2127" nrows="51" ncols="40">
+    <glyph ncols="40" nrows="51" number="127" ulx="2127" uly="3028">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 2 38 4 36 6 2 1 13 1 17 28 12 33 7 34 6 35 5 36 5 35 5 36 4 36 4 36
@@ -12419,14 +12418,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="128" uly="2990" ulx="1006" nrows="48" ncols="38">
+    <glyph ncols="38" nrows="48" number="128" ulx="1006" uly="2990">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 1 14 2 8 4 9 1 4 34 3 35 3 35 3 35 3 35 3 35 3 35 3 4 2 1 1 27 3 2
@@ -12516,14 +12515,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="129" uly="3002" ulx="2665" nrows="50" ncols="42">
+    <glyph ncols="42" nrows="50" number="129" ulx="2665" uly="3002">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 3 1 1 3 1 1 4 9 2 3 3 11 16 3 8 1 6 8 35 7 35 7 35 7 35 7 35 7 35 7
@@ -12613,14 +12612,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="130" uly="3004" ulx="2820" nrows="53" ncols="44">
+    <glyph ncols="44" nrows="53" number="130" ulx="2820" uly="3004">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 37 2 4 2 35 3 4 2 25 6 4 3 4 3 2 14 1 13 2 5 4 20 1 19 4 20 1 19
@@ -12713,14 +12712,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="131" uly="3006" ulx="3079" nrows="57" ncols="45">
+    <glyph ncols="45" nrows="57" number="131" ulx="3079" uly="3006">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 5 3 1 2 8 3 17 6 20 1 18 5 20 2 18 5 20 2 18 5 20 2 18 5 20 1 19 5
@@ -12813,14 +12812,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="132" uly="3032" ulx="3232" nrows="48" ncols="42">
+    <glyph ncols="42" nrows="48" number="132" ulx="3232" uly="3032">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 2 40 2 41 1 2 1 2 16 4 3 5 9 2 40 2 40 2 20 1 19 2 40 2 40 2 40 2
@@ -12911,14 +12910,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="133" uly="3055" ulx="860" nrows="49" ncols="43">
+    <glyph ncols="43" nrows="49" number="133" ulx="860" uly="3055">
       <ids state="MANUAL">
-        <id name="l1" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l1"/>
-				<pitch name=""/>
+				<position name="l1" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         30 5 5 1 3 2 26 5 1 1 4 2 2 20 8 2 2 9 2 19 8 14 2 20 7 13 3 20 6 14
@@ -13009,14 +13008,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="134" uly="3060" ulx="2405" nrows="51" ncols="42">
+    <glyph ncols="42" nrows="51" number="134" ulx="2405" uly="3060">
       <ids state="MANUAL">
-        <id name="l1" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l1"/>
-				<pitch name=""/>
+				<position name="l1" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         37 1 41 1 41 1 26 2 12 2 6 24 1 11 6 36 6 36 6 36 6 36 6 36 7 35 7 35
@@ -13106,14 +13105,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="135" uly="3255" ulx="1167" nrows="57" ncols="40">
+    <glyph ncols="40" nrows="57" number="135" ulx="1167" uly="3255">
       <ids state="MANUAL">
-        <id name="l4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l4"/>
-				<pitch name=""/>
+				<position name="l4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         5 6 17 2 14 31 9 34 6 35 5 35 6 34 5 35 4 36 4 36 3 37 3 37 3 2 3 32
@@ -13203,14 +13202,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="136" uly="3273" ulx="1039" nrows="76" ncols="41">
+    <glyph ncols="41" nrows="76" number="136" ulx="1039" uly="3273">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         35 2 37 6 36 4 36 6 38 1 39 2 39 2 39 2 15 26 12 29 10 32 7 34 6 35 5
@@ -13300,14 +13299,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="137" uly="3282" ulx="1105" nrows="58" ncols="42">
+    <glyph ncols="42" nrows="58" number="137" ulx="1105" uly="3282">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 1 6 1 33 3 4 6 29 4 3 12 3 12 8 4 3 12 2 15 4 6 3 29 2 8 3 39 4 38
@@ -13396,14 +13395,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="138" uly="3284" ulx="1230" nrows="51" ncols="36">
+    <glyph ncols="36" nrows="51" number="138" ulx="1230" uly="3284">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         34 1 34 2 22 1 11 2 1 29 3 3 1 35 1 35 1 35 1 35 1 35 1 35 1 35 1 35
@@ -13492,14 +13491,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="139" uly="3287" ulx="2440" nrows="67" ncols="40">
+    <glyph ncols="40" nrows="67" number="139" ulx="2440" uly="3287">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 3 31 5 1 3 30 6 1 4 29 6 2 1 32 5 1 1 34 3 2 2 33 3 2 1 33 3 3 8 19
@@ -13590,14 +13589,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="140" uly="3314" ulx="1289" nrows="58" ncols="41">
+    <glyph ncols="41" nrows="58" number="140" ulx="1289" uly="3314">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 20 1 4 16 32 9 34 1 2 4 37 4 37 4 17 1 19 4 17 1 19 4 37 3 38 3 38
@@ -13689,14 +13688,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="141" uly="3323" ulx="2556" nrows="56" ncols="39">
+    <glyph ncols="39" nrows="56" number="141" ulx="2556" uly="3323">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 1 37 2 37 2 37 2 36 3 35 4 2 1 10 26 2 37 2 37 2 37 2 37 2 37 3 36
@@ -13788,14 +13787,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="142" uly="3348" ulx="1357" nrows="49" ncols="39">
+    <glyph ncols="39" nrows="49" number="142" ulx="1357" uly="3348">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         37 2 33 6 10 29 1 38 1 623 1 38 1 38 1 29 2 1 17 19 2 1 16 27 7 33 8
@@ -13883,14 +13882,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="143" uly="3388" ulx="1392" nrows="51" ncols="40">
+    <glyph ncols="40" nrows="51" number="143" ulx="1392" uly="3388">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         18 9 7 4 14 26 9 31 8 32 7 33 6 34 5 35 4 36 4 36 3 37 3 37 3 38 2
@@ -13979,14 +13978,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="144" uly="3357" ulx="2751" nrows="59" ncols="44">
+    <glyph ncols="44" nrows="59" number="144" ulx="2751" uly="3357">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 1 43 2 42 2 42 2 42 2 42 2 42 2 41 3 4 35 1 4 4 40 4 40 4 41 3 41
@@ -14077,14 +14076,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="145" uly="3385" ulx="2326" nrows="50" ncols="39">
+    <glyph ncols="39" nrows="50" number="145" ulx="2326" uly="3385">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 2 37 3 36 7 28 1 3 26 2 8 3 36 3 36 3 36 3 36 3 36 3 36 3 36 3 36 3
@@ -14173,14 +14172,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="146" uly="3391" ulx="3182" nrows="57" ncols="42">
+    <glyph ncols="42" nrows="57" number="146" ulx="3182" uly="3391">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 2 40 2 40 2 40 2 40 2 40 3 39 3 38 5 37 5 21 2 13 6 2 2 2 1 3 1 8
@@ -14273,14 +14272,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="147" uly="3394" ulx="2975" nrows="46" ncols="41">
+    <glyph ncols="41" nrows="46" number="147" ulx="2975" uly="3394">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 2 39 10 9 1 3 1 5 4 8 11 3 12 1 8 6 36 5 36 5 35 6 36 5 36 5 36 5
@@ -14369,14 +14368,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="148" uly="3402" ulx="820" nrows="67" ncols="44">
+    <glyph ncols="44" nrows="67" number="148" ulx="820" uly="3402">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         39 1 41 3 8 36 7 37 6 38 5 39 5 40 3 41 4 40 4 40 5 39 5 39 5 39 4 40
@@ -14468,14 +14467,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="149" uly="3427" ulx="2860" nrows="50" ncols="44">
+    <glyph ncols="44" nrows="50" number="149" ulx="2860" uly="3427">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         22 9 27 6 1 14 1 5 3 41 3 41 3 41 3 41 3 41 3 41 3 20 1 20 3 41 3 41
@@ -14566,14 +14565,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="150" uly="3698" ulx="949" nrows="60" ncols="49">
+    <glyph ncols="49" nrows="60" number="150" ulx="949" uly="3698">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 1 31 18 15 34 14 35 14 35 14 35 13 36 13 37 12 37 12 37 12 37 12
@@ -14665,14 +14664,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="151" uly="3709" ulx="2775" nrows="61" ncols="45">
+    <glyph ncols="45" nrows="61" number="151" ulx="2775" uly="3709">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         41 2 43 2 42 3 42 3 41 4 41 4 41 4 41 4 28 2 10 5 4 1 11 1 9 5 7 7 4
@@ -14764,14 +14763,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="152" uly="3711" ulx="2342" nrows="53" ncols="42">
+    <glyph ncols="42" nrows="53" number="152" ulx="2342" uly="3711">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         4 2 34 1 4 14 4 4 3 2 9 2 4 28 5 5 4 29 3 5 5 37 5 37 5 38 4 37 5 37
@@ -14863,14 +14862,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="153" uly="3713" ulx="2716" nrows="68" ncols="41">
+    <glyph ncols="41" nrows="68" number="153" ulx="2716" uly="3713">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 1 40 1 40 1 39 3 38 3 38 3 37 4 37 4 3 6 1 4 7 1 2 17 3 38 3 38 3
@@ -14960,14 +14959,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="154" uly="3713" ulx="2840" nrows="52" ncols="39">
+    <glyph ncols="39" nrows="52" number="154" ulx="2840" uly="3713">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         34 2 37 3 36 3 35 4 4 1 12 22 3 36 3 36 3 36 3 35 4 35 4 35 4 35 4 35
@@ -15058,14 +15057,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="155" uly="3719" ulx="1107" nrows="61" ncols="40">
+    <glyph ncols="40" nrows="61" number="155" ulx="1107" uly="3719">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         37 2 38 3 37 2 38 3 36 4 35 5 37 3 37 2 38 2 38 2 38 2 1 5 15 1 3 4 1
@@ -15150,14 +15149,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="156" uly="3733" ulx="1819" nrows="50" ncols="38">
+    <glyph ncols="38" nrows="50" number="156" ulx="1819" uly="3733">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         37 1 19 10 7 4 4 108 1 678 5 4 2 22 10 34 5 37 1 37 1 37 1 37 1 37 1
@@ -15243,14 +15242,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="157" uly="3735" ulx="2910" nrows="53" ncols="38">
+    <glyph ncols="38" nrows="53" number="157" ulx="2910" uly="3735">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         34 3 36 1 37 1 37 2 36 2 36 2 10 3 23 2 1 13 1 11 1 6 2 3 1 32 1 4 1
@@ -15339,14 +15338,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="158" uly="3740" ulx="2181" nrows="66" ncols="41">
+    <glyph ncols="41" nrows="66" number="158" ulx="2181" uly="3740">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         34 1 23 3 4 11 18 9 2 13 12 29 10 31 6 2 1 32 5 10 1 25 5 36 5 36 5 5
@@ -15434,14 +15433,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="159" uly="3763" ulx="795" nrows="56" ncols="44">
+    <glyph ncols="44" nrows="56" number="159" ulx="795" uly="3763">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         7 1 42 5 3 1 3 24 8 36 8 36 8 36 8 36 8 36 8 36 8 3 3 30 8 3 1 32 8
@@ -15534,14 +15533,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="160" uly="3771" ulx="2489" nrows="49" ncols="43">
+    <glyph ncols="43" nrows="49" number="160" ulx="2489" uly="3771">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         3 1 42 2 36 1 4 3 34 2 4 6 31 2 3 19 3 7 1 10 3 20 1 19 3 20 1 19 4
@@ -15632,14 +15631,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="161" uly="3775" ulx="3071" nrows="53" ncols="45">
+    <glyph ncols="45" nrows="53" number="161" ulx="3071" uly="3775">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         3 1 44 3 42 13 26 1 5 26 6 2 5 1 5 20 1 5 2 8 2 2 5 20 1 18 6 20 1 18
@@ -15733,14 +15732,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="162" uly="3787" ulx="1852" nrows="54" ncols="36">
+    <glyph ncols="36" nrows="54" number="162" ulx="1852" uly="3787">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 5 31 6 30 6 31 5 31 3 34 1 34 2 34 2 34 3 33 8 28 23 13 32 4 33 3
@@ -15832,14 +15831,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="163" uly="3791" ulx="1486" nrows="47" ncols="41">
+    <glyph ncols="41" nrows="47" number="163" ulx="1486" uly="3791">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 2 2 10 8 21 1 40 1 40 1 40 1 40 1 40 1 40 1 40 1 40 1 40 1 40 1 40
@@ -15928,14 +15927,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="164" uly="3791" ulx="1637" nrows="74" ncols="40">
+    <glyph ncols="40" nrows="74" number="164" ulx="1637" uly="3791">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 2 37 16 19 1 4 36 4 36 4 36 4 36 4 36 4 36 4 36 4 36 4 36 4 36 4 36
@@ -16028,14 +16027,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="165" uly="3792" ulx="1342" nrows="50" ncols="41">
+    <glyph ncols="41" nrows="50" number="165" ulx="1342" uly="3792">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         37 2 28 2 2 3 3 3 5 36 2 39 2 39 2 39 2 39 2 39 2 39 2 39 2 39 2 39 2
@@ -16126,14 +16125,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="166" uly="3803" ulx="2996" nrows="48" ncols="36">
+    <glyph ncols="36" nrows="48" number="166" ulx="2996" uly="3803">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         24 1 9 1 2 11 6 11 4 17 1 56 1 35 2 34 2 34 2 34 2 34 2 34 2 34 2 34
@@ -16223,14 +16222,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="167" uly="4060" ulx="1325" nrows="62" ncols="40">
+    <glyph ncols="40" nrows="62" number="167" ulx="1325" uly="4060">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 8 32 14 13 10 3 38 2 37 3 37 3 37 3 38 3 37 3 37 3 37 3 37 3 37 3
@@ -16317,14 +16316,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="168" uly="4101" ulx="1291" nrows="50" ncols="43">
+    <glyph ncols="43" nrows="50" number="168" ulx="1291" uly="4101">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 2 41 6 28 1 8 19 5 2 7 3 7 37 6 38 5 38 5 38 6 37 6 37 6 37 6 38 4
@@ -16413,14 +16412,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="169" uly="4060" ulx="1821" nrows="64" ncols="38">
+    <glyph ncols="38" nrows="64" number="169" ulx="1821" uly="4060">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         34 2 36 1 1 1 34 3 35 3 36 2 36 2 4 6 12 16 3 35 2 36 2 36 2 36 2 36
@@ -16508,14 +16507,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="170" uly="4105" ulx="1789" nrows="53" ncols="41">
+    <glyph ncols="41" nrows="53" number="170" ulx="1789" uly="4105">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 2 38 3 38 15 18 1 7 35 7 35 6 36 5 36 5 36 5 37 4 37 4 37 4 37 4 37
@@ -16604,14 +16603,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="171" uly="4061" ulx="1367" nrows="46" ncols="39">
+    <glyph ncols="39" nrows="46" number="171" ulx="1367" uly="4061">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         22 4 11 2 6 6 4 12 9 123 1 34 1 3 1 345 1 38 1 38 1 38 1 38 1 38 1 38
@@ -16700,14 +16699,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="172" uly="4100" ulx="1399" nrows="51" ncols="43">
+    <glyph ncols="43" nrows="51" number="172" ulx="1399" uly="4100">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         40 1 41 2 13 2 25 3 11 14 1 2 11 4 10 33 9 34 8 35 7 36 6 37 5 38 5
@@ -16799,14 +16798,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="173" uly="4066" ulx="1863" nrows="46" ncols="35">
+    <glyph ncols="35" nrows="46" number="173" ulx="1863" uly="4066">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         20 5 3 1 18 21 7 30 1 665 1 8 1 19 2 2 1 244 1 34 1 34 1 34 1 23 1 11
@@ -16892,14 +16891,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="174" uly="4103" ulx="1893" nrows="50" ncols="40">
+    <glyph ncols="40" nrows="50" number="174" ulx="1893" uly="4103">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         37 1 38 2 38 2 18 14 5 3 8 32 7 33 6 34 5 35 4 36 4 36 4 36 4 36 4 37
@@ -16985,14 +16984,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="175" uly="4094" ulx="1658" nrows="57" ncols="41">
+    <glyph ncols="41" nrows="57" number="175" ulx="1658" uly="4094">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         39 1 39 2 28 13 3 3 8 27 3 38 3 38 3 38 3 38 3 7 3 28 3 7 3 28 2 39 2
@@ -17083,14 +17082,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="176" uly="4132" ulx="1694" nrows="52" ncols="41">
+    <glyph ncols="41" nrows="52" number="176" ulx="1694" uly="4132">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         17 1 3 19 10 31 9 32 8 33 7 34 6 35 5 36 4 37 3 38 2 39 2 39 2 39 2
@@ -17180,14 +17179,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="177" uly="4095" ulx="1175" nrows="51" ncols="38">
+    <glyph ncols="38" nrows="51" number="177" ulx="1175" uly="4095">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 31 3 3 2 27 6 3 22 1 12 3 35 3 35 3 35 3 35 3 35 3 35 3 35 3 35 4
@@ -17276,14 +17275,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="178" uly="4131" ulx="1208" nrows="54" ncols="44">
+    <glyph ncols="44" nrows="54" number="178" ulx="1208" uly="4131">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         25 2 2 2 25 24 3 1 15 30 10 34 9 36 7 37 6 37 6 38 5 39 4 20 1 19 3
@@ -17377,14 +17376,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="179" uly="4097" ulx="1544" nrows="52" ncols="43">
+    <glyph ncols="43" nrows="52" number="179" ulx="1544" uly="4097">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         40 1 41 2 20 1 4 7 1 10 4 9 1 9 2 18 4 19 2 18 3 20 1 19 3 20 1 19 3
@@ -17475,14 +17474,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="180" uly="4098" ulx="1069" nrows="46" ncols="42">
+    <glyph ncols="42" nrows="46" number="180" ulx="1069" uly="4098">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 1 6 3 31 3 4 38 3 39 3 39 3 39 3 39 4 38 4 38 4 38 4 38 4 38 4 39
@@ -17571,14 +17570,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="181" uly="4101" ulx="2313" nrows="46" ncols="41">
+    <glyph ncols="41" nrows="46" number="181" ulx="2313" uly="4101">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 3 2 1 35 3 2 5 4 14 2 3 7 4 2 6 2 31 2 39 2 39 2 39 2 39 2 39 2 39
@@ -17667,14 +17666,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="182" uly="4135" ulx="2347" nrows="57" ncols="40">
+    <glyph ncols="40" nrows="57" number="182" ulx="2347" uly="4135">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         35 1 39 2 26 2 6 1 2 4 11 28 11 29 10 30 9 31 8 32 7 33 6 34 5 35 4
@@ -17763,14 +17762,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="183" uly="4104" ulx="2011" nrows="51" ncols="41">
+    <glyph ncols="41" nrows="51" number="183" ulx="2011" uly="4104">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 1 25 1 5 6 1 3 4 2 6 3 5 21 4 37 4 37 3 38 3 38 3 38 3 38 3 38 3 4
@@ -17861,14 +17860,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="184" uly="4163" ulx="2280" nrows="59" ncols="42">
+    <glyph ncols="42" nrows="59" number="184" ulx="2280" uly="4163">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         37 1 41 1 40 3 39 3 6 1 32 3 6 2 31 3 6 2 31 3 6 3 30 3 6 5 2 13 13 3
@@ -17958,14 +17957,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="185" uly="4167" ulx="2941" nrows="98" ncols="44">
+    <glyph ncols="44" nrows="98" number="185" ulx="2941" uly="4167">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         39 1 43 1 43 1 43 2 42 2 41 3 41 2 23 4 15 2 7 2 6 2 1 11 13 2 7 37 7
@@ -18059,14 +18058,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="186" uly="4170" ulx="3030" nrows="51" ncols="29">
+    <glyph ncols="29" nrows="51" number="186" ulx="3030" uly="4170">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="custos" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         9 3 24 6 23 7 8 4 9 7 8 5 9 7 8 7 6 9 6 8 6 9 6 9 5 10 2 11 6 10 1 12
@@ -18158,14 +18157,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="187" uly="4172" ulx="2794" nrows="54" ncols="44">
+    <glyph ncols="44" nrows="54" number="187" ulx="2794" uly="4172">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         14 14 6 6 5 39 5 39 5 39 5 39 6 38 6 38 6 38 6 38 6 39 4 40 5 39 5 39
@@ -18257,14 +18256,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="188" uly="4191" ulx="2572" nrows="53" ncols="39">
+    <glyph ncols="39" nrows="53" number="188" ulx="2572" uly="4191">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         37 1 36 4 37 2 37 2 37 1 6 4 28 1 5 28 4 2 5 34 5 34 4 35 3 36 2 37 2
@@ -18355,14 +18354,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="189" uly="4499" ulx="1458" nrows="48" ncols="40">
+    <glyph ncols="40" nrows="48" number="189" ulx="1458" uly="4499">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 1 3 5 27 3 1 13 23 3 1 21 3 2 10 3 1 39 1 39 1 39 1 39 1 39 1 38 2
@@ -18450,14 +18449,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="190" uly="4538" ulx="1420" nrows="58" ncols="47">
+    <glyph ncols="47" nrows="58" number="190" ulx="1420" uly="4538">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 2 45 3 44 5 10 1 3 2 2 1 2 3 7 2 9 20 2 17 8 20 3 17 7 20 3 18 6 20
@@ -18550,14 +18549,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="191" uly="4525" ulx="1152" nrows="56" ncols="41">
+    <glyph ncols="41" nrows="56" number="191" ulx="1152" uly="4525">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         39 1 39 2 38 3 38 3 4 38 2 39 1 80 1 40 1 40 1 40 1 40 1 40 2 39 2 39
@@ -18648,14 +18647,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="192" uly="4562" ulx="1186" nrows="56" ncols="40">
+    <glyph ncols="40" nrows="56" number="192" ulx="1186" uly="4562">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 2 37 3 20 2 14 4 13 27 12 28 11 29 10 30 9 31 8 32 7 33 6 34 5 35
@@ -18746,14 +18745,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="193" uly="4526" ulx="1993" nrows="61" ncols="38">
+    <glyph ncols="38" nrows="61" number="193" ulx="1993" uly="4526">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         34 1 37 1 37 1 3 2 32 1 3 5 28 2 3 35 3 35 3 35 3 35 3 35 3 35 3 4 2
@@ -18844,14 +18843,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="194" uly="4570" ulx="1964" nrows="52" ncols="41">
+    <glyph ncols="41" nrows="52" number="194" ulx="1964" uly="4570">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 39 3 38 9 32 18 23 32 9 33 8 34 7 35 6 36 5 36 6 17 1 16 7 32 9
@@ -18944,14 +18943,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="195" uly="4528" ulx="2458" nrows="48" ncols="38">
+    <glyph ncols="38" nrows="48" number="195" ulx="2458" uly="4528">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 2 36 11 23 2 2 30 3 3 2 36 2 36 2 36 2 36 2 36 2 36 2 4 2 30 2 5 1
@@ -19041,14 +19040,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="196" uly="4568" ulx="2425" nrows="57" ncols="41">
+    <glyph ncols="41" nrows="57" number="196" ulx="2425" uly="4568">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 5 36 15 26 24 9 1 7 35 6 36 5 37 4 38 3 39 2 39 2 39 2 39 2 39 2 40
@@ -19138,14 +19137,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="197" uly="4600" ulx="2393" nrows="59" ncols="40">
+    <glyph ncols="40" nrows="59" number="197" ulx="2393" uly="4600">
       <ids state="MANUAL">
-        <id name="l1" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l1"/>
-				<pitch name=""/>
+				<position name="l1" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 1 39 2 38 2 38 3 37 3 37 3 37 4 36 4 36 7 33 21 19 29 11 30 10 31 9
@@ -19234,14 +19233,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="198" uly="4531" ulx="816" nrows="60" ncols="46">
+    <glyph ncols="46" nrows="60" number="198" ulx="816" uly="4531">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         40 2 5 8 4 1 3 4 3 12 3 3 5 20 3 18 5 21 2 18 5 21 1 19 5 20 3 18 5
@@ -19332,14 +19331,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="199" uly="4533" ulx="1596" nrows="50" ncols="41">
+    <glyph ncols="41" nrows="50" number="199" ulx="1596" uly="4533">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 1 3 5 2 31 2 39 2 39 2 39 2 17 4 18 2 17 3 19 2 39 2 39 2 40 1 40
@@ -19430,14 +19429,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="200" uly="4536" ulx="1802" nrows="50" ncols="44">
+    <glyph ncols="44" nrows="50" number="200" ulx="1802" uly="4536">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         41 1 5 1 36 2 5 3 34 2 5 11 25 3 5 39 5 39 5 39 5 39 5 19 1 19 5 39 5
@@ -19527,14 +19526,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="201" uly="4536" ulx="2732" nrows="52" ncols="38">
+    <glyph ncols="38" nrows="52" number="201" ulx="2732" uly="4536">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         34 1 37 1 37 1 37 1 4 1 14 4 14 1 4 2 10 8 12 2 4 34 3 35 4 34 4 34 4
@@ -19624,14 +19623,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="202" uly="4539" ulx="2525" nrows="46" ncols="42">
+    <glyph ncols="42" nrows="46" number="202" ulx="2525" uly="4539">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         23 1 6 2 6 2 10 6 1 24 4 38 4 38 4 38 4 38 4 38 3 39 4 38 4 39 3 39 3
@@ -19720,14 +19719,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="203" uly="4542" ulx="3193" nrows="51" ncols="44">
+    <glyph ncols="44" nrows="51" number="203" ulx="3193" uly="4542">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 2 42 1 43 1 43 2 23 1 18 3 20 4 17 9 6 3 2 7 7 2 8 9 4 15 4 6 6 9 3
@@ -19818,14 +19817,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="204" uly="4555" ulx="2038" nrows="69" ncols="37">
+    <glyph ncols="37" nrows="69" number="204" ulx="2038" uly="4555">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         6 3 34 3 34 3 34 5 32 6 28 10 27 12 25 14 22 16 21 17 20 19 18 19 18
@@ -19919,14 +19918,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="205" uly="4562" ulx="2133" nrows="61" ncols="42">
+    <glyph ncols="42" nrows="61" number="205" ulx="2133" uly="4562">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         35 1 41 1 39 3 29 1 2 10 6 37 5 37 5 37 5 37 5 37 5 37 5 37 5 37 5 37
@@ -20015,14 +20014,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="206" uly="4564" ulx="2227" nrows="45" ncols="36">
+    <glyph ncols="36" nrows="45" number="206" ulx="2227" uly="4564">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 6 23 6 1 35 1 35 1 35 1 35 1 35 1 35 1 35 1 35 1 71 1 35 1 35 1 36
@@ -20111,14 +20110,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="207" uly="4601" ulx="2259" nrows="51" ncols="38">
+    <glyph ncols="38" nrows="51" number="207" ulx="2259" uly="4601">
       <ids state="MANUAL">
-        <id name="l1" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l1"/>
-				<pitch name=""/>
+				<position name="l1" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         34 1 36 2 36 2 35 3 34 4 9 29 8 30 7 31 6 32 5 33 5 33 5 34 4 34 4 34
@@ -20209,14 +20208,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="208" uly="4564" ulx="2922" nrows="56" ncols="40">
+    <glyph ncols="40" nrows="56" number="208" ulx="2922" uly="4564">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         36 3 36 5 34 6 36 4 36 3 37 2 38 2 37 3 27 6 1 6 8 1 5 26 3 37 2 38 2
@@ -20306,14 +20305,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="209" uly="4571" ulx="2645" nrows="49" ncols="37">
+    <glyph ncols="37" nrows="49" number="209" ulx="2645" uly="4571">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         21 1 12 2 21 3 11 2 20 5 9 3 19 6 8 4 2 1 10 11 6 7 2 23 4 7 3 34 2
@@ -20404,14 +20403,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="210" uly="4584" ulx="2081" nrows="56" ncols="40">
+    <glyph ncols="40" nrows="56" number="210" ulx="2081" uly="4584">
       <ids state="MANUAL">
-        <id name="l1" confidence="1.000000"/>
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l1"/>
-				<pitch name=""/>
+				<position name="l1" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         10 1 37 3 36 4 36 4 36 6 34 6 34 5 1 3 30 11 29 10 30 10 29 12 28 13
@@ -20502,14 +20501,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="211" uly="4603" ulx="3098" nrows="54" ncols="42">
+    <glyph ncols="42" nrows="54" number="211" ulx="3098" uly="4603">
       <ids state="MANUAL">
-        <id name="l1" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l1"/>
-				<pitch name=""/>
+				<position name="l1" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 2 31 1 8 3 25 8 7 38 4 39 2 39 3 39 4 38 4 38 3 39 4 38 4 38 4 38 4
@@ -20600,14 +20599,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="212" uly="4825" ulx="2970" nrows="45" ncols="38">
+    <glyph ncols="38" nrows="45" number="212" ulx="2970" uly="4825">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         3 7 25 1 2 22 5 10 2 36 2 36 2 36 2 36 2 36 2 36 3 35 3 35 3 35 3 35
@@ -20696,14 +20695,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="213" uly="4866" ulx="2940" nrows="51" ncols="39">
+    <glyph ncols="39" nrows="51" number="213" ulx="2940" uly="4866">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 38 5 28 1 5 6 3 9 1 6 8 2 4 31 1 3 4 35 4 35 4 36 3 36 4 35 4 17
@@ -20793,14 +20792,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="214" uly="4826" ulx="3158" nrows="71" ncols="37">
+    <glyph ncols="37" nrows="71" number="214" ulx="3158" uly="4826">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         31 4 32 4 34 4 34 2 3 2 30 2 3 2 29 3 3 3 27 4 3 10 10 14 3 10 7 17 3
@@ -20894,14 +20893,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="215" uly="4834" ulx="1795" nrows="46" ncols="37">
+    <glyph ncols="37" nrows="46" number="215" ulx="1795" uly="4834">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         15 3 2 15 3 2 1 70 1 36 1 147 1 36 1 36 1 3 1 32 1 36 1 36 1 36 1 36
@@ -20990,14 +20989,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="216" uly="4847" ulx="811" nrows="56" ncols="42">
+    <glyph ncols="42" nrows="56" number="216" ulx="811" uly="4847">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         39 1 40 2 3 1 35 3 2 3 19 8 7 4 1 6 8 5 3 13 1 5 1 19 3 19 1 19 3 19
@@ -21091,14 +21090,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="217" uly="4862" ulx="1486" nrows="52" ncols="44">
+    <glyph ncols="44" nrows="52" number="217" ulx="1486" uly="4862">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         41 1 43 2 42 1 43 1 43 1 43 1 42 2 29 5 8 2 5 6 4 8 3 18 4 19 3 18 4
@@ -21191,14 +21190,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="218" uly="4864" ulx="2792" nrows="45" ncols="43">
+    <glyph ncols="43" nrows="45" number="218" ulx="2792" uly="4864">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         39 1 5 12 1 3 3 3 3 13 5 38 5 38 5 38 5 38 5 38 5 38 5 38 5 4 2 32 5
@@ -21284,14 +21283,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="219" uly="4866" ulx="1853" nrows="46" ncols="37">
+    <glyph ncols="37" nrows="46" number="219" ulx="1853" uly="4866">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         34 1 9 2 9 5 11 2 3 34 3 34 3 34 3 34 3 34 3 34 3 34 3 19 1 14 3 34 2
@@ -21380,14 +21379,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="220" uly="4868" ulx="1569" nrows="47" ncols="43">
+    <glyph ncols="43" nrows="47" number="220" ulx="1569" uly="4868">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         40 1 5 1 35 2 4 2 35 2 4 19 1 19 4 39 4 39 4 39 4 39 4 39 4 39 4 39 4
@@ -21476,14 +21475,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="221" uly="4869" ulx="1721" nrows="49" ncols="39">
+    <glyph ncols="39" nrows="49" number="221" ulx="1721" uly="4869">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         3 2 31 1 4 22 1 7 2 3 4 35 4 35 4 35 4 35 4 35 4 36 3 36 3 36 3 36 3
@@ -21573,14 +21572,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="222" uly="4885" ulx="1001" nrows="49" ncols="41">
+    <glyph ncols="41" nrows="49" number="222" ulx="1001" uly="4885">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         40 1 40 1 39 2 19 1 4 17 1 4 7 275 1 40 1 40 1 40 1 40 1 40 1 40 1 40
@@ -21669,14 +21668,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="223" uly="4925" ulx="1035" nrows="49" ncols="41">
+    <glyph ncols="41" nrows="49" number="223" ulx="1035" uly="4925">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 1 40 1 39 2 26 3 10 2 10 31 9 32 8 33 7 34 6 14 2 19 5 15 2 19 4
@@ -21769,14 +21768,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="224" uly="4922" ulx="845" nrows="53" ncols="45">
+    <glyph ncols="45" nrows="53" number="224" ulx="845" uly="4922">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         40 1 44 1 44 1 44 1 43 2 43 2 43 2 42 3 16 8 3 18 11 2 1 11 2 19 7 17
@@ -21870,14 +21869,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="225" uly="4925" ulx="1648" nrows="47" ncols="41">
+    <glyph ncols="41" nrows="47" number="225" ulx="1648" uly="4925">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 2 34 1 4 10 26 1 4 26 9 2 4 37 4 37 4 37 4 37 4 37 4 37 4 37 4 37 4
@@ -21964,14 +21963,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="226" uly="4925" ulx="2648" nrows="52" ncols="42">
+    <glyph ncols="42" nrows="52" number="226" ulx="2648" uly="4925">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 1 41 4 38 14 29 27 6 3 6 36 6 36 6 36 6 36 6 36 6 36 6 36 6 36 6 36
@@ -22060,14 +22059,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="227" uly="4952" ulx="1194" nrows="57" ncols="40">
+    <glyph ncols="40" nrows="57" number="227" ulx="1194" uly="4952">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         0 1 39 1 39 1 39 1 39 2 38 9 3 3 20 2 3 33 1 3 3 37 3 37 3 38 2 38 2
@@ -22155,14 +22154,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="228" uly="4952" ulx="2553" nrows="47" ncols="40">
+    <glyph ncols="40" nrows="47" number="228" ulx="2553" uly="4952">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         38 1 39 1 1 8 30 1 1 34 2 3 1 39 1 39 1 39 1 39 1 39 1 39 1 39 1 39 2
@@ -22248,14 +22247,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="229" uly="4953" ulx="1264" nrows="58" ncols="41">
+    <glyph ncols="41" nrows="58" number="229" ulx="1264" uly="4953">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 40 1 40 14 22 1 3 21 16 1 3 31 5 2 3 39 2 39 2 39 2 39 2 39 2 39
@@ -22346,14 +22345,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="230" uly="578" ulx="1208" nrows="45" ncols="39">
+    <glyph ncols="39" nrows="45" number="230" ulx="1208" uly="578">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="punctum" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         33 1 37 3 7 1 27 5 6 2 26 5 5 5 24 6 3 7 23 6 3 10 20 6 2 13 18 6 2
@@ -22442,14 +22441,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="231" uly="573" ulx="704" nrows="128" ncols="35">
+    <glyph ncols="35" nrows="128" number="231" ulx="704" uly="573">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         5 3 29 8 28 2 2 3 29 1 2 4 26 9 26 10 25 11 24 12 23 13 22 14 21 14
@@ -22552,14 +22551,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="232" uly="599" ulx="1948" nrows="120" ncols="29">
+    <glyph ncols="29" nrows="120" number="232" ulx="1948" uly="599">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 3 26 5 24 5 24 1 28 6 23 8 21 9 20 9 20 8 21 9 20 10 19 10 19 14 15
@@ -22662,14 +22661,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="233" uly="1027" ulx="701" nrows="135" ncols="39">
+    <glyph ncols="39" nrows="135" number="233" ulx="701" uly="1027">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         3 2 37 3 36 4 35 5 33 7 32 8 31 9 29 13 25 12 28 11 29 10 1 1 27 14
@@ -22776,14 +22775,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="234" uly="1352" ulx="928" nrows="125" ncols="33">
+    <glyph ncols="33" nrows="125" number="234" ulx="928" uly="1352">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         6 1 32 2 31 2 30 4 29 5 28 6 29 5 27 8 22 12 21 13 19 15 18 15 19 15
@@ -22883,14 +22882,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="235" uly="1364" ulx="3050" nrows="54" ncols="22">
+    <glyph ncols="22" nrows="54" number="235" ulx="3050" uly="1364">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="custos" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         14 2 17 6 15 7 15 6 15 7 15 8 14 8 13 9 13 10 12 11 10 13 9 14 7 14 1
@@ -22983,14 +22982,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="236" uly="1740" ulx="706" nrows="142" ncols="30">
+    <glyph ncols="30" nrows="142" number="236" ulx="706" uly="1740">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         4 1 26 5 25 6 24 6 24 7 23 7 23 6 24 4 26 6 24 12 18 3 2 7 18 13 17
@@ -23097,14 +23096,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="237" uly="1756" ulx="3364" nrows="136" ncols="36">
+    <glyph ncols="36" nrows="136" number="237" ulx="3364" uly="1756">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="custos" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         13 3 32 5 30 6 29 8 27 9 27 10 26 10 25 12 24 12 24 13 23 11 24 11 25
@@ -23201,14 +23200,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="238" uly="1783" ulx="1700" nrows="124" ncols="41">
+    <glyph ncols="41" nrows="124" number="238" ulx="1700" uly="1783">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="podatus3" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         4 1 40 12 13 1 15 28 12 34 8 33 8 34 7 34 7 34 7 17 1 16 7 34 7 34 7
@@ -23305,14 +23304,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="239" uly="1787" ulx="2020" nrows="118" ncols="41">
+    <glyph ncols="41" nrows="118" number="239" ulx="2020" uly="1787">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="podatus3" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         5 3 21 2 15 18 5 9 9 33 8 33 8 33 8 33 8 33 8 33 8 33 8 33 8 33 8 33
@@ -23410,14 +23409,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="240" uly="2108" ulx="691" nrows="146" ncols="31">
+    <glyph ncols="31" nrows="146" number="240" ulx="691" uly="2108">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         4 1 30 2 28 5 25 6 25 6 25 6 25 7 25 7 23 9 22 9 23 8 23 3 1 5 22 9
@@ -23526,14 +23525,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="241" uly="2128" ulx="3300" nrows="69" ncols="40">
+    <glyph ncols="40" nrows="69" number="241" ulx="3300" uly="2128">
       <ids state="MANUAL">
-        <id name="s4" confidence="1.000000"/>
+        <id confidence="1.000000" name="custos" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s4"/>
-				<pitch name=""/>
+				<position name="s4" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         37 1 38 2 37 4 36 3 37 4 35 6 32 8 33 6 34 6 32 8 31 9 30 9 32 7 33 6
@@ -23624,14 +23623,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="242" uly="2124" ulx="2690" nrows="145" ncols="32">
+    <glyph ncols="32" nrows="145" number="242" ulx="2690" uly="2124">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 2 1 28 6 26 11 21 9 24 7 24 9 23 7 25 2 1 3 26 6 26 9 23 12 20 6
@@ -23738,14 +23737,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="243" uly="2497" ulx="694" nrows="150" ncols="28">
+    <glyph ncols="28" nrows="150" number="243" ulx="694" uly="2497">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         6 1 27 1 27 2 26 2 26 2 27 2 26 2 22 8 20 10 18 8 19 9 20 8 20 7 21 3
@@ -23854,14 +23853,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="244" uly="2881" ulx="684" nrows="123" ncols="23">
+    <glyph ncols="23" nrows="123" number="244" ulx="684" uly="2881">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         8 1 18 2 1 2 18 6 17 9 14 8 15 7 16 7 16 7 17 2 2 1 18 2 2 1 1 2 15 3
@@ -23959,14 +23958,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="245" uly="3001" ulx="3315" nrows="84" ncols="33">
+    <glyph ncols="33" nrows="84" number="245" ulx="3315" uly="3001">
       <ids state="MANUAL">
-        <id name="s2" confidence="1.000000"/>
+        <id confidence="1.000000" name="custos" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s2"/>
-				<pitch name=""/>
+				<position name="s2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         32 1 32 1 31 1 31 2 30 3 29 4 29 4 28 4 29 4 28 5 28 4 28 5 28 5 28 4
@@ -24056,14 +24055,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="246" uly="3259" ulx="682" nrows="139" ncols="35">
+    <glyph ncols="35" nrows="139" number="246" ulx="682" uly="3259">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         6 1 32 4 30 5 31 5 35 1 33 1 33 4 28 8 26 19 13 20 15 13 25 10 2 7 16
@@ -24171,14 +24170,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="247" uly="3287" ulx="2215" nrows="127" ncols="72">
+    <glyph ncols="72" nrows="127" number="247" ulx="2215" uly="3287">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="f_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         39 2 70 1 71 6 67 5 67 6 65 7 31 1 19 1 13 7 30 2 19 1 13 9 28 2 19 1
@@ -24291,14 +24290,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="248" uly="3388" ulx="3314" nrows="100" ncols="31">
+    <glyph ncols="31" nrows="100" number="248" ulx="3314" uly="3388">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="custos" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         13 1 1 3 26 1 1 3 25 8 23 1 1 7 25 1 2 3 29 2 24 8 20 2 1 8 20 2 1 8
@@ -24392,14 +24391,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="249" uly="3655" ulx="681" nrows="130" ncols="73">
+    <glyph ncols="73" nrows="130" number="249" ulx="681" uly="3655">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="f_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         4 1 36 2 34 2 33 7 28 5 33 2 3 4 26 6 37 4 26 6 32 2 3 3 27 7 30 8 27
@@ -24513,14 +24512,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="250" uly="3707" ulx="1985" nrows="117" ncols="40">
+    <glyph ncols="40" nrows="117" number="250" ulx="1985" uly="3707">
       <ids state="MANUAL">
-        <id name="l2" confidence="1.000000"/>
+        <id confidence="1.000000" name="podatus3" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l2"/>
-				<pitch name=""/>
+				<position name="l2" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 1 39 6 3 11 14 2 4 30 3 4 3 37 3 37 3 37 3 37 3 37 3 37 3 37 3 4 1
@@ -24620,14 +24619,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="251" uly="4059" ulx="981" nrows="131" ncols="32">
+    <glyph ncols="32" nrows="131" number="251" ulx="981" uly="4059">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         5 1 27 8 24 10 1 6 15 19 13 20 11 22 11 22 10 22 10 23 9 23 9 3 1 2 5
@@ -24733,14 +24732,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="252" uly="4427" ulx="680" nrows="122" ncols="33">
+    <glyph ncols="33" nrows="122" number="252" ulx="680" uly="4427">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         5 2 32 1 33 1 32 1 31 3 25 9 24 9 24 10 23 10 23 6 26 6 1 6 20 13 20
@@ -24839,14 +24838,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="253" uly="4447" ulx="3298" nrows="87" ncols="47">
+    <glyph ncols="47" nrows="87" number="253" ulx="3298" uly="4447">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="custos" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         1 5 42 4 43 5 42 5 44 2 43 3 44 3 44 3 44 3 44 3 44 3 44 3 44 3 44 3
@@ -24941,14 +24940,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="254" uly="4809" ulx="670" nrows="125" ncols="32">
+    <glyph ncols="32" nrows="125" number="254" ulx="670" uly="4809">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         2 1 31 2 31 1 29 5 27 6 26 6 26 6 26 7 25 9 22 11 22 10 22 2 1 7 1 1
@@ -25045,14 +25044,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="255" uly="4819" ulx="2489" nrows="127" ncols="36">
+    <glyph ncols="36" nrows="127" number="255" ulx="2489" uly="4819">
       <ids state="MANUAL">
-        <id name="s3" confidence="1.000000"/>
+        <id confidence="1.000000" name="c_clef" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="s3"/>
-				<pitch name=""/>
+				<position name="s3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         5 6 30 6 33 3 33 4 32 5 29 7 29 3 2 1 30 3 1 2 30 9 27 10 26 11 25 13
@@ -25152,14 +25151,14 @@
         </feature>
       </features>
     </glyph>
-    <glyph number="256" uly="4874" ulx="3300" nrows="32" ncols="22">
+    <glyph ncols="22" nrows="32" number="256" ulx="3300" uly="4874">
       <ids state="MANUAL">
-        <id name="l3" confidence="1.000000"/>
+        <id confidence="1.000000" name="custos" />
       </ids>
-			<type name=""/>
+			<type name="" />
 			<pitch-estimation>
-				<position name="l3"/>
-				<pitch name=""/>
+				<position name="l3" />
+				<pitch name="" />
 			</pitch-estimation>
       <data>
         14 1 18 6 1 1 16 8 14 9 12 8 13 9 12 9 11 12 9 12 10 11 10 11 8 11 10

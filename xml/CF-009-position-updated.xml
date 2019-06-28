@@ -2,7 +2,7 @@
   <glyphs>
     <glyph ncols="41" nrows="44" number="0" ulx="1294" uly="615">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -97,7 +97,7 @@
     </glyph>
     <glyph ncols="40" nrows="45" number="1" ulx="1260" uly="651">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -190,7 +190,7 @@
     </glyph>
     <glyph ncols="37" nrows="45" number="2" ulx="1593" uly="623">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -283,7 +283,7 @@
     </glyph>
     <glyph ncols="27" nrows="57" number="3" ulx="3378" uly="641">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="custos" />
       </ids>
 			<type name="custos" />
 			<pitch-estimation>
@@ -379,7 +379,7 @@
     </glyph>
     <glyph ncols="38" nrows="45" number="4" ulx="1105" uly="645">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -472,7 +472,7 @@
     </glyph>
     <glyph ncols="37" nrows="42" number="5" ulx="3223" uly="646">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -564,7 +564,7 @@
     </glyph>
     <glyph ncols="35" nrows="42" number="6" ulx="3191" uly="684">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -656,7 +656,7 @@
     </glyph>
     <glyph ncols="39" nrows="64" number="7" ulx="1646" uly="648">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -749,7 +749,7 @@
     </glyph>
     <glyph ncols="45" nrows="44" number="8" ulx="3021" uly="680">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -844,7 +844,7 @@
     </glyph>
     <glyph ncols="40" nrows="64" number="9" ulx="1690" uly="681">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -936,7 +936,7 @@
     </glyph>
     <glyph ncols="40" nrows="45" number="10" ulx="2849" uly="681">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -1029,7 +1029,7 @@
     </glyph>
     <glyph ncols="45" nrows="54" number="11" ulx="2814" uly="716">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -1126,7 +1126,7 @@
     </glyph>
     <glyph ncols="41" nrows="51" number="12" ulx="1951" uly="692">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -1222,7 +1222,7 @@
     </glyph>
     <glyph ncols="42" nrows="49" number="13" ulx="1987" uly="728">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -1316,7 +1316,7 @@
     </glyph>
     <glyph ncols="42" nrows="50" number="14" ulx="1794" uly="698">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -1412,7 +1412,7 @@
     </glyph>
     <glyph ncols="47" nrows="43" number="15" ulx="2475" uly="705">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -1507,7 +1507,7 @@
     </glyph>
     <glyph ncols="42" nrows="69" number="16" ulx="1735" uly="712">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -1604,7 +1604,7 @@
     </glyph>
     <glyph ncols="42" nrows="43" number="17" ulx="2679" uly="736">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -1698,7 +1698,7 @@
     </glyph>
     <glyph ncols="41" nrows="45" number="18" ulx="2073" uly="969">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -1794,7 +1794,7 @@
     </glyph>
     <glyph ncols="38" nrows="45" number="19" ulx="1829" uly="960">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -1888,7 +1888,7 @@
     </glyph>
     <glyph ncols="38" nrows="43" number="20" ulx="1795" uly="995">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -1980,7 +1980,7 @@
     </glyph>
     <glyph ncols="43" nrows="59" number="21" ulx="2241" uly="961">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -2077,7 +2077,7 @@
     </glyph>
     <glyph ncols="37" nrows="45" number="22" ulx="2278" uly="1000">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -2170,7 +2170,7 @@
     </glyph>
     <glyph ncols="108" nrows="95" number="23" ulx="992" uly="994">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="oblique2" />
       </ids>
 			<type name="oblique2" />
 			<pitch-estimation>
@@ -2275,7 +2275,7 @@
     </glyph>
     <glyph ncols="44" nrows="50" number="24" ulx="1092" uly="1009">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -2370,7 +2370,7 @@
     </glyph>
     <glyph ncols="39" nrows="61" number="25" ulx="1875" uly="977">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -2465,7 +2465,7 @@
     </glyph>
     <glyph ncols="96" nrows="98" number="26" ulx="2321" uly="988">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="oblique2" />
       </ids>
 			<type name="oblique2" />
 			<pitch-estimation>
@@ -2570,7 +2570,7 @@
     </glyph>
     <glyph ncols="38" nrows="45" number="27" ulx="2409" uly="997">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -2665,7 +2665,7 @@
     </glyph>
     <glyph ncols="41" nrows="51" number="28" ulx="2526" uly="1002">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -2760,7 +2760,7 @@
     </glyph>
     <glyph ncols="33" nrows="42" number="29" ulx="2564" uly="1039">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -2852,7 +2852,7 @@
     </glyph>
     <glyph ncols="40" nrows="47" number="30" ulx="864" uly="1004">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -2945,7 +2945,7 @@
     </glyph>
     <glyph ncols="40" nrows="63" number="31" ulx="1916" uly="1008">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -3039,7 +3039,7 @@
     </glyph>
     <glyph ncols="39" nrows="54" number="32" ulx="1342" uly="1039">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -3134,7 +3134,7 @@
     </glyph>
     <glyph ncols="34" nrows="47" number="33" ulx="1377" uly="1075">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -3226,7 +3226,7 @@
     </glyph>
     <glyph ncols="40" nrows="47" number="34" ulx="1530" uly="1039">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -3318,7 +3318,7 @@
     </glyph>
     <glyph ncols="25" nrows="55" number="35" ulx="3387" uly="1039">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="custos" />
       </ids>
 			<type name="custos" />
 			<pitch-estimation>
@@ -3414,7 +3414,7 @@
     </glyph>
     <glyph ncols="43" nrows="42" number="36" ulx="2811" uly="1040">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -3508,7 +3508,7 @@
     </glyph>
     <glyph ncols="40" nrows="43" number="37" ulx="2986" uly="1041">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -3599,7 +3599,7 @@
     </glyph>
     <glyph ncols="40" nrows="66" number="38" ulx="1959" uly="1043">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -3694,7 +3694,7 @@
     </glyph>
     <glyph ncols="36" nrows="46" number="39" ulx="3292" uly="1044">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -3788,7 +3788,7 @@
     </glyph>
     <glyph ncols="42" nrows="40" number="40" ulx="3137" uly="1045">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -3878,7 +3878,7 @@
     </glyph>
     <glyph ncols="122" nrows="152" number="41" ulx="2662" uly="1358">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="oblique4" />
       </ids>
 			<type name="oblique4" />
 			<pitch-estimation>
@@ -3984,7 +3984,7 @@
     </glyph>
     <glyph ncols="34" nrows="41" number="42" ulx="2777" uly="1417">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -4077,7 +4077,7 @@
     </glyph>
     <glyph ncols="39" nrows="47" number="43" ulx="2808" uly="1448">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -4170,7 +4170,7 @@
     </glyph>
     <glyph ncols="21" nrows="55" number="44" ulx="3227" uly="1358">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="custos" />
       </ids>
 			<type name="custos" />
 			<pitch-estimation>
@@ -4265,7 +4265,7 @@
     </glyph>
     <glyph ncols="36" nrows="44" number="45" ulx="1618" uly="1370">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -4359,7 +4359,7 @@
     </glyph>
     <glyph ncols="41" nrows="44" number="46" ulx="1585" uly="1407">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -4454,7 +4454,7 @@
     </glyph>
     <glyph ncols="41" nrows="49" number="47" ulx="2426" uly="1380">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -4549,7 +4549,7 @@
     </glyph>
     <glyph ncols="41" nrows="47" number="48" ulx="2390" uly="1420">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -4643,7 +4643,7 @@
     </glyph>
     <glyph ncols="44" nrows="43" number="49" ulx="854" uly="1392">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -4738,7 +4738,7 @@
     </glyph>
     <glyph ncols="36" nrows="42" number="50" ulx="895" uly="1426">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -4829,7 +4829,7 @@
     </glyph>
     <glyph ncols="38" nrows="45" number="51" ulx="2249" uly="1407">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -4922,7 +4922,7 @@
     </glyph>
     <glyph ncols="39" nrows="44" number="52" ulx="2284" uly="1447">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -5016,7 +5016,7 @@
     </glyph>
     <glyph ncols="39" nrows="51" number="53" ulx="2218" uly="1447">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -5110,7 +5110,7 @@
     </glyph>
     <glyph ncols="38" nrows="52" number="54" ulx="2632" uly="1412">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -5205,7 +5205,7 @@
     </glyph>
     <glyph ncols="40" nrows="53" number="55" ulx="2600" uly="1445">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -5301,7 +5301,7 @@
     </glyph>
     <glyph ncols="34" nrows="66" number="56" ulx="1662" uly="1426">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -5397,7 +5397,7 @@
     </glyph>
     <glyph ncols="37" nrows="42" number="57" ulx="1367" uly="1431">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -5491,7 +5491,7 @@
     </glyph>
     <glyph ncols="35" nrows="46" number="58" ulx="2500" uly="1440">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -5583,7 +5583,7 @@
     </glyph>
     <glyph ncols="38" nrows="58" number="59" ulx="2467" uly="1471">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -5679,7 +5679,7 @@
     </glyph>
     <glyph ncols="39" nrows="43" number="60" ulx="2920" uly="1450">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -5771,7 +5771,7 @@
     </glyph>
     <glyph ncols="37" nrows="44" number="61" ulx="2955" uly="1488">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -5865,7 +5865,7 @@
     </glyph>
     <glyph ncols="41" nrows="41" number="62" ulx="1939" uly="1540">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l1" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -5958,7 +5958,7 @@
     </glyph>
     <glyph ncols="37" nrows="68" number="63" ulx="1702" uly="1465">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -6054,7 +6054,7 @@
     </glyph>
     <glyph ncols="39" nrows="45" number="64" ulx="1530" uly="1467">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -6149,7 +6149,7 @@
     </glyph>
     <glyph ncols="36" nrows="48" number="65" ulx="1499" uly="1501">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -6243,7 +6243,7 @@
     </glyph>
     <glyph ncols="39" nrows="43" number="66" ulx="2073" uly="1481">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -6335,7 +6335,7 @@
     </glyph>
     <glyph ncols="40" nrows="57" number="67" ulx="3087" uly="1482">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -6430,7 +6430,7 @@
     </glyph>
     <glyph ncols="41" nrows="58" number="68" ulx="3120" uly="1515">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -6527,7 +6527,7 @@
     </glyph>
     <glyph ncols="34" nrows="46" number="69" ulx="2999" uly="1489">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -6619,7 +6619,7 @@
     </glyph>
     <glyph ncols="44" nrows="68" number="70" ulx="2888" uly="1503">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -6718,7 +6718,7 @@
     </glyph>
     <glyph ncols="36" nrows="47" number="71" ulx="1010" uly="1734">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -6810,7 +6810,7 @@
     </glyph>
     <glyph ncols="36" nrows="52" number="72" ulx="977" uly="1777">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -6906,7 +6906,7 @@
     </glyph>
     <glyph ncols="38" nrows="41" number="73" ulx="1041" uly="1778">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -6996,7 +6996,7 @@
     </glyph>
     <glyph ncols="5" nrows="16" number="74" ulx="1009" uly="1816">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -7079,7 +7079,7 @@
     </glyph>
     <glyph ncols="37" nrows="44" number="75" ulx="1229" uly="1808">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -7172,7 +7172,7 @@
     </glyph>
     <glyph ncols="37" nrows="52" number="76" ulx="1199" uly="1844">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -7268,7 +7268,7 @@
     </glyph>
     <glyph ncols="33" nrows="52" number="77" ulx="1088" uly="1779">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -7362,7 +7362,7 @@
     </glyph>
     <glyph ncols="36" nrows="43" number="78" ulx="1771" uly="1781">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -7455,7 +7455,7 @@
     </glyph>
     <glyph ncols="38" nrows="50" number="79" ulx="1740" uly="1816">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -7550,7 +7550,7 @@
     </glyph>
     <glyph ncols="39" nrows="42" number="80" ulx="1585" uly="1796">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -7642,7 +7642,7 @@
     </glyph>
     <glyph ncols="36" nrows="43" number="81" ulx="3276" uly="1813">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -7734,7 +7734,7 @@
     </glyph>
     <glyph ncols="33" nrows="43" number="82" ulx="2256" uly="1828">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -7825,7 +7825,7 @@
     </glyph>
     <glyph ncols="43" nrows="45" number="83" ulx="2218" uly="1862">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -7918,7 +7918,7 @@
     </glyph>
     <glyph ncols="37" nrows="43" number="84" ulx="1450" uly="1845">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -8010,7 +8010,7 @@
     </glyph>
     <glyph ncols="38" nrows="42" number="85" ulx="1482" uly="1880">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -8102,7 +8102,7 @@
     </glyph>
     <glyph ncols="35" nrows="42" number="86" ulx="1406" uly="1846">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -8193,7 +8193,7 @@
     </glyph>
     <glyph ncols="39" nrows="42" number="87" ulx="1882" uly="1855">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -8284,7 +8284,7 @@
     </glyph>
     <glyph ncols="42" nrows="43" number="88" ulx="2837" uly="1860">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -8378,7 +8378,7 @@
     </glyph>
     <glyph ncols="34" nrows="43" number="89" ulx="2876" uly="1896">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -8468,7 +8468,7 @@
     </glyph>
     <glyph ncols="47" nrows="43" number="90" ulx="2064" uly="1861">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -8562,7 +8562,7 @@
     </glyph>
     <glyph ncols="40" nrows="43" number="91" ulx="2335" uly="1861">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -8656,7 +8656,7 @@
     </glyph>
     <glyph ncols="44" nrows="45" number="92" ulx="2524" uly="1863">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -8751,7 +8751,7 @@
     </glyph>
     <glyph ncols="45" nrows="56" number="93" ulx="2668" uly="1867">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -8846,7 +8846,7 @@
     </glyph>
     <glyph ncols="47" nrows="44" number="94" ulx="3096" uly="1873">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -8942,7 +8942,7 @@
     </glyph>
     <glyph ncols="38" nrows="50" number="95" ulx="917" uly="2110">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -9036,7 +9036,7 @@
     </glyph>
     <glyph ncols="39" nrows="45" number="96" ulx="950" uly="2159">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -9128,7 +9128,7 @@
     </glyph>
     <glyph ncols="41" nrows="43" number="97" ulx="793" uly="2155">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -9222,7 +9222,7 @@
     </glyph>
     <glyph ncols="44" nrows="42" number="98" ulx="1102" uly="2157">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -9316,7 +9316,7 @@
     </glyph>
     <glyph ncols="40" nrows="42" number="99" ulx="1139" uly="2189">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -9409,7 +9409,7 @@
     </glyph>
     <glyph ncols="35" nrows="42" number="100" ulx="996" uly="2159">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -9499,7 +9499,7 @@
     </glyph>
     <glyph ncols="38" nrows="46" number="101" ulx="1628" uly="2165">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -9593,7 +9593,7 @@
     </glyph>
     <glyph ncols="38" nrows="44" number="102" ulx="2254" uly="2170">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -9685,7 +9685,7 @@
     </glyph>
     <glyph ncols="37" nrows="46" number="103" ulx="2223" uly="2207">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -9778,7 +9778,7 @@
     </glyph>
     <glyph ncols="46" nrows="44" number="104" ulx="2105" uly="2171">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -9872,7 +9872,7 @@
     </glyph>
     <glyph ncols="39" nrows="42" number="105" ulx="1853" uly="2173">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -9963,7 +9963,7 @@
     </glyph>
     <glyph ncols="38" nrows="41" number="106" ulx="2393" uly="2178">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -10053,7 +10053,7 @@
     </glyph>
     <glyph ncols="31" nrows="56" number="107" ulx="3334" uly="2181">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="custos" />
       </ids>
 			<type name="custos" />
 			<pitch-estimation>
@@ -10151,7 +10151,7 @@
     </glyph>
     <glyph ncols="44" nrows="44" number="108" ulx="2707" uly="2184">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -10245,7 +10245,7 @@
     </glyph>
     <glyph ncols="37" nrows="50" number="109" ulx="888" uly="2188">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -10339,7 +10339,7 @@
     </glyph>
     <glyph ncols="44" nrows="43" number="110" ulx="3188" uly="2190">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -10433,7 +10433,7 @@
     </glyph>
     <glyph ncols="40" nrows="42" number="111" ulx="2993" uly="2193">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -10524,7 +10524,7 @@
     </glyph>
     <glyph ncols="40" nrows="43" number="112" ulx="1305" uly="2218">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -10617,7 +10617,7 @@
     </glyph>
     <glyph ncols="38" nrows="42" number="113" ulx="1341" uly="2257">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -10709,7 +10709,7 @@
     </glyph>
     <glyph ncols="37" nrows="48" number="114" ulx="1600" uly="2528">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -10802,7 +10802,7 @@
     </glyph>
     <glyph ncols="38" nrows="42" number="115" ulx="1634" uly="2570">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -10895,7 +10895,7 @@
     </glyph>
     <glyph ncols="42" nrows="45" number="116" ulx="1565" uly="2570">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -10989,7 +10989,7 @@
     </glyph>
     <glyph ncols="37" nrows="46" number="117" ulx="1880" uly="2556">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -11082,7 +11082,7 @@
     </glyph>
     <glyph ncols="37" nrows="44" number="118" ulx="1914" uly="2596">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -11175,7 +11175,7 @@
     </glyph>
     <glyph ncols="40" nrows="43" number="119" ulx="1849" uly="2598">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -11267,7 +11267,7 @@
     </glyph>
     <glyph ncols="40" nrows="45" number="120" ulx="849" uly="2557">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -11360,7 +11360,7 @@
     </glyph>
     <glyph ncols="40" nrows="47" number="121" ulx="1031" uly="2557">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -11454,7 +11454,7 @@
     </glyph>
     <glyph ncols="41" nrows="43" number="122" ulx="1311" uly="2564">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -11549,7 +11549,7 @@
     </glyph>
     <glyph ncols="43" nrows="43" number="123" ulx="1467" uly="2565">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -11643,7 +11643,7 @@
     </glyph>
     <glyph ncols="41" nrows="43" number="124" ulx="2531" uly="2569">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -11739,7 +11739,7 @@
     </glyph>
     <glyph ncols="38" nrows="44" number="125" ulx="2568" uly="2606">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -11831,7 +11831,7 @@
     </glyph>
     <glyph ncols="41" nrows="44" number="126" ulx="1695" uly="2570">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -11925,7 +11925,7 @@
     </glyph>
     <glyph ncols="39" nrows="63" number="127" ulx="1749" uly="2587">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -12019,7 +12019,7 @@
     </glyph>
     <glyph ncols="93" nrows="99" number="128" ulx="2627" uly="2598">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="oblique2" />
       </ids>
 			<type name="oblique2" />
 			<pitch-estimation>
@@ -12125,7 +12125,7 @@
     </glyph>
     <glyph ncols="37" nrows="45" number="129" ulx="2710" uly="2603">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -12218,7 +12218,7 @@
     </glyph>
     <glyph ncols="42" nrows="65" number="130" ulx="1797" uly="2620">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -12313,7 +12313,7 @@
     </glyph>
     <glyph ncols="39" nrows="61" number="131" ulx="2760" uly="2623">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -12405,7 +12405,7 @@
     </glyph>
     <glyph ncols="40" nrows="41" number="132" ulx="2134" uly="2630">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -12495,7 +12495,7 @@
     </glyph>
     <glyph ncols="40" nrows="44" number="133" ulx="2169" uly="2662">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -12587,7 +12587,7 @@
     </glyph>
     <glyph ncols="40" nrows="51" number="134" ulx="2947" uly="2633">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -12681,7 +12681,7 @@
     </glyph>
     <glyph ncols="38" nrows="43" number="135" ulx="2983" uly="2673">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -12773,7 +12773,7 @@
     </glyph>
     <glyph ncols="43" nrows="59" number="136" ulx="2336" uly="2666">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -12869,7 +12869,7 @@
     </glyph>
     <glyph ncols="38" nrows="46" number="137" ulx="2860" uly="2638">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -12962,7 +12962,7 @@
     </glyph>
     <glyph ncols="38" nrows="62" number="138" ulx="2807" uly="2654">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -13057,7 +13057,7 @@
     </glyph>
     <glyph ncols="44" nrows="44" number="139" ulx="3214" uly="2704">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l1" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -13154,7 +13154,7 @@
     </glyph>
     <glyph ncols="47" nrows="43" number="140" ulx="1735" uly="2886">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -13248,7 +13248,7 @@
     </glyph>
     <glyph ncols="36" nrows="42" number="141" ulx="1482" uly="2910">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -13340,7 +13340,7 @@
     </glyph>
     <glyph ncols="37" nrows="45" number="142" ulx="2437" uly="2940">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -13435,7 +13435,7 @@
     </glyph>
     <glyph ncols="40" nrows="49" number="143" ulx="2405" uly="2975">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -13530,7 +13530,7 @@
     </glyph>
     <glyph ncols="42" nrows="47" number="144" ulx="2372" uly="3013">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -13624,7 +13624,7 @@
     </glyph>
     <glyph ncols="41" nrows="46" number="145" ulx="1273" uly="2942">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -13717,7 +13717,7 @@
     </glyph>
     <glyph ncols="43" nrows="49" number="146" ulx="2077" uly="2943">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -13811,7 +13811,7 @@
     </glyph>
     <glyph ncols="45" nrows="63" number="147" ulx="2560" uly="2969">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -13906,7 +13906,7 @@
     </glyph>
     <glyph ncols="39" nrows="41" number="148" ulx="2705" uly="2946">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -13998,7 +13998,7 @@
     </glyph>
     <glyph ncols="40" nrows="58" number="149" ulx="1160" uly="2955">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -14093,7 +14093,7 @@
     </glyph>
     <glyph ncols="39" nrows="44" number="150" ulx="2226" uly="2976">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -14187,7 +14187,7 @@
     </glyph>
     <glyph ncols="35" nrows="43" number="151" ulx="1011" uly="3026">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -14280,7 +14280,7 @@
     </glyph>
     <glyph ncols="40" nrows="42" number="152" ulx="1042" uly="3066">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l1" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -14372,7 +14372,7 @@
     </glyph>
     <glyph ncols="31" nrows="61" number="153" ulx="3320" uly="3034">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="custos" />
       </ids>
 			<type name="custos" />
 			<pitch-estimation>
@@ -14466,7 +14466,7 @@
     </glyph>
     <glyph ncols="44" nrows="63" number="154" ulx="2870" uly="3042">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -14560,7 +14560,7 @@
     </glyph>
     <glyph ncols="39" nrows="44" number="155" ulx="1409" uly="3235">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s5" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -14653,7 +14653,7 @@
     </glyph>
     <glyph ncols="39" nrows="45" number="156" ulx="1376" uly="3270">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -14746,7 +14746,7 @@
     </glyph>
     <glyph ncols="41" nrows="54" number="157" ulx="1346" uly="3300">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -14842,7 +14842,7 @@
     </glyph>
     <glyph ncols="41" nrows="42" number="158" ulx="1488" uly="3242">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s5" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -14935,7 +14935,7 @@
     </glyph>
     <glyph ncols="51" nrows="46" number="159" ulx="1517" uly="3275">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -15031,7 +15031,7 @@
     </glyph>
     <glyph ncols="42" nrows="45" number="160" ulx="1267" uly="3265">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -15124,7 +15124,7 @@
     </glyph>
     <glyph ncols="100" nrows="92" number="161" ulx="1831" uly="3266">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="oblique2" />
       </ids>
 			<type name="oblique2" />
 			<pitch-estimation>
@@ -15225,7 +15225,7 @@
     </glyph>
     <glyph ncols="41" nrows="47" number="162" ulx="1920" uly="3270">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -15319,7 +15319,7 @@
     </glyph>
     <glyph ncols="45" nrows="47" number="163" ulx="2678" uly="3270">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -15413,7 +15413,7 @@
     </glyph>
     <glyph ncols="41" nrows="44" number="164" ulx="1578" uly="3274">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -15506,7 +15506,7 @@
     </glyph>
     <glyph ncols="51" nrows="45" number="165" ulx="2573" uly="3277">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -15602,7 +15602,7 @@
     </glyph>
     <glyph ncols="42" nrows="44" number="166" ulx="3103" uly="3281">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -15695,7 +15695,7 @@
     </glyph>
     <glyph ncols="42" nrows="66" number="167" ulx="1971" uly="3293">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -15790,7 +15790,7 @@
     </glyph>
     <glyph ncols="41" nrows="62" number="168" ulx="1627" uly="3294">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -15885,7 +15885,7 @@
     </glyph>
     <glyph ncols="41" nrows="50" number="169" ulx="2877" uly="3301">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -15980,7 +15980,7 @@
     </glyph>
     <glyph ncols="38" nrows="44" number="170" ulx="1780" uly="3302">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -16074,7 +16074,7 @@
     </glyph>
     <glyph ncols="39" nrows="52" number="171" ulx="1751" uly="3340">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -16169,7 +16169,7 @@
     </glyph>
     <glyph ncols="37" nrows="61" number="172" ulx="3158" uly="3303">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -16263,7 +16263,7 @@
     </glyph>
     <glyph ncols="38" nrows="42" number="173" ulx="2936" uly="3305">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -16354,7 +16354,7 @@
     </glyph>
     <glyph ncols="40" nrows="47" number="174" ulx="2970" uly="3345">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -16448,7 +16448,7 @@
     </glyph>
     <glyph ncols="36" nrows="56" number="175" ulx="3236" uly="3307">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -16542,7 +16542,7 @@
     </glyph>
     <glyph ncols="91" nrows="47" number="176" ulx="3265" uly="3339">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -16641,7 +16641,7 @@
     </glyph>
     <glyph ncols="37" nrows="44" number="177" ulx="3351" uly="3375">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -16734,7 +16734,7 @@
     </glyph>
     <glyph ncols="42" nrows="68" number="178" ulx="1672" uly="3323">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -16830,7 +16830,7 @@
     </glyph>
     <glyph ncols="41" nrows="43" number="179" ulx="2149" uly="3330">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -16925,7 +16925,7 @@
     </glyph>
     <glyph ncols="38" nrows="43" number="180" ulx="2186" uly="3369">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -17017,7 +17017,7 @@
     </glyph>
     <glyph ncols="42" nrows="49" number="181" ulx="1236" uly="3331">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -17112,7 +17112,7 @@
     </glyph>
     <glyph ncols="32" nrows="63" number="182" ulx="3198" uly="3335">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -17205,7 +17205,7 @@
     </glyph>
     <glyph ncols="43" nrows="62" number="183" ulx="2406" uly="3342">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -17300,7 +17300,7 @@
     </glyph>
     <glyph ncols="67" nrows="50" number="184" ulx="3396" uly="3343">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="custos" />
       </ids>
 			<type name="custos" />
 			<pitch-estimation>
@@ -17398,7 +17398,7 @@
     </glyph>
     <glyph ncols="42" nrows="70" number="185" ulx="2031" uly="3353">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -17496,7 +17496,7 @@
     </glyph>
     <glyph ncols="38" nrows="44" number="186" ulx="1057" uly="3361">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -17589,7 +17589,7 @@
     </glyph>
     <glyph ncols="39" nrows="51" number="187" ulx="809" uly="3418">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -17683,7 +17683,7 @@
     </glyph>
     <glyph ncols="42" nrows="46" number="188" ulx="846" uly="3455">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l1" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -17777,7 +17777,7 @@
     </glyph>
     <glyph ncols="39" nrows="47" number="189" ulx="1341" uly="3687">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -17869,7 +17869,7 @@
     </glyph>
     <glyph ncols="37" nrows="44" number="190" ulx="1641" uly="3687">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -17961,7 +17961,7 @@
     </glyph>
     <glyph ncols="36" nrows="45" number="191" ulx="3015" uly="3712">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -18052,7 +18052,7 @@
     </glyph>
     <glyph ncols="39" nrows="43" number="192" ulx="2982" uly="3754">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -18146,7 +18146,7 @@
     </glyph>
     <glyph ncols="38" nrows="45" number="193" ulx="2950" uly="3789">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -18237,7 +18237,7 @@
     </glyph>
     <glyph ncols="41" nrows="44" number="194" ulx="823" uly="3713">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -18330,7 +18330,7 @@
     </glyph>
     <glyph ncols="39" nrows="43" number="195" ulx="861" uly="3749">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -18420,7 +18420,7 @@
     </glyph>
     <glyph ncols="43" nrows="45" number="196" ulx="1489" uly="3716">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -18516,7 +18516,7 @@
     </glyph>
     <glyph ncols="41" nrows="45" number="197" ulx="2185" uly="3718">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -18610,7 +18610,7 @@
     </glyph>
     <glyph ncols="37" nrows="49" number="198" ulx="1132" uly="3721">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -18704,7 +18704,7 @@
     </glyph>
     <glyph ncols="46" nrows="61" number="199" ulx="983" uly="3743">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -18799,7 +18799,7 @@
     </glyph>
     <glyph ncols="40" nrows="56" number="200" ulx="2685" uly="3744">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -18894,7 +18894,7 @@
     </glyph>
     <glyph ncols="40" nrows="44" number="201" ulx="1902" uly="3749">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -18987,7 +18987,7 @@
     </glyph>
     <glyph ncols="41" nrows="45" number="202" ulx="2420" uly="3753">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -19081,7 +19081,7 @@
     </glyph>
     <glyph ncols="40" nrows="47" number="203" ulx="3100" uly="3770">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -19174,7 +19174,7 @@
     </glyph>
     <glyph ncols="39" nrows="49" number="204" ulx="3136" uly="3808">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -19268,7 +19268,7 @@
     </glyph>
     <glyph ncols="24" nrows="56" number="205" ulx="3341" uly="3771">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="custos" />
       </ids>
 			<type name="custos" />
 			<pitch-estimation>
@@ -19364,7 +19364,7 @@
     </glyph>
     <glyph ncols="37" nrows="45" number="206" ulx="2724" uly="3811">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -19456,7 +19456,7 @@
     </glyph>
     <glyph ncols="39" nrows="48" number="207" ulx="2048" uly="4038">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -19550,7 +19550,7 @@
     </glyph>
     <glyph ncols="19" nrows="54" number="208" ulx="2724" uly="4040">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l4" />
+        <id confidence="1.000000" name="custos" />
       </ids>
 			<type name="custos" />
 			<pitch-estimation>
@@ -19645,7 +19645,7 @@
     </glyph>
     <glyph ncols="43" nrows="55" number="209" ulx="1446" uly="4063">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -19741,7 +19741,7 @@
     </glyph>
     <glyph ncols="40" nrows="57" number="210" ulx="1417" uly="4109">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -19837,7 +19837,7 @@
     </glyph>
     <glyph ncols="40" nrows="75" number="211" ulx="3336" uly="4077">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="custos" />
       </ids>
 			<type name="custos" />
 			<pitch-estimation>
@@ -19932,7 +19932,7 @@
     </glyph>
     <glyph ncols="46" nrows="68" number="212" ulx="1505" uly="4095">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -20029,7 +20029,7 @@
     </glyph>
     <glyph ncols="38" nrows="51" number="213" ulx="1219" uly="4099">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -20124,7 +20124,7 @@
     </glyph>
     <glyph ncols="39" nrows="54" number="214" ulx="1188" uly="4139">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -20217,7 +20217,7 @@
     </glyph>
     <glyph ncols="40" nrows="57" number="215" ulx="2018" uly="4099">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -20314,7 +20314,7 @@
     </glyph>
     <glyph ncols="42" nrows="59" number="216" ulx="1986" uly="4139">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -20410,7 +20410,7 @@
     </glyph>
     <glyph ncols="38" nrows="45" number="217" ulx="1690" uly="4100">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -20502,7 +20502,7 @@
     </glyph>
     <glyph ncols="39" nrows="46" number="218" ulx="1659" uly="4137">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -20596,7 +20596,7 @@
     </glyph>
     <glyph ncols="43" nrows="67" number="219" ulx="3239" uly="4102">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -20692,7 +20692,7 @@
     </glyph>
     <glyph ncols="38" nrows="51" number="220" ulx="2148" uly="4104">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -20786,7 +20786,7 @@
     </glyph>
     <glyph ncols="40" nrows="56" number="221" ulx="2182" uly="4137">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -20883,7 +20883,7 @@
     </glyph>
     <glyph ncols="41" nrows="52" number="222" ulx="3124" uly="4105">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -20981,7 +20981,7 @@
     </glyph>
     <glyph ncols="42" nrows="68" number="223" ulx="1556" uly="4127">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -21077,7 +21077,7 @@
     </glyph>
     <glyph ncols="47" nrows="71" number="224" ulx="1795" uly="4133">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -21175,7 +21175,7 @@
     </glyph>
     <glyph ncols="40" nrows="46" number="225" ulx="2452" uly="4133">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -21267,7 +21267,7 @@
     </glyph>
     <glyph ncols="34" nrows="48" number="226" ulx="2490" uly="4171">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -21361,7 +21361,7 @@
     </glyph>
     <glyph ncols="40" nrows="49" number="227" ulx="2085" uly="4140">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -21455,7 +21455,7 @@
     </glyph>
     <glyph ncols="38" nrows="55" number="228" ulx="2605" uly="4158">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -21548,7 +21548,7 @@
     </glyph>
     <glyph ncols="40" nrows="51" number="229" ulx="2640" uly="4201">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -21642,7 +21642,7 @@
     </glyph>
     <glyph ncols="42" nrows="72" number="230" ulx="1609" uly="4161">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -21740,7 +21740,7 @@
     </glyph>
     <glyph ncols="39" nrows="50" number="231" ulx="840" uly="4165">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -21833,7 +21833,7 @@
     </glyph>
     <glyph ncols="40" nrows="51" number="232" ulx="1033" uly="4167">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -21927,7 +21927,7 @@
     </glyph>
     <glyph ncols="34" nrows="43" number="233" ulx="2529" uly="4169">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -22018,7 +22018,7 @@
     </glyph>
     <glyph ncols="38" nrows="48" number="234" ulx="2289" uly="4172">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -22113,7 +22113,7 @@
     </glyph>
     <glyph ncols="41" nrows="67" number="235" ulx="2424" uly="4185">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -22210,7 +22210,7 @@
     </glyph>
     <glyph ncols="38" nrows="46" number="236" ulx="877" uly="4235">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l1" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -22303,7 +22303,7 @@
     </glyph>
     <glyph ncols="36" nrows="136" number="237" ulx="695" uly="4440">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="c_clef" />
       </ids>
 			<type name="c_clef" />
 			<pitch-estimation>
@@ -22412,7 +22412,7 @@
     </glyph>
     <glyph ncols="38" nrows="48" number="238" ulx="2462" uly="4449">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -22505,7 +22505,7 @@
     </glyph>
     <glyph ncols="35" nrows="45" number="239" ulx="2499" uly="4489">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -22597,7 +22597,7 @@
     </glyph>
     <glyph ncols="40" nrows="46" number="240" ulx="900" uly="4452">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -22691,7 +22691,7 @@
     </glyph>
     <glyph ncols="35" nrows="43" number="241" ulx="937" uly="4491">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -22783,7 +22783,7 @@
     </glyph>
     <glyph ncols="40" nrows="49" number="242" ulx="870" uly="4493">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -22876,7 +22876,7 @@
     </glyph>
     <glyph ncols="32" nrows="68" number="243" ulx="3337" uly="4459">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="custos" />
       </ids>
 			<type name="custos" />
 			<pitch-estimation>
@@ -22972,7 +22972,7 @@
     </glyph>
     <glyph ncols="41" nrows="46" number="244" ulx="3225" uly="4472">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -23062,7 +23062,7 @@
     </glyph>
     <glyph ncols="39" nrows="52" number="245" ulx="1152" uly="4474">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -23158,7 +23158,7 @@
     </glyph>
     <glyph ncols="40" nrows="59" number="246" ulx="1122" uly="4505">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -23253,7 +23253,7 @@
     </glyph>
     <glyph ncols="39" nrows="52" number="247" ulx="1094" uly="4554">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -23349,7 +23349,7 @@
     </glyph>
     <glyph ncols="41" nrows="55" number="248" ulx="2642" uly="4474">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -23446,7 +23446,7 @@
     </glyph>
     <glyph ncols="36" nrows="48" number="249" ulx="2680" uly="4515">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -23543,7 +23543,7 @@
     </glyph>
     <glyph ncols="40" nrows="43" number="250" ulx="3027" uly="4478">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -23635,7 +23635,7 @@
     </glyph>
     <glyph ncols="40" nrows="44" number="251" ulx="2849" uly="4479">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -23728,7 +23728,7 @@
     </glyph>
     <glyph ncols="41" nrows="49" number="252" ulx="2297" uly="4483">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -23825,7 +23825,7 @@
     </glyph>
     <glyph ncols="37" nrows="48" number="253" ulx="2544" uly="4486">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -23917,7 +23917,7 @@
     </glyph>
     <glyph ncols="41" nrows="53" number="254" ulx="2039" uly="4487">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -24014,7 +24014,7 @@
     </glyph>
     <glyph ncols="42" nrows="51" number="255" ulx="769" uly="4490">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -24112,7 +24112,7 @@
     </glyph>
     <glyph ncols="36" nrows="44" number="256" ulx="977" uly="4491">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -24206,7 +24206,7 @@
     </glyph>
     <glyph ncols="40" nrows="69" number="257" ulx="1202" uly="4504">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -24301,7 +24301,7 @@
     </glyph>
     <glyph ncols="47" nrows="53" number="258" ulx="2430" uly="4511">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -24396,7 +24396,7 @@
     </glyph>
     <glyph ncols="44" nrows="72" number="259" ulx="1247" uly="4536">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -24494,7 +24494,7 @@
     </glyph>
     <glyph ncols="38" nrows="52" number="260" ulx="1664" uly="4542">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -24587,7 +24587,7 @@
     </glyph>
     <glyph ncols="40" nrows="46" number="261" ulx="1700" uly="4578">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -24679,7 +24679,7 @@
     </glyph>
     <glyph ncols="38" nrows="49" number="262" ulx="1316" uly="4543">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -24775,7 +24775,7 @@
     </glyph>
     <glyph ncols="39" nrows="55" number="263" ulx="1349" uly="4568">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -24873,7 +24873,7 @@
     </glyph>
     <glyph ncols="37" nrows="48" number="264" ulx="1862" uly="4550">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -24967,7 +24967,7 @@
     </glyph>
     <glyph ncols="41" nrows="48" number="265" ulx="1498" uly="4553">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -25063,7 +25063,7 @@
     </glyph>
     <glyph ncols="31" nrows="119" number="266" ulx="2995" uly="4832">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="c_clef" />
       </ids>
 			<type name="c_clef" />
 			<pitch-estimation>
@@ -25169,7 +25169,7 @@
     </glyph>
     <glyph ncols="41" nrows="44" number="267" ulx="813" uly="4841">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -25265,7 +25265,7 @@
     </glyph>
     <glyph ncols="41" nrows="53" number="268" ulx="779" uly="4875">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -25361,7 +25361,7 @@
     </glyph>
     <glyph ncols="41" nrows="49" number="269" ulx="850" uly="4876">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -25457,7 +25457,7 @@
     </glyph>
     <glyph ncols="7" nrows="13" number="270" ulx="815" uly="4919">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -25539,7 +25539,7 @@
     </glyph>
     <glyph ncols="39" nrows="45" number="271" ulx="1097" uly="4863">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -25632,7 +25632,7 @@
     </glyph>
     <glyph ncols="35" nrows="47" number="272" ulx="1134" uly="4904">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -25725,7 +25725,7 @@
     </glyph>
     <glyph ncols="42" nrows="52" number="273" ulx="1065" uly="4898">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -25822,7 +25822,7 @@
     </glyph>
     <glyph ncols="45" nrows="55" number="274" ulx="1701" uly="4867">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -25921,7 +25921,7 @@
     </glyph>
     <glyph ncols="39" nrows="44" number="275" ulx="1740" uly="4906">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -26014,7 +26014,7 @@
     </glyph>
     <glyph ncols="47" nrows="59" number="276" ulx="905" uly="4876">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -26112,7 +26112,7 @@
     </glyph>
     <glyph ncols="43" nrows="65" number="277" ulx="961" uly="4891">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -26205,7 +26205,7 @@
     </glyph>
     <glyph ncols="96" nrows="91" number="278" ulx="1808" uly="4902">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="oblique2" />
       </ids>
 			<type name="oblique2" />
 			<pitch-estimation>
@@ -26308,7 +26308,7 @@
     </glyph>
     <glyph ncols="40" nrows="43" number="279" ulx="1893" uly="4907">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -26401,7 +26401,7 @@
     </glyph>
     <glyph ncols="64" nrows="60" number="280" ulx="3310" uly="4916">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="custos" />
       </ids>
 			<type name="custos" />
 			<pitch-estimation>
@@ -26497,7 +26497,7 @@
     </glyph>
     <glyph ncols="42" nrows="68" number="281" ulx="1007" uly="4924">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -26593,7 +26593,7 @@
     </glyph>
     <glyph ncols="44" nrows="70" number="282" ulx="1949" uly="4926">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -26690,7 +26690,7 @@
     </glyph>
     <glyph ncols="38" nrows="48" number="283" ulx="2044" uly="4929">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -26786,7 +26786,7 @@
     </glyph>
     <glyph ncols="40" nrows="44" number="284" ulx="2135" uly="4929">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -26879,7 +26879,7 @@
     </glyph>
     <glyph ncols="41" nrows="46" number="285" ulx="2173" uly="4965">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -26972,7 +26972,7 @@
     </glyph>
     <glyph ncols="34" nrows="46" number="286" ulx="1234" uly="4930">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -27062,7 +27062,7 @@
     </glyph>
     <glyph ncols="39" nrows="62" number="287" ulx="1267" uly="4972">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -27154,7 +27154,7 @@
     </glyph>
     <glyph ncols="47" nrows="54" number="288" ulx="1512" uly="4969">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -27252,7 +27252,7 @@
     </glyph>
     <glyph ncols="42" nrows="50" number="289" ulx="3109" uly="4955">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -27347,7 +27347,7 @@
     </glyph>
     <glyph ncols="41" nrows="70" number="290" ulx="1996" uly="4956">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="inclinatum" />
       </ids>
 			<type name="inclinatum" />
 			<pitch-estimation>
@@ -27444,7 +27444,7 @@
     </glyph>
     <glyph ncols="41" nrows="52" number="291" ulx="3204" uly="4961">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -27540,7 +27540,7 @@
     </glyph>
     <glyph ncols="43" nrows="54" number="292" ulx="2570" uly="4983">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l1" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -27636,7 +27636,7 @@
     </glyph>
     <glyph ncols="45" nrows="45" number="293" ulx="2612" uly="5049">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s1" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -27730,7 +27730,7 @@
     </glyph>
     <glyph ncols="31" nrows="140" number="294" ulx="759" uly="501">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="c_clef" />
       </ids>
 			<type name="c_clef" />
 			<pitch-estimation>
@@ -27839,7 +27839,7 @@
     </glyph>
     <glyph ncols="42" nrows="114" number="295" ulx="873" uly="542">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="podatus3" />
       </ids>
 			<type name="podatus3" />
 			<pitch-estimation>
@@ -27942,7 +27942,7 @@
     </glyph>
     <glyph ncols="94" nrows="89" number="296" ulx="1510" uly="653">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="oblique2" />
       </ids>
 			<type name="oblique2" />
 			<pitch-estimation>
@@ -28048,7 +28048,7 @@
     </glyph>
     <glyph ncols="35" nrows="171" number="297" ulx="742" uly="884">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="c_clef" />
       </ids>
 			<type name="c_clef" />
 			<pitch-estimation>
@@ -28160,7 +28160,7 @@
     </glyph>
     <glyph ncols="46" nrows="124" number="298" ulx="1684" uly="948">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="podatus3" />
       </ids>
 			<type name="podatus3" />
 			<pitch-estimation>
@@ -28262,7 +28262,7 @@
     </glyph>
     <glyph ncols="18" nrows="73" number="299" ulx="2127" uly="932">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s5" />
+        <id confidence="1.000000" name="punctum" />
       </ids>
 			<type name="punctum" />
 			<pitch-estimation>
@@ -28360,7 +28360,7 @@
     </glyph>
     <glyph ncols="35" nrows="164" number="300" ulx="726" uly="1277">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="c_clef" />
       </ids>
 			<type name="c_clef" />
 			<pitch-estimation>
@@ -28468,7 +28468,7 @@
     </glyph>
     <glyph ncols="38" nrows="118" number="301" ulx="1168" uly="1327">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="podatus3" />
       </ids>
 			<type name="podatus3" />
 			<pitch-estimation>
@@ -28569,7 +28569,7 @@
     </glyph>
     <glyph ncols="29" nrows="130" number="302" ulx="897" uly="1724">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="c_clef" />
       </ids>
 			<type name="c_clef" />
 			<pitch-estimation>
@@ -28674,7 +28674,7 @@
     </glyph>
     <glyph ncols="42" nrows="90" number="303" ulx="3384" uly="1769">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="custos" />
       </ids>
 			<type name="custos" />
 			<pitch-estimation>
@@ -28772,7 +28772,7 @@
     </glyph>
     <glyph ncols="36" nrows="131" number="304" ulx="711" uly="2104">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="c_clef" />
       </ids>
 			<type name="c_clef" />
 			<pitch-estimation>
@@ -28877,7 +28877,7 @@
     </glyph>
     <glyph ncols="42" nrows="118" number="305" ulx="1461" uly="2158">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="podatus3" />
       </ids>
 			<type name="podatus3" />
 			<pitch-estimation>
@@ -28979,7 +28979,7 @@
     </glyph>
     <glyph ncols="35" nrows="141" number="306" ulx="700" uly="2505">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="c_clef" />
       </ids>
 			<type name="c_clef" />
 			<pitch-estimation>
@@ -29087,7 +29087,7 @@
     </glyph>
     <glyph ncols="40" nrows="113" number="307" ulx="2368" uly="2572">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="podatus3" />
       </ids>
 			<type name="podatus3" />
 			<pitch-estimation>
@@ -29189,7 +29189,7 @@
     </glyph>
     <glyph ncols="63" nrows="119" number="308" ulx="906" uly="2948">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="f_clef" />
       </ids>
 			<type name="f_clef" />
 			<pitch-estimation>
@@ -29294,7 +29294,7 @@
     </glyph>
     <glyph ncols="121" nrows="88" number="309" ulx="2593" uly="2944">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l3" />
+        <id confidence="1.000000" name="oblique2" />
       </ids>
 			<type name="oblique2" />
 			<pitch-estimation>
@@ -29398,7 +29398,7 @@
     </glyph>
     <glyph ncols="69" nrows="126" number="310" ulx="676" uly="3339">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s2" />
+        <id confidence="1.000000" name="f_clef" />
       </ids>
 			<type name="f_clef" />
 			<pitch-estimation>
@@ -29507,7 +29507,7 @@
     </glyph>
     <glyph ncols="36" nrows="137" number="311" ulx="694" uly="3607">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="c_clef" />
       </ids>
 			<type name="c_clef" />
 			<pitch-estimation>
@@ -29615,7 +29615,7 @@
     </glyph>
     <glyph ncols="40" nrows="105" number="312" ulx="3238" uly="3780">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l1" />
+        <id confidence="1.000000" name="podatus3" />
       </ids>
 			<type name="podatus3" />
 			<pitch-estimation>
@@ -29716,7 +29716,7 @@
     </glyph>
     <glyph ncols="32" nrows="175" number="313" ulx="700" uly="4000">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s4" />
+        <id confidence="1.000000" name="c_clef" />
       </ids>
 			<type name="c_clef" />
 			<pitch-estimation>
@@ -29826,7 +29826,7 @@
     </glyph>
     <glyph ncols="28" nrows="145" number="314" ulx="3033" uly="4061">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="c_clef" />
       </ids>
 			<type name="c_clef" />
 			<pitch-estimation>
@@ -29935,7 +29935,7 @@
     </glyph>
     <glyph ncols="34" nrows="134" number="315" ulx="691" uly="4826">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="s3" />
+        <id confidence="1.000000" name="c_clef" />
       </ids>
 			<type name="c_clef" />
 			<pitch-estimation>
@@ -30043,7 +30043,7 @@
     </glyph>
     <glyph ncols="40" nrows="110" number="316" ulx="1545" uly="4873">
       <ids state="MANUAL">
-        <id confidence="1.000000" name="l2" />
+        <id confidence="1.000000" name="podatus3" />
       </ids>
 			<type name="podatus3" />
 			<pitch-estimation>
