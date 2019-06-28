@@ -55,7 +55,7 @@ glyph_count = 0
 sum = 0
 label_dict = {}
 labels = ['l1', 'l2', 'l3', 'l4', 's1', 's2', 's3', 's4', 's5']
-types = ['punctum', 'inclinatum', 'custos', 'c_clef', 'f_clef',
+types = ['punctum', 'virga', 'inclinatum', 'custos', 'c_clef', 'f_clef',
     'oblique2', 'oblique3', 'oblique4', 'oblique5',
     'podatus2', 'podatus3', 'podatus4', 'podatus5']
 
@@ -65,8 +65,8 @@ for glyph in stave_root.find('glyphs'):
     nrows = int(glyph.get('nrows'))
     ncols = int(glyph.get('ncols'))
     # print(uly, ulx, nrows, ncols)
-    label = glyph.find('ids').find('id').get('name')
-    type = glyph.find('type').get('name')
+    label = glyph.find('pitch-estimation').find('position').get('name')
+    type = glyph.find('ids').find('id').get('name')
     # print(type, types.index(type))
     # print(label)
     glyph_count += 1
