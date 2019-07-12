@@ -55,9 +55,13 @@ glyph_count = 0
 sum = 0
 label_dict = {}
 labels = ['l1', 'l2', 'l3', 'l4', 's1', 's2', 's3', 's4', 's5']
-types = ['punctum', 'virga', 'inclinatum', 'custos', 'c_clef', 'f_clef',
-    'oblique2', 'oblique3', 'oblique4', 'oblique5',
-    'podatus2', 'podatus3', 'podatus4', 'podatus5']
+# types = ['punctum', 'virga', 'inclinatum', 'custos', 'c_clef', 'f_clef',
+#     'oblique2', 'oblique3', 'oblique4',
+#     'podatus2', 'podatus3', 'podatus4', 'podatus5']
+
+types = ['c_clef', 'custos', 'f_clef', 'inclinatum',
+    'oblique2', 'oblique3', 'oblique4',
+    'podatus2', 'podatus3', 'podatus4', 'podatus5', 'punctum', 'virga', ]
 
 for glyph in stave_root.find('glyphs'):
     uly = int(glyph.get('uly'))
