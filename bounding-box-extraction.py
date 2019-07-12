@@ -113,7 +113,7 @@ for c in glyph_coords:
         zeros = '00'
     file_name = f'{ manu }_{ file }_' + zeros + f'{ pic_count }.png'
     cv.imwrite(f'./position_{ set }/' + file_name, resize)
-    print(types[c[5]])
+    # print(types[c[5]])
     label_file.write(file_name + '\t' + labels[c[4]] + '\t' + types[c[5]] + '\n')
 
     pic_count += 1
