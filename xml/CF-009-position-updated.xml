@@ -3876,7 +3876,7 @@
         </feature>
       </features>
     </glyph>
-    <glyph ncols="122" nrows="152" number="41" ulx="2662" uly="1358">
+    <!-- <glyph ncols="122" nrows="152" number="41" ulx="2662" uly="1358">
       <ids state="MANUAL">
         <id confidence="1.000000" name="oblique4" />
       </ids>
@@ -3981,7 +3981,7 @@
           0.341480587851 0.102834114907
         </feature>
       </features>
-    </glyph>
+    </glyph> -->
     <glyph ncols="34" nrows="41" number="42" ulx="2777" uly="1417">
       <ids state="MANUAL">
         <id confidence="1.000000" name="punctum" />
